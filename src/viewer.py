@@ -2,9 +2,14 @@ import http.server
 import socketserver
 import json
 import os
+import sys
 from pathlib import Path
 
-from .constants import HTTP_CACHE_MAX_AGE_TILES, HTTP_CACHE_MAX_AGE_MEDIA, DEFAULT_SERVER_PORT
+try:
+    from .constants import HTTP_CACHE_MAX_AGE_TILES, HTTP_CACHE_MAX_AGE_MEDIA, DEFAULT_SERVER_PORT
+except ImportError:
+    sys.path.insert(0, str(Path(__file__).parent))
+    from constants import HTTP_CACHE_MAX_AGE_TILES, HTTP_CACHE_MAX_AGE_MEDIA, DEFAULT_SERVER_PORT
 
 BASE_DIR = Path(__file__).parent
 MAPS_DIR = BASE_DIR.parent / "maps"
