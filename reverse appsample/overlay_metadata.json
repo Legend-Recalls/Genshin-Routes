@@ -1,0 +1,6402 @@
+[
+  {
+    "id": 27,
+    "name": "B1",
+    "sid": 2,
+    "path": "overlays\\overlay_27.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/da4000cce7c9aecdb0fbfe7a8f90d395_994408617892592448.png",
+    "bounds": {
+      "north": 0.05787,
+      "west": 0.2311,
+      "south": 0.03133,
+      "east": 0.26223
+    },
+    "tile_bounds_13": {
+      "min_x": 5.25880888888878,
+      "min_y": -0.2870684089166389,
+      "max_x": 5.967189333333408,
+      "max_y": 0.31686422389884683
+    },
+    "tile_bounds_15": {
+      "min_x": 21.03523555555512,
+      "min_y": 1.8517263643334445,
+      "max_x": 23.868757333333633,
+      "max_y": 4.267456895595387
+    }
+  },
+  {
+    "id": 28,
+    "name": "B1",
+    "sid": 3,
+    "path": "overlays\\overlay_28.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/36e8255da86d6ef993d6d58e03d03fc6_2336456613920767861.png",
+    "bounds": {
+      "north": 0.03068,
+      "west": 0.23826,
+      "south": 0.00495,
+      "east": 0.25872
+    },
+    "tile_bounds_13": {
+      "min_x": 5.421738666666897,
+      "min_y": -0.8873599998596546,
+      "max_x": 5.887317333333158,
+      "max_y": -0.301859522192899
+    },
+    "tile_bounds_15": {
+      "min_x": 21.68695466666759,
+      "min_y": -0.5494399994386185,
+      "max_x": 23.54926933333263,
+      "max_y": 1.792561911228404
+    }
+  },
+  {
+    "id": 29,
+    "name": "B1",
+    "sid": 4,
+    "path": "overlays\\overlay_29.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a2d06487d50a1b09f15b403ee18cff30_5746598028651370904.png",
+    "bounds": {
+      "north": -0.00419,
+      "west": 0.27207,
+      "south": -0.01221,
+      "east": 0.28396
+    },
+    "tile_bounds_13": {
+      "min_x": 6.1911040000004505,
+      "min_y": -1.277845335436723,
+      "max_x": 6.461667555555323,
+      "max_y": -1.0953457778623488
+    },
+    "tile_bounds_15": {
+      "min_x": 24.764416000001802,
+      "min_y": -2.111381341746892,
+      "max_x": 25.84667022222129,
+      "max_y": -1.381383111449395
+    }
+  },
+  {
+    "id": 30,
+    "name": "B1",
+    "sid": 5,
+    "path": "overlays\\overlay_30.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9bcab570efee6e1a28d50c7f13799f14_4919104037548356161.png",
+    "bounds": {
+      "north": -0.01541,
+      "west": 0.25253,
+      "south": -0.0473,
+      "east": 0.27276
+    },
+    "tile_bounds_13": {
+      "min_x": 5.746460444444892,
+      "min_y": -2.076337900035469,
+      "max_x": 6.20680533333325,
+      "max_y": -1.350663115338648
+    },
+    "tile_bounds_15": {
+      "min_x": 22.98584177777957,
+      "min_y": -5.305351600141876,
+      "max_x": 24.827221333333,
+      "max_y": -2.4026524613545917
+    }
+  },
+  {
+    "id": 31,
+    "name": "B1",
+    "sid": 6,
+    "path": "overlays\\overlay_31.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0e05f70a3b59efa690ac8711f1e1d528_1887449831245308929.png",
+    "bounds": {
+      "north": -0.03598,
+      "west": 0.24793,
+      "south": -0.06672,
+      "east": 0.27223
+    },
+    "tile_bounds_13": {
+      "min_x": 5.641784888888651,
+      "min_y": -2.518251009796586,
+      "max_x": 6.194744888888636,
+      "max_y": -1.818744942700505
+    },
+    "tile_bounds_15": {
+      "min_x": 22.567139555554604,
+      "min_y": -7.073004039186344,
+      "max_x": 24.778979555554542,
+      "max_y": -4.27497977080202
+    }
+  },
+  {
+    "id": 32,
+    "name": "B1",
+    "sid": 7,
+    "path": "overlays\\overlay_32.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/273cb36378df68b1596b9d48e42eb50c_5257638895912829418.png",
+    "bounds": {
+      "north": -0.08508,
+      "west": 0.25878,
+      "south": -0.12219,
+      "east": 0.28628
+    },
+    "tile_bounds_13": {
+      "min_x": 5.888682666666682,
+      "min_y": -3.7805034409830114,
+      "max_x": 6.5144604444449214,
+      "max_y": -2.936043378164868
+    },
+    "tile_bounds_15": {
+      "min_x": 23.554730666666728,
+      "min_y": -12.122013763932046,
+      "max_x": 26.057841777779686,
+      "max_y": -8.744173512659472
+    }
+  },
+  {
+    "id": 33,
+    "name": "B1",
+    "sid": 8,
+    "path": "overlays\\overlay_33.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b5d9433fc37a744c97bd212f048f1dbb_6104169574493464018.png",
+    "bounds": {
+      "north": -0.10917,
+      "west": 0.28658,
+      "south": -0.1196,
+      "east": 0.30109
+    },
+    "tile_bounds_13": {
+      "min_x": 6.521287111110723,
+      "min_y": -3.7215664208906674,
+      "max_x": 6.851470222221906,
+      "max_y": -3.484225503146263
+    },
+    "tile_bounds_15": {
+      "min_x": 26.085148444442893,
+      "min_y": -11.88626568356267,
+      "max_x": 27.405880888887623,
+      "max_y": -10.936902012585051
+    }
+  },
+  {
+    "id": 34,
+    "name": "B1",
+    "sid": 9,
+    "path": "overlays\\overlay_34.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ddfcc15d4f4c1214347a25cd1b992061_7439105169560527601.png",
+    "bounds": {
+      "north": -0.12691,
+      "west": 0.25021,
+      "south": -0.16039,
+      "east": 0.28532
+    },
+    "tile_bounds_13": {
+      "min_x": 5.693667555556203,
+      "min_y": -4.649768322319687,
+      "max_x": 6.492615111111263,
+      "max_y": -3.8879099170062545
+    },
+    "tile_bounds_15": {
+      "min_x": 22.774670222224813,
+      "min_y": -15.59907328927875,
+      "max_x": 25.970460444445052,
+      "max_y": -12.551639668025018
+    }
+  },
+  {
+    "id": 35,
+    "name": "B1",
+    "sid": 10,
+    "path": "overlays\\overlay_35.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/64fa8641b96eb3c893bef66d8183d965_2645198557095401439.png",
+    "bounds": {
+      "north": -0.09655,
+      "west": 0.20074,
+      "south": -0.12625,
+      "east": 0.23114
+    },
+    "tile_bounds_13": {
+      "min_x": 4.567950222221953,
+      "min_y": -3.8728912136893996,
+      "max_x": 5.259719111111735,
+      "max_y": -3.1970499286844642
+    },
+    "tile_bounds_15": {
+      "min_x": 18.27180088888781,
+      "min_y": -12.491564854757598,
+      "max_x": 21.03887644444694,
+      "max_y": -9.788199714737857
+    }
+  },
+  {
+    "id": 36,
+    "name": "B1",
+    "sid": 11,
+    "path": "overlays\\overlay_36.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4b0438524e2b79e64f91b07341154bca_6778557928666583916.png",
+    "bounds": {
+      "north": -0.14491,
+      "west": 0.16418,
+      "south": -0.17067,
+      "east": 0.18941
+    },
+    "tile_bounds_13": {
+      "min_x": 3.7360071111106663,
+      "min_y": -4.883696409992808,
+      "max_x": 4.310129777777547,
+      "max_y": -4.297511071052213
+    },
+    "tile_bounds_15": {
+      "min_x": 14.944028444442665,
+      "min_y": -16.534785639971233,
+      "max_x": 17.24051911111019,
+      "max_y": -14.190044284208852
+    }
+  },
+  {
+    "id": 37,
+    "name": "B1",
+    "sid": 12,
+    "path": "overlays\\overlay_37.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/01143e057280f8338c9e44b53304aed2_3335200857459981327.png",
+    "bounds": {
+      "north": -0.12072,
+      "west": 0.22556,
+      "south": -0.1336,
+      "east": 0.25132
+    },
+    "tile_bounds_13": {
+      "min_x": 5.132743111111267,
+      "min_y": -4.040144977154341,
+      "max_x": 5.718926222221853,
+      "max_y": -3.747052699160122
+    },
+    "tile_bounds_15": {
+      "min_x": 20.53097244444507,
+      "min_y": -13.160579908617365,
+      "max_x": 22.875704888887412,
+      "max_y": -11.988210796640487
+    }
+  },
+  {
+    "id": 79,
+    "name": "B2",
+    "sid": 12,
+    "path": "overlays\\overlay_79.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b5bbcc1e2adcd94221304f71285c8182_5167978574393080960.png",
+    "bounds": {
+      "north": -0.13008,
+      "west": 0.2158,
+      "south": -0.15189,
+      "east": 0.23901
+    },
+    "tile_bounds_13": {
+      "min_x": 4.910648888889227,
+      "min_y": -4.456345381694518,
+      "max_x": 5.438805333333221,
+      "max_y": -3.960045209530108
+    },
+    "tile_bounds_15": {
+      "min_x": 19.64259555555691,
+      "min_y": -14.825381526778074,
+      "max_x": 21.755221333332884,
+      "max_y": -12.840180838120432
+    }
+  },
+  {
+    "id": 38,
+    "name": "B1",
+    "sid": 13,
+    "path": "overlays\\overlay_38.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f1cbbcf28a58ab064970f507500ff379_2929326467521989028.png",
+    "bounds": {
+      "north": -0.14496,
+      "west": 0.13707,
+      "south": -0.1629,
+      "east": 0.1708
+    },
+    "tile_bounds_13": {
+      "min_x": 3.1191039999994246,
+      "min_y": -4.706884994075153,
+      "max_x": 3.8866488888888853,
+      "max_y": -4.298648852470251
+    },
+    "tile_bounds_15": {
+      "min_x": 12.476415999997698,
+      "min_y": -15.827539976300613,
+      "max_x": 15.546595555555541,
+      "max_y": -14.194595409881003
+    }
+  },
+  {
+    "id": 39,
+    "name": "B1",
+    "sid": 15,
+    "path": "overlays\\overlay_39.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3661c1de0937004292d4393621aeb2a4_735874408712089480.png",
+    "bounds": {
+      "north": -0.08844,
+      "west": 0.12184,
+      "south": -0.11448,
+      "east": 0.15511
+    },
+    "tile_bounds_13": {
+      "min_x": 2.7725368888886806,
+      "min_y": -3.605057733326248,
+      "max_x": 3.5296142222223352,
+      "max_y": -3.012502132500231
+    },
+    "tile_bounds_15": {
+      "min_x": 11.090147555554722,
+      "min_y": -11.420230933304993,
+      "max_x": 14.118456888889341,
+      "max_y": -9.050008530000923
+    }
+  },
+  {
+    "id": 40,
+    "name": "B1",
+    "sid": 18,
+    "path": "overlays\\overlay_40.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fc36ff7ce73aa0fcbb3478b6ff20e758_7442686774966664077.png",
+    "bounds": {
+      "north": -0.0439,
+      "west": 0.11622,
+      "south": -0.05832,
+      "east": 0.14318
+    },
+    "tile_bounds_13": {
+      "min_x": 2.6446506666670757,
+      "min_y": -2.3271042291626145,
+      "max_x": 3.258140444444507,
+      "max_y": -1.998968986631553
+    },
+    "tile_bounds_15": {
+      "min_x": 10.578602666668303,
+      "min_y": -6.308416916650458,
+      "max_x": 13.032561777778028,
+      "max_y": -4.995875946526212
+    }
+  },
+  {
+    "id": 80,
+    "name": "B2",
+    "sid": 18,
+    "path": "overlays\\overlay_80.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/644a765d624e89b73ec1553b08b2abb1_2222858590853579073.png",
+    "bounds": {
+      "north": -0.04466,
+      "west": 0.10229,
+      "south": -0.07743,
+      "east": 0.13907
+    },
+    "tile_bounds_13": {
+      "min_x": 2.3276657777778382,
+      "min_y": -2.7619632029800414,
+      "max_x": 3.164615111110834,
+      "max_y": -2.016263214019091
+    },
+    "tile_bounds_15": {
+      "min_x": 9.310663111111353,
+      "min_y": -8.047852811920166,
+      "max_x": 12.658460444443335,
+      "max_y": -5.065052856076363
+    }
+  },
+  {
+    "id": 41,
+    "name": "B1",
+    "sid": 19,
+    "path": "overlays\\overlay_41.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ae59f7652466e5fa76a5dbcca1e616e6_8448155257466735829.png",
+    "bounds": {
+      "north": -0.06291,
+      "west": 0.16782,
+      "south": -0.08528,
+      "east": 0.19564
+    },
+    "tile_bounds_13": {
+      "min_x": 3.8188373333332493,
+      "min_y": -2.940594494304605,
+      "max_x": 4.4518968888887684,
+      "max_y": -2.431552287640443
+    },
+    "tile_bounds_15": {
+      "min_x": 15.275349333332997,
+      "min_y": -8.76237797721842,
+      "max_x": 17.807587555555074,
+      "max_y": -6.726209150561772
+    }
+  },
+  {
+    "id": 107,
+    "name": "B2",
+    "sid": 19,
+    "path": "overlays\\overlay_107.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/63a980dd2da22b86940fb20667399bb9_1563726627359771021.png",
+    "bounds": {
+      "north": -0.0657,
+      "west": 0.17209,
+      "south": -0.08478,
+      "east": 0.19481
+    },
+    "tile_bounds_13": {
+      "min_x": 3.9160035555551076,
+      "min_y": -2.9292167039984633,
+      "max_x": 4.433009777777443,
+      "max_y": -2.4950403276325233
+    },
+    "tile_bounds_15": {
+      "min_x": 15.66401422222043,
+      "min_y": -8.716866815993853,
+      "max_x": 17.73203911110977,
+      "max_y": -6.980161310530093
+    }
+  },
+  {
+    "id": 108,
+    "name": "B3",
+    "sid": 19,
+    "path": "overlays\\overlay_108.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6c038c9b467bb7ce06b93e5ec3c2de51_8765183896877129205.png",
+    "bounds": {
+      "north": -0.05056,
+      "west": 0.15784,
+      "south": -0.07766,
+      "east": 0.17695
+    },
+    "tile_bounds_13": {
+      "min_x": 3.5917368888885903,
+      "min_y": -2.767196985551891,
+      "max_x": 4.026595555556014,
+      "max_y": -2.1505210382065343
+    },
+    "tile_bounds_15": {
+      "min_x": 14.366947555554361,
+      "min_y": -8.068787942207564,
+      "max_x": 16.106382222224056,
+      "max_y": -5.602084152826137
+    }
+  },
+  {
+    "id": 109,
+    "name": "B4",
+    "sid": 19,
+    "path": "overlays\\overlay_109.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c31081d1618a3a78d38d64549b595dd0_5577417620572353081.png",
+    "bounds": {
+      "north": -0.06596,
+      "west": 0.16667,
+      "south": -0.08322,
+      "east": 0.1952
+    },
+    "tile_bounds_13": {
+      "min_x": 3.7926684444446437,
+      "min_y": -2.8937179991798985,
+      "max_x": 4.44188444444444,
+      "max_y": -2.5009567759825586
+    },
+    "tile_bounds_15": {
+      "min_x": 15.170673777778575,
+      "min_y": -8.574871996719594,
+      "max_x": 17.76753777777776,
+      "max_y": -7.003827103930234
+    }
+  },
+  {
+    "id": 42,
+    "name": "B1",
+    "sid": 20,
+    "path": "overlays\\overlay_42.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/bd823f4691e502fa9e601a5fef90152e_304713401379016455.png",
+    "bounds": {
+      "north": 0.39469,
+      "west": 0.04079,
+      "south": 0.37039,
+      "east": 0.06955
+    },
+    "tile_bounds_13": {
+      "min_x": 0.9281991111110983,
+      "min_y": 7.428488926969294,
+      "max_x": 1.582648888888798,
+      "max_y": 7.981461255924387
+    },
+    "tile_bounds_15": {
+      "min_x": 3.7127964444443933,
+      "min_y": 32.713955707877176,
+      "max_x": 6.330595555555192,
+      "max_y": 34.92584502369755
+    }
+  },
+  {
+    "id": 110,
+    "name": "B2",
+    "sid": 20,
+    "path": "overlays\\overlay_110.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3796c8da15b1ee1c8dd038224b7fafc8_6816958463390882449.png",
+    "bounds": {
+      "north": 0.3875,
+      "west": 0.05016,
+      "south": 0.36702,
+      "east": 0.07456
+    },
+    "tile_bounds_13": {
+      "min_x": 1.1414186666670503,
+      "min_y": 7.351801116893057,
+      "max_x": 1.6966542222216958,
+      "max_y": 7.817844999713088
+    },
+    "tile_bounds_15": {
+      "min_x": 4.565674666668201,
+      "min_y": 32.40720446757223,
+      "max_x": 6.786616888886783,
+      "max_y": 34.27137999885235
+    }
+  },
+  {
+    "id": 111,
+    "name": "B3",
+    "sid": 20,
+    "path": "overlays\\overlay_111.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/231075f1047e2530c664e76b879a2ab1_2208111206271294603.png",
+    "bounds": {
+      "north": 0.38761,
+      "west": 0.05527,
+      "south": 0.37588,
+      "east": 0.07048
+    },
+    "tile_bounds_13": {
+      "min_x": 1.2576995555555186,
+      "min_y": 7.553419576274791,
+      "max_x": 1.6038115555556942,
+      "max_y": 7.820348168088458
+    },
+    "tile_bounds_15": {
+      "min_x": 5.030798222222074,
+      "min_y": 33.213678305099165,
+      "max_x": 6.415246222222777,
+      "max_y": 34.28139267235383
+    }
+  },
+  {
+    "id": 112,
+    "name": "B4",
+    "sid": 20,
+    "path": "overlays\\overlay_112.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9617f75dd6beb9be086f1883e7584fc3_888493261056099342.png",
+    "bounds": {
+      "north": 0.39104,
+      "west": 0.05173,
+      "south": 0.37576,
+      "east": 0.07054
+    },
+    "tile_bounds_13": {
+      "min_x": 1.177144888888506,
+      "min_y": 7.55068885086439,
+      "max_x": 1.605176888888309,
+      "max_y": 7.898401525591453
+    },
+    "tile_bounds_15": {
+      "min_x": 4.708579555554024,
+      "min_y": 33.20275540345756,
+      "max_x": 6.420707555553236,
+      "max_y": 34.59360610236581
+    }
+  },
+  {
+    "id": 113,
+    "name": "B5",
+    "sid": 20,
+    "path": "overlays\\overlay_113.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e8c57e1105a016feec2963d94aa24f8c_1096917484869339708.png",
+    "bounds": {
+      "north": 0.41691,
+      "west": 0.04496,
+      "south": 0.38608,
+      "east": 0.06581
+    },
+    "tile_bounds_13": {
+      "min_x": 1.0230897777782957,
+      "min_y": 7.7855313745162675,
+      "max_x": 1.4975431111106445,
+      "max_y": 8.487102385585786
+    },
+    "tile_bounds_15": {
+      "min_x": 4.092359111113183,
+      "min_y": 34.14212549806507,
+      "max_x": 5.990172444442578,
+      "max_y": 36.94840954234314
+    }
+  },
+  {
+    "id": 122,
+    "name": "B6",
+    "sid": 20,
+    "path": "overlays\\overlay_122.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0f34fab5186c5936ca1501752c769bed_1663065013724942528.png",
+    "bounds": {
+      "north": 0.3826,
+      "west": 0.06685,
+      "south": 0.36887,
+      "east": 0.07758
+    },
+    "tile_bounds_13": {
+      "min_x": 1.5212088888883954,
+      "min_y": 7.393899762747424,
+      "max_x": 1.7653760000002876,
+      "max_y": 7.706340259486751
+    },
+    "tile_bounds_15": {
+      "min_x": 6.084835555553582,
+      "min_y": 32.575599050989695,
+      "max_x": 7.06150400000115,
+      "max_y": 33.825361037947005
+    }
+  },
+  {
+    "id": 43,
+    "name": "B1",
+    "sid": 21,
+    "path": "overlays\\overlay_43.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/34993d31cf19c6d11855d05347a20b64_2861255535084400073.png",
+    "bounds": {
+      "north": -0.01927,
+      "west": 0.16046,
+      "south": -0.03894,
+      "east": 0.18548
+    },
+    "tile_bounds_13": {
+      "min_x": 3.6513564444449003,
+      "min_y": -1.8861014015483306,
+      "max_x": 4.2207004444444465,
+      "max_y": -1.4384995638220062
+    },
+    "tile_bounds_15": {
+      "min_x": 14.605425777779601,
+      "min_y": -4.5444056061933225,
+      "max_x": 16.882801777777786,
+      "max_y": -2.7539982552880247
+    }
+  },
+  {
+    "id": 44,
+    "name": "B1",
+    "sid": 22,
+    "path": "overlays\\overlay_44.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/bf23ae443a36b57e3963d029a8e87cb1_6747695293811746776.png",
+    "bounds": {
+      "north": 0.00031,
+      "west": 0.11438,
+      "south": -0.02943,
+      "east": 0.13508
+    },
+    "tile_bounds_13": {
+      "min_x": 2.602780444444761,
+      "min_y": -1.6696960294484597,
+      "max_x": 3.073820444444209,
+      "max_y": -0.9929457777775497
+    },
+    "tile_bounds_15": {
+      "min_x": 10.411121777779044,
+      "min_y": -3.678784117793839,
+      "max_x": 12.295281777776836,
+      "max_y": -0.9717831111101987
+    }
+  },
+  {
+    "id": 45,
+    "name": "B1",
+    "sid": 23,
+    "path": "overlays\\overlay_45.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0f7b7284a96609daa3b79c226a3209cc_3561440948927130950.png",
+    "bounds": {
+      "north": 0.02531,
+      "west": 0.19244,
+      "south": -0.00028,
+      "east": 0.22052
+    },
+    "tile_bounds_13": {
+      "min_x": 4.379079111111423,
+      "min_y": -1.0063715555552335,
+      "max_x": 5.018055111110698,
+      "max_y": -0.42405687015752846
+    },
+    "tile_bounds_15": {
+      "min_x": 17.516316444445692,
+      "min_y": -1.025486222220934,
+      "max_x": 20.07222044444279,
+      "max_y": 1.3037725193698861
+    }
+  },
+  {
+    "id": 46,
+    "name": "B1",
+    "sid": 26,
+    "path": "overlays\\overlay_46.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ed62bca6153d5278505f9586642669f4_2511987300900788264.png",
+    "bounds": {
+      "north": 0.0225,
+      "west": 0.26274,
+      "south": -0.00232,
+      "east": 0.28412
+    },
+    "tile_bounds_13": {
+      "min_x": 5.978794666666545,
+      "min_y": -1.052792888903241,
+      "max_x": 6.4653084444444175,
+      "max_y": -0.4879999868408049
+    },
+    "tile_bounds_15": {
+      "min_x": 23.91517866666618,
+      "min_y": -1.2111715556129639,
+      "max_x": 25.86123377777767,
+      "max_y": 1.0480000526367803
+    }
+  },
+  {
+    "id": 47,
+    "name": "B1",
+    "sid": 27,
+    "path": "overlays\\overlay_47.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c1077ddc8a85179e839966fb97540534_8032896458827870679.png",
+    "bounds": {
+      "north": -0.09522,
+      "west": 0.23333,
+      "south": -0.10651,
+      "east": 0.25677
+    },
+    "tile_bounds_13": {
+      "min_x": 5.309553777778092,
+      "min_y": -3.4236956181484857,
+      "max_x": 5.842943999999989,
+      "max_y": -3.166784997414652
+    },
+    "tile_bounds_15": {
+      "min_x": 21.238215111112368,
+      "min_y": -10.694782472593943,
+      "max_x": 23.371775999999954,
+      "max_y": -9.667139989658608
+    }
+  },
+  {
+    "id": 48,
+    "name": "B1",
+    "sid": 31,
+    "path": "overlays\\overlay_48.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/646300fe055d088e076196c407775a29_1878945875791756755.png",
+    "bounds": {
+      "north": -0.16416,
+      "west": -0.05896,
+      "south": -0.19655,
+      "east": -0.04132
+    },
+    "tile_bounds_13": {
+      "min_x": -1.3416675555558868,
+      "min_y": -5.472613216701575,
+      "max_x": -0.9402595555557127,
+      "max_y": -4.735557110858281
+    },
+    "tile_bounds_15": {
+      "min_x": -5.366670222223547,
+      "min_y": -18.8904528668063,
+      "max_x": -3.761038222222851,
+      "max_y": -15.942228443433123
+    }
+  },
+  {
+    "id": 102,
+    "name": "B2",
+    "sid": 31,
+    "path": "overlays\\overlay_102.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/355e6e348f8eaf20d813fa913f85b4a4_4536828577111680601.png",
+    "bounds": {
+      "north": -0.16707,
+      "west": -0.06218,
+      "south": -0.21502,
+      "east": -0.012
+    },
+    "tile_bounds_13": {
+      "min_x": -1.41494044444471,
+      "min_y": -5.89291104050335,
+      "max_x": -0.2730666666666366,
+      "max_y": -4.801776054167021
+    },
+    "tile_bounds_15": {
+      "min_x": -5.65976177777884,
+      "min_y": -20.5716441620134,
+      "max_x": -1.0922666666665464,
+      "max_y": -16.207104216668085
+    }
+  },
+  {
+    "id": 103,
+    "name": "B3",
+    "sid": 31,
+    "path": "overlays\\overlay_103.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/612144239e21dbe3e3f1850eebc46287_5161508697713617425.png",
+    "bounds": {
+      "north": -0.17873,
+      "west": -0.04892,
+      "south": -0.21383,
+      "east": -0.02294
+    },
+    "tile_bounds_13": {
+      "min_x": -1.1132017777781584,
+      "min_y": -5.865831739759415,
+      "max_x": -0.5220124444444991,
+      "max_y": -5.067107040500559
+    },
+    "tile_bounds_15": {
+      "min_x": -4.452807111112634,
+      "min_y": -20.46332695903766,
+      "max_x": -2.0880497777779965,
+      "max_y": -17.268428162002238
+    }
+  },
+  {
+    "id": 86,
+    "name": "B1",
+    "sid": 32,
+    "path": "overlays\\overlay_86.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/cd524fd29f0955ad7a50f30d6ffde826_5286349038701446932.png",
+    "bounds": {
+      "north": -0.19557,
+      "west": 0.01808,
+      "south": -0.20802,
+      "east": 0.0307
+    },
+    "tile_bounds_13": {
+      "min_x": 0.41142044444404746,
+      "min_y": -5.733621066051455,
+      "max_x": 0.6985955555555847,
+      "max_y": -5.450312641694836
+    },
+    "tile_bounds_15": {
+      "min_x": 1.6456817777761898,
+      "min_y": -19.93448426420582,
+      "max_x": 2.794382222222339,
+      "max_y": -18.801250566779345
+    }
+  },
+  {
+    "id": 87,
+    "name": "B2",
+    "sid": 32,
+    "path": "overlays\\overlay_87.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ce77b1ed6d4ad75cb3a138e70ec913f8_7338436979272692731.png",
+    "bounds": {
+      "north": -0.19051,
+      "west": 0.00286,
+      "south": -0.21154,
+      "east": 0.01831
+    },
+    "tile_bounds_13": {
+      "min_x": 0.06508088888858765,
+      "min_y": -5.813721158508997,
+      "max_x": 0.41665422222285997,
+      "max_y": -5.335168877025353
+    },
+    "tile_bounds_15": {
+      "min_x": 0.2603235555543506,
+      "min_y": -20.25488463403599,
+      "max_x": 1.6666168888914399,
+      "max_y": -18.340675508101413
+    }
+  },
+  {
+    "id": 88,
+    "name": "B3",
+    "sid": 32,
+    "path": "overlays\\overlay_88.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/247ff77d00e72c1c0d9d69e5ddccef68_149485337881534713.png",
+    "bounds": {
+      "north": -0.20502,
+      "west": 0.00354,
+      "south": -0.20983,
+      "east": 0.0093
+    },
+    "tile_bounds_13": {
+      "min_x": 0.080554666666103,
+      "min_y": -5.774808895434035,
+      "max_x": 0.2116266666662341,
+      "max_y": -5.665353955911087
+    },
+    "tile_bounds_15": {
+      "min_x": 0.322218666664412,
+      "min_y": -20.09923558173614,
+      "max_x": 0.8465066666649363,
+      "max_y": -19.661415823644347
+    }
+  },
+  {
+    "id": 89,
+    "name": "B4",
+    "sid": 32,
+    "path": "overlays\\overlay_89.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c87617368eb993816cedd3521d90edc8_179034030488936470.png",
+    "bounds": {
+      "north": -0.19942,
+      "west": 0.00548,
+      "south": -0.20422,
+      "east": 0.01449
+    },
+    "tile_bounds_13": {
+      "min_x": 0.12470044444489758,
+      "min_y": -5.647149395374981,
+      "max_x": 0.3297279999997045,
+      "max_y": -5.537922051059468
+    },
+    "tile_bounds_15": {
+      "min_x": 0.49880177777959034,
+      "min_y": -19.588597581499926,
+      "max_x": 1.318911999998818,
+      "max_y": -19.15168820423787
+    }
+  },
+  {
+    "id": 50,
+    "name": "B1",
+    "sid": 33,
+    "path": "overlays\\overlay_50.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1e3453fe177c0c994f2d39ada4dec991_5723979975843957197.png",
+    "bounds": {
+      "north": 0.19732,
+      "west": 0.07268,
+      "south": 0.17549,
+      "east": 0.09003
+    },
+    "tile_bounds_13": {
+      "min_x": 1.653873777777335,
+      "min_y": 2.9933786882456843,
+      "max_x": 2.0486826666665365,
+      "max_y": 3.4901350979821473
+    },
+    "tile_bounds_15": {
+      "min_x": 6.61549511110934,
+      "min_y": 14.973514752982737,
+      "max_x": 8.194730666666146,
+      "max_y": 16.96054039192859
+    }
+  },
+  {
+    "id": 49,
+    "name": "B1",
+    "sid": 34,
+    "path": "overlays\\overlay_49.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/940b705ad74e586240306eb1d1e3fd92_3673889863412135844.png",
+    "bounds": {
+      "north": -0.19754,
+      "west": -0.02119,
+      "south": -0.20542,
+      "east": -0.01538
+    },
+    "tile_bounds_13": {
+      "min_x": -0.482190222222016,
+      "min_y": -5.6744562365202,
+      "max_x": -0.3499804444440997,
+      "max_y": -5.495141349924779
+    },
+    "tile_bounds_15": {
+      "min_x": -1.928760888888064,
+      "min_y": -19.6978249460808,
+      "max_x": -1.3999217777763988,
+      "max_y": -18.980565399699117
+    }
+  },
+  {
+    "id": 97,
+    "name": "B2",
+    "sid": 34,
+    "path": "overlays\\overlay_97.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/84cdb33b495e682f483d74412c0ee126_288750018076189994.png",
+    "bounds": {
+      "north": -0.19371,
+      "west": -0.0241,
+      "south": -0.20916,
+      "east": 0.00621
+    },
+    "tile_bounds_13": {
+      "min_x": -0.5484088888888436,
+      "min_y": -5.759562571297465,
+      "max_x": 0.14131200000065292,
+      "max_y": -5.407987064133522
+    },
+    "tile_bounds_15": {
+      "min_x": -2.1936355555553746,
+      "min_y": -20.03825028518986,
+      "max_x": 0.5652480000026117,
+      "max_y": -18.631948256534088
+    }
+  },
+  {
+    "id": 98,
+    "name": "B3",
+    "sid": 34,
+    "path": "overlays\\overlay_98.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fdcec7d929b715a8e78c559e43f8f908_920048820564960607.png",
+    "bounds": {
+      "north": -0.19734,
+      "west": -0.02255,
+      "south": -0.20729,
+      "east": -0.01175
+    },
+    "tile_bounds_13": {
+      "min_x": -0.5131377777775015,
+      "min_y": -5.7170094013963535,
+      "max_x": -0.26737777777771043,
+      "max_y": -5.490590211792551
+    },
+    "tile_bounds_15": {
+      "min_x": -2.052551111110006,
+      "min_y": -19.868037605585414,
+      "max_x": -1.0695111111108417,
+      "max_y": -18.962360847170203
+    }
+  },
+  {
+    "id": 74,
+    "name": "B1",
+    "sid": 35,
+    "path": "overlays\\overlay_74.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e6e62675a30ac35561bdad234fdeb31a_9116595361526080625.png",
+    "bounds": {
+      "north": -0.25273,
+      "west": -0.02032,
+      "south": -0.25827,
+      "east": 0.00271
+    },
+    "tile_bounds_13": {
+      "min_x": -0.46239288888864394,
+      "min_y": -6.877097236171721,
+      "max_x": 0.061667555555686704,
+      "max_y": -6.75103020489405
+    },
+    "tile_bounds_15": {
+      "min_x": -1.8495715555545758,
+      "min_y": -24.508388944686885,
+      "max_x": 0.24667022222274682,
+      "max_y": -24.0041208195762
+    }
+  },
+  {
+    "id": 75,
+    "name": "B1",
+    "sid": 36,
+    "path": "overlays\\overlay_75.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/590e08fc9117338f63456554d85a2538_2863926472590294976.png",
+    "bounds": {
+      "north": -0.22676,
+      "west": -0.05762,
+      "south": -0.24995,
+      "east": -0.04721
+    },
+    "tile_bounds_13": {
+      "min_x": -1.3111751111109697,
+      "min_y": -6.6877691517711355,
+      "max_x": -1.0742897777777216,
+      "max_y": -6.160063248534243
+    },
+    "tile_bounds_15": {
+      "min_x": -5.244700444443879,
+      "min_y": -23.751076607084542,
+      "max_x": -4.297159111110886,
+      "max_y": -21.640252994136972
+    }
+  },
+  {
+    "id": 51,
+    "name": "B1",
+    "sid": 39,
+    "path": "overlays\\overlay_51.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8c30d0b8cef8c9353f1b43476fbc8e75_4084227157700799944.png",
+    "bounds": {
+      "north": -0.23552,
+      "west": 0.05448,
+      "south": -0.28094,
+      "east": 0.09758
+    },
+    "tile_bounds_13": {
+      "min_x": 1.2397226666671486,
+      "min_y": -7.392971395132008,
+      "max_x": 2.2204871111107423,
+      "max_y": -6.359403537464459
+    },
+    "tile_bounds_15": {
+      "min_x": 4.958890666668594,
+      "min_y": -26.571885580528033,
+      "max_x": 8.881948444442969,
+      "max_y": -22.437614149857836
+    }
+  },
+  {
+    "id": 91,
+    "name": "B2",
+    "sid": 39,
+    "path": "overlays\\overlay_91.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d1a611b49c5264ada5fb3e47667736cc_1655585301716273565.png",
+    "bounds": {
+      "north": -0.25226,
+      "west": 0.05388,
+      "south": -0.28116,
+      "east": 0.06515
+    },
+    "tile_bounds_13": {
+      "min_x": 1.2260693333328163,
+      "min_y": -7.397977677583185,
+      "max_x": 1.482524444444607,
+      "max_y": -6.740334989929579
+    },
+    "tile_bounds_15": {
+      "min_x": 4.904277333331265,
+      "min_y": -26.59191071033274,
+      "max_x": 5.930097777778428,
+      "max_y": -23.961339959718316
+    }
+  },
+  {
+    "id": 52,
+    "name": "B1",
+    "sid": 40,
+    "path": "overlays\\overlay_52.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3b9fa7cbada49771a1769d81118aa4a8_2220232214261959433.png",
+    "bounds": {
+      "north": -0.25214,
+      "west": 0.03519,
+      "south": -0.28056,
+      "east": 0.05711
+    },
+    "tile_bounds_13": {
+      "min_x": 0.8007680000000619,
+      "min_y": -7.3843241802105695,
+      "max_x": 1.2995697777778332,
+      "max_y": -6.737604296809877
+    },
+    "tile_bounds_15": {
+      "min_x": 3.2030720000002475,
+      "min_y": -26.537296720842278,
+      "max_x": 5.198279111111333,
+      "max_y": -23.95041718723951
+    }
+  },
+  {
+    "id": 1,
+    "name": "B1",
+    "sid": 41,
+    "path": "overlays\\overlay_1.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9e8276385a2cddf68f7a24871c99d247_4323556770620240324.png",
+    "bounds": {
+      "north": -0.17288,
+      "west": 0.05392,
+      "south": -0.21511,
+      "east": 0.09899
+    },
+    "tile_bounds_13": {
+      "min_x": 1.226979555555772,
+      "min_y": -5.8949590549309505,
+      "max_x": 2.252572444444013,
+      "max_y": -4.9339864137828044
+    },
+    "tile_bounds_15": {
+      "min_x": 4.907918222223088,
+      "min_y": -20.579836219723802,
+      "max_x": 9.010289777776052,
+      "max_y": -16.735945655131218
+    }
+  },
+  {
+    "id": 2,
+    "name": "B2",
+    "sid": 41,
+    "path": "overlays\\overlay_2.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/71a0346452d8f70c49516e0cb5bd4c88_547117680943307676.png",
+    "bounds": {
+      "north": -0.19422,
+      "west": 0.0777,
+      "south": -0.21457,
+      "east": 0.09731
+    },
+    "tile_bounds_13": {
+      "min_x": 1.7681066666664265,
+      "min_y": -5.882670968546336,
+      "max_x": 2.214343111110793,
+      "max_y": -5.4195924639680015
+    },
+    "tile_bounds_15": {
+      "min_x": 7.072426666665706,
+      "min_y": -20.530683874185343,
+      "max_x": 8.857372444443172,
+      "max_y": -18.678369855872006
+    }
+  },
+  {
+    "id": 12,
+    "name": "B1",
+    "sid": 42,
+    "path": "overlays\\overlay_12.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c9d23900cc99be25efaaed0362d4f4bd_2234683199324083179.png",
+    "bounds": {
+      "north": -0.19183,
+      "west": 0.10393,
+      "south": -0.21911,
+      "east": 0.12489
+    },
+    "tile_bounds_13": {
+      "min_x": 2.364984888889012,
+      "min_y": -5.985981930654816,
+      "max_x": 2.841941333333125,
+      "max_y": -5.365206377555296
+    },
+    "tile_bounds_15": {
+      "min_x": 9.459939555556048,
+      "min_y": -20.943927722619264,
+      "max_x": 11.3677653333325,
+      "max_y": -18.460825510221184
+    }
+  },
+  {
+    "id": 53,
+    "name": "B1",
+    "sid": 43,
+    "path": "overlays\\overlay_53.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e60e3fb4ac27bc51d80af23995d4c111_823705619005482095.png",
+    "bounds": {
+      "north": 0.07152,
+      "west": -0.13869,
+      "south": 0.02854,
+      "east": -0.08066
+    },
+    "tile_bounds_13": {
+      "min_x": -3.15596800000003,
+      "min_y": -0.35055641758754064,
+      "max_x": -1.8354631111110393,
+      "max_y": 0.6274777559765425
+    },
+    "tile_bounds_15": {
+      "min_x": -12.62387200000012,
+      "min_y": 1.5977743296498375,
+      "max_x": -7.341852444444157,
+      "max_y": 5.50991102390617
+    }
+  },
+  {
+    "id": 54,
+    "name": "B1",
+    "sid": 44,
+    "path": "overlays\\overlay_54.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2fdb919cba32bd6d1b586a69cee6a13d_8503495565075741525.png",
+    "bounds": {
+      "north": -0.02367,
+      "west": 0.11611,
+      "south": -0.04115,
+      "east": 0.13015
+    },
+    "tile_bounds_13": {
+      "min_x": 2.6421475555553116,
+      "min_y": -1.9363911916116194,
+      "max_x": 2.9616355555554037,
+      "max_y": -1.5386240153211475
+    },
+    "tile_bounds_15": {
+      "min_x": 10.568590222221246,
+      "min_y": -4.745564766446478,
+      "max_x": 11.846542222221615,
+      "max_y": -3.15449606128459
+    }
+  },
+  {
+    "id": 55,
+    "name": "B1",
+    "sid": 49,
+    "path": "overlays\\overlay_55.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d6f216d9d8fa6c1cf471f467bd3943cb_5569292479672504036.png",
+    "bounds": {
+      "north": 0.2539,
+      "west": 0.08608,
+      "south": 0.22672,
+      "east": 0.11115
+    },
+    "tile_bounds_13": {
+      "min_x": 1.9587982222228675,
+      "min_y": 4.159153019184487,
+      "max_x": 2.5292800000006537,
+      "max_y": 4.777654465104206
+    },
+    "tile_bounds_15": {
+      "min_x": 7.83519288889147,
+      "min_y": 19.636612076737947,
+      "max_x": 10.117120000002615,
+      "max_y": 22.110617860416824
+    }
+  },
+  {
+    "id": 56,
+    "name": "B1",
+    "sid": 50,
+    "path": "overlays\\overlay_56.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/71a865f2f7d0a5019adb7b09a0d2ba01_141689016353730131.png",
+    "bounds": {
+      "north": -0.20242,
+      "west": 0.112,
+      "south": -0.21694,
+      "east": 0.13141
+    },
+    "tile_bounds_13": {
+      "min_x": 2.548622222222548,
+      "min_y": -5.936602017587575,
+      "max_x": 2.990307555554864,
+      "max_y": -5.606189137475667
+    },
+    "tile_bounds_15": {
+      "min_x": 10.194488888890191,
+      "min_y": -20.7464080703503,
+      "max_x": 11.961230222219456,
+      "max_y": -19.424756549902668
+    }
+  },
+  {
+    "id": 57,
+    "name": "B1",
+    "sid": 51,
+    "path": "overlays\\overlay_57.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1572834021dd4cac60eab9f3ff0146c7_4493077048274136241.png",
+    "bounds": {
+      "north": -0.19703,
+      "west": -0.0528,
+      "south": -0.24767,
+      "east": -0.00873
+    },
+    "tile_bounds_13": {
+      "min_x": -1.201493333333019,
+      "min_y": -6.635885995900935,
+      "max_x": -0.1986560000004829,
+      "max_y": -5.4835359477938255
+    },
+    "tile_bounds_15": {
+      "min_x": -4.805973333332076,
+      "min_y": -23.54354398360374,
+      "max_x": -0.7946240000019316,
+      "max_y": -18.934143791175302
+    }
+  },
+  {
+    "id": 100,
+    "name": "B2",
+    "sid": 51,
+    "path": "overlays\\overlay_100.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6df4648715283ac2fda52731fae13a1e_5765332656068058233.png",
+    "bounds": {
+      "north": -0.20987,
+      "west": -0.03898,
+      "south": -0.22558,
+      "east": -0.02696
+    },
+    "tile_bounds_13": {
+      "min_x": -0.8870115555555458,
+      "min_y": -6.133211483775085,
+      "max_x": -0.613489777777886,
+      "max_y": -5.775719123761519
+    },
+    "tile_bounds_15": {
+      "min_x": -3.548046222222183,
+      "min_y": -21.53284593510034,
+      "max_x": -2.453959111111544,
+      "max_y": -20.102876495046075
+    }
+  },
+  {
+    "id": 101,
+    "name": "B3",
+    "sid": 51,
+    "path": "overlays\\overlay_101.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6b7065dbf28ba8529692faf4754ec9ae_6901255476871984367.png",
+    "bounds": {
+      "north": -0.21809,
+      "west": -0.04351,
+      "south": -0.23171,
+      "east": -0.02715
+    },
+    "tile_bounds_13": {
+      "min_x": -0.9900942222220692,
+      "min_y": -6.272704150102982,
+      "max_x": -0.617813333333288,
+      "max_y": -5.96277109505445
+    },
+    "tile_bounds_15": {
+      "min_x": -3.960376888888277,
+      "min_y": -22.090816600411927,
+      "max_x": -2.471253333333152,
+      "max_y": -20.8510843802178
+    }
+  },
+  {
+    "id": 99,
+    "name": "B1",
+    "sid": 52,
+    "path": "overlays\\overlay_99.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fbb1ed2c84ffdeb4099818c5b175eb90_4479242131433072526.png",
+    "bounds": {
+      "north": 0.30898,
+      "west": 0.05795,
+      "south": 0.29049,
+      "east": 0.08165
+    },
+    "tile_bounds_13": {
+      "min_x": 1.3186844444444432,
+      "min_y": 5.610289652944175,
+      "max_x": 1.857991111111005,
+      "max_y": 6.031045634425936
+    },
+    "tile_bounds_15": {
+      "min_x": 5.274737777777773,
+      "min_y": 25.4411586117767,
+      "max_x": 7.43196444444402,
+      "max_y": 27.124182537703746
+    }
+  },
+  {
+    "id": 24,
+    "name": "B1",
+    "sid": 53,
+    "path": "overlays\\overlay_24.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/436e61fde4979b7272ea46c55aef8509_5425834182960245655.png",
+    "bounds": {
+      "north": 0.04007,
+      "west": -0.05282,
+      "south": 0.0257,
+      "east": -0.03845
+    },
+    "tile_bounds_13": {
+      "min_x": -1.201948444444497,
+      "min_y": -0.4151822026115042,
+      "max_x": -0.8749511111113861,
+      "max_y": -0.08818481456137306
+    },
+    "tile_bounds_15": {
+      "min_x": -4.807793777777988,
+      "min_y": 1.3392711895539833,
+      "max_x": -3.4998044444455445,
+      "max_y": 2.6472607417545078
+    }
+  },
+  {
+    "id": 76,
+    "name": "B1",
+    "sid": 54,
+    "path": "overlays\\overlay_76.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/129d58eb27334cac043ce80b1eec19f7_378964435439156785.png",
+    "bounds": {
+      "north": -0.11604,
+      "west": -0.0105,
+      "south": -0.12712,
+      "east": 0.00423
+    },
+    "tile_bounds_13": {
+      "min_x": -0.2389333333335344,
+      "min_y": -3.8926885954160753,
+      "max_x": 0.09625599999981205,
+      "max_y": -3.640556471821583
+    },
+    "tile_bounds_15": {
+      "min_x": -0.9557333333341376,
+      "min_y": -12.570754381664301,
+      "max_x": 0.3850239999992482,
+      "max_y": -11.562225887286331
+    }
+  },
+  {
+    "id": 13,
+    "name": "B1",
+    "sid": 55,
+    "path": "overlays\\overlay_13.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/5bebaaccdaa1fef4807800fb09ce057f_5592839961372250799.png",
+    "bounds": {
+      "north": -0.05255,
+      "west": 0.04346,
+      "south": -0.09501,
+      "east": 0.08874
+    },
+    "tile_bounds_13": {
+      "min_x": 0.9889564444447387,
+      "min_y": -3.1620063241634853,
+      "max_x": 2.019328000000314,
+      "max_y": -2.1958046120962535
+    },
+    "tile_bounds_15": {
+      "min_x": 3.955825777778955,
+      "min_y": -9.648025296653941,
+      "max_x": 8.077312000001257,
+      "max_y": -5.783218448385014
+    }
+  },
+  {
+    "id": 14,
+    "name": "B2",
+    "sid": 55,
+    "path": "overlays\\overlay_14.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ae63d1e07223d08a710cf35e86f19b4d_3006663368257965349.png",
+    "bounds": {
+      "north": -0.05233,
+      "west": 0.06813,
+      "south": -0.08518,
+      "east": 0.08668
+    },
+    "tile_bounds_13": {
+      "min_x": 1.550336000000243,
+      "min_y": -2.938318936232463,
+      "max_x": 1.9724515555553808,
+      "max_y": -2.1907983877772494
+    },
+    "tile_bounds_15": {
+      "min_x": 6.201344000000972,
+      "min_y": -8.753275744929851,
+      "max_x": 7.889806222221523,
+      "max_y": -5.763193551108998
+    }
+  },
+  {
+    "id": 15,
+    "name": "B3",
+    "sid": 55,
+    "path": "overlays\\overlay_15.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4ee56d9441a08390a2b22e41f6d5fbc7_6200507525646869765.png",
+    "bounds": {
+      "north": -0.05242,
+      "west": 0.07038,
+      "south": -0.07019,
+      "east": 0.08134
+    },
+    "tile_bounds_13": {
+      "min_x": 1.6015360000001237,
+      "min_y": -2.5972128439443622,
+      "max_x": 1.8509368888890094,
+      "max_y": -2.1928463886333702
+    },
+    "tile_bounds_15": {
+      "min_x": 6.406144000000495,
+      "min_y": -7.388851375777449,
+      "max_x": 7.403747555556038,
+      "max_y": -5.771385554533481
+    }
+  },
+  {
+    "id": 95,
+    "name": "B4",
+    "sid": 55,
+    "path": "overlays\\overlay_95.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ae0b3d4c87bde9e374cebe1b6216ba42_6356674626757583351.png",
+    "bounds": {
+      "north": -0.07766,
+      "west": 0.06318,
+      "south": -0.10033,
+      "east": 0.0881
+    },
+    "tile_bounds_13": {
+      "min_x": 1.43769599999996,
+      "min_y": -3.283066055654672,
+      "max_x": 2.0047644444439356,
+      "max_y": -2.767196985551891
+    },
+    "tile_bounds_15": {
+      "min_x": 5.75078399999984,
+      "min_y": -10.132264222618687,
+      "max_x": 8.019057777775743,
+      "max_y": -8.068787942207564
+    }
+  },
+  {
+    "id": 21,
+    "name": "B1",
+    "sid": 56,
+    "path": "overlays\\overlay_21.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8a873d13a287fa3b574048e294818de0_2505962093223544638.png",
+    "bounds": {
+      "north": -0.13167,
+      "west": -0.04792,
+      "south": -0.17073,
+      "east": -0.01192
+    },
+    "tile_bounds_13": {
+      "min_x": -1.0904462222224538,
+      "min_y": -4.885061749385386,
+      "max_x": -0.2712462222220893,
+      "max_y": -3.99622663725404
+    },
+    "tile_bounds_15": {
+      "min_x": -4.361784888889815,
+      "min_y": -16.540246997541544,
+      "max_x": -1.084984888888357,
+      "max_y": -12.98490654901616
+    }
+  },
+  {
+    "id": 22,
+    "name": "B2",
+    "sid": 56,
+    "path": "overlays\\overlay_22.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2235c381a63b4f63044e9bbc61336be8_4608849552711608421.png",
+    "bounds": {
+      "north": -0.13272,
+      "west": -0.0484,
+      "south": -0.16351,
+      "east": -0.00938
+    },
+    "tile_bounds_13": {
+      "min_x": -1.1013688888883735,
+      "min_y": -4.720765939277044,
+      "max_x": -0.2134471111107814,
+      "max_y": -4.0201200341844014
+    },
+    "tile_bounds_15": {
+      "min_x": -4.405475555553494,
+      "min_y": -15.883063757108175,
+      "max_x": -0.8537884444431256,
+      "max_y": -13.080480136737606
+    }
+  },
+  {
+    "id": 23,
+    "name": "B1",
+    "sid": 57,
+    "path": "overlays\\overlay_23.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ac8ed45272325dd7243aef13dabf3134_387745023126840435.png",
+    "bounds": {
+      "north": -0.00206,
+      "west": -0.04088,
+      "south": -0.03465,
+      "east": -0.01064
+    },
+    "tile_bounds_13": {
+      "min_x": -0.9302471111109298,
+      "min_y": -1.7884800480615013,
+      "max_x": -0.24211911111115114,
+      "max_y": -1.0468764444549379
+    },
+    "tile_bounds_15": {
+      "min_x": -3.7209884444437193,
+      "min_y": -4.153920192246005,
+      "max_x": -0.9684764444446046,
+      "max_y": -1.1875057778197515
+    }
+  },
+  {
+    "id": 16,
+    "name": "B1",
+    "sid": 58,
+    "path": "overlays\\overlay_16.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e19c7629289230ab5ae6c4fb3eff489d_7219907365961377646.png",
+    "bounds": {
+      "north": -0.00726,
+      "west": 0.02847,
+      "south": -0.03138,
+      "east": 0.07071
+    },
+    "tile_bounds_13": {
+      "min_x": 0.6478506666662724,
+      "min_y": -1.7140693690316766,
+      "max_x": 1.6090453333326877,
+      "max_y": -1.1652053337757025
+    },
+    "tile_bounds_15": {
+      "min_x": 2.59140266666509,
+      "min_y": -3.8562774761267065,
+      "max_x": 6.436181333330751,
+      "max_y": -1.6608213351028098
+    }
+  },
+  {
+    "id": 58,
+    "name": "B1",
+    "sid": 59,
+    "path": "overlays\\overlay_58.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/15abd391257d9cf282b6bdfa961d8ea9_2010211689057377949.png",
+    "bounds": {
+      "north": -0.0876,
+      "west": -0.03739,
+      "south": -0.12053,
+      "east": 0.00451
+    },
+    "tile_bounds_13": {
+      "min_x": -0.8508302222221573,
+      "min_y": -3.7427291340227384,
+      "max_x": 0.10262755555595504,
+      "max_y": -2.9933874432772427
+    },
+    "tile_bounds_15": {
+      "min_x": -3.4033208888886293,
+      "min_y": -11.970916536090954,
+      "max_x": 0.41051022222382016,
+      "max_y": -8.97354977310897
+    }
+  },
+  {
+    "id": 59,
+    "name": "B1",
+    "sid": 60,
+    "path": "overlays\\overlay_59.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c29e06485163af93e511e4c57502a577_8337730521805224322.png",
+    "bounds": {
+      "north": -0.02205,
+      "west": -0.02499,
+      "south": -0.09026,
+      "east": 0.04569
+    },
+    "tile_bounds_13": {
+      "min_x": -0.5686613333332389,
+      "min_y": -3.053917293971608,
+      "max_x": 1.0397013333331415,
+      "max_y": -1.5017600123856027
+    },
+    "tile_bounds_15": {
+      "min_x": -2.2746453333329555,
+      "min_y": -9.215669175886433,
+      "max_x": 4.158805333332566,
+      "max_y": -3.007040049542411
+    }
+  },
+  {
+    "id": 96,
+    "name": "B2",
+    "sid": 60,
+    "path": "overlays\\overlay_96.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4c9027ca5da3261abaca89d2d6274ba2_2924483895951477452.png",
+    "bounds": {
+      "north": -0.02065,
+      "west": -0.06633,
+      "south": -0.09204,
+      "east": 0.04212
+    },
+    "tile_bounds_13": {
+      "min_x": -1.5093759999999747,
+      "min_y": -3.0944222341186105,
+      "max_x": 0.9584640000002764,
+      "max_y": -1.4699022323957252
+    },
+    "tile_bounds_15": {
+      "min_x": -6.037503999999899,
+      "min_y": -9.377688936474442,
+      "max_x": 3.8338560000011057,
+      "max_y": -2.8796089295829006
+    }
+  },
+  {
+    "id": 60,
+    "name": "B1",
+    "sid": 61,
+    "path": "overlays\\overlay_60.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/45f4a2e352188d1d92e07ecd7dd601ea_722068972273783015.png",
+    "bounds": {
+      "north": -0.16807,
+      "west": -0.02143,
+      "south": -0.24201,
+      "east": 0.0119
+    },
+    "tile_bounds_13": {
+      "min_x": -0.487651555555658,
+      "min_y": -6.507088375433341,
+      "max_x": 0.27079111111106613,
+      "max_y": -4.8245317070432066
+    },
+    "tile_bounds_15": {
+      "min_x": -1.950606222222632,
+      "min_y": -23.028353501733363,
+      "max_x": 1.0831644444442645,
+      "max_y": -16.298126828172826
+    }
+  },
+  {
+    "id": 104,
+    "name": "B2",
+    "sid": 61,
+    "path": "overlays\\overlay_104.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0c69598d1ca826a0ad9b77ee2a224626_3404449800277709610.png",
+    "bounds": {
+      "north": -0.20972,
+      "west": -0.00815,
+      "south": -0.22732,
+      "east": 0.00841
+    },
+    "tile_bounds_13": {
+      "min_x": -0.1854577777776285,
+      "min_y": -6.172806459692765,
+      "max_x": 0.1913742222222936,
+      "max_y": -5.772305767545731
+    },
+    "tile_bounds_15": {
+      "min_x": -0.741831111110514,
+      "min_y": -21.69122583877106,
+      "max_x": 0.7654968888891744,
+      "max_y": -20.089223070182925
+    }
+  },
+  {
+    "id": 61,
+    "name": "B1",
+    "sid": 62,
+    "path": "overlays\\overlay_61.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8f57b334361ae86596c55dcec582e7ea_6408223952365778789.png",
+    "bounds": {
+      "north": 0.43197,
+      "west": 0.01438,
+      "south": 0.39926,
+      "east": 0.06281
+    },
+    "tile_bounds_13": {
+      "min_x": 0.3272248888888498,
+      "min_y": 8.085456640948905,
+      "max_x": 1.4292764444444401,
+      "max_y": 8.829810456526047
+    },
+    "tile_bounds_15": {
+      "min_x": 1.3088995555553993,
+      "min_y": 35.34182656379562,
+      "max_x": 5.7171057777777605,
+      "max_y": 38.31924182610419
+    }
+  },
+  {
+    "id": 17,
+    "name": "B1",
+    "sid": 63,
+    "path": "overlays\\overlay_17.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b97359cf5e3d25c0f818d9f0bd3f55c2_6683642547858629567.png",
+    "bounds": {
+      "north": -0.04044,
+      "west": -0.0169,
+      "south": -0.1069,
+      "east": 0.06473
+    },
+    "tile_bounds_13": {
+      "min_x": -0.3845688888886798,
+      "min_y": -3.4325703002059527,
+      "max_x": 1.4729671111108473,
+      "max_y": -1.9202347430718874
+    },
+    "tile_bounds_15": {
+      "min_x": -1.5382755555547192,
+      "min_y": -10.73028120082381,
+      "max_x": 5.891868444443389,
+      "max_y": -4.680938972287549
+    }
+  },
+  {
+    "id": 19,
+    "name": "B1",
+    "sid": 64,
+    "path": "overlays\\overlay_19.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6124dcd2fa03a68bc949c61ce7648b9b_2886143710208677065.png",
+    "bounds": {
+      "north": -0.18853,
+      "west": 0.62673,
+      "south": -0.20667,
+      "east": 0.64423
+    },
+    "tile_bounds_13": {
+      "min_x": 14.261589333333177,
+      "min_y": -5.702900864893309,
+      "max_x": 14.65981155555528,
+      "max_y": -5.290112630538715
+    },
+    "tile_bounds_15": {
+      "min_x": 57.04635733333271,
+      "min_y": -19.811603459573234,
+      "max_x": 58.63924622222112,
+      "max_y": -18.16045052215486
+    }
+  },
+  {
+    "id": 20,
+    "name": "B2",
+    "sid": 64,
+    "path": "overlays\\overlay_20.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9363c544e7c4eed0d12c009041af6b8d_4972719349333765229.png",
+    "bounds": {
+      "north": -0.17448,
+      "west": 0.62657,
+      "south": -0.20675,
+      "east": 0.66162
+    },
+    "tile_bounds_13": {
+      "min_x": 14.257948444444082,
+      "min_y": -5.704721321185389,
+      "max_x": 15.055530666666527,
+      "max_y": -4.970395469948016
+    },
+    "tile_bounds_15": {
+      "min_x": 57.03179377777633,
+      "min_y": -19.818885284741555,
+      "max_x": 60.22212266666611,
+      "max_y": -16.881581879792066
+    }
+  },
+  {
+    "id": 18,
+    "name": "B1",
+    "sid": 65,
+    "path": "overlays\\overlay_18.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3f32ebf810b8c162786566374a3875ac_6832502533598446562.png",
+    "bounds": {
+      "north": 0.24322,
+      "west": 0.02856,
+      "south": 0.20996,
+      "east": 0.05843
+    },
+    "tile_bounds_13": {
+      "min_x": 0.6498986666665587,
+      "min_y": 3.777767137506089,
+      "max_x": 1.3296071111108176,
+      "max_y": 4.534622844507794
+    },
+    "tile_bounds_15": {
+      "min_x": 2.599594666666235,
+      "min_y": 18.111068550024356,
+      "max_x": 5.318428444443271,
+      "max_y": 21.138491378031176
+    }
+  },
+  {
+    "id": 62,
+    "name": "B1",
+    "sid": 66,
+    "path": "overlays\\overlay_62.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/749312c065a77c025d802b0ef7cb85a5_3469218411614445752.png",
+    "bounds": {
+      "north": 0.09282,
+      "west": -0.06528,
+      "south": 0.0735,
+      "east": -0.03557
+    },
+    "tile_bounds_13": {
+      "min_x": -1.4854826666664849,
+      "min_y": 0.672533792059312,
+      "max_x": -0.8094151111113206,
+      "max_y": 1.1121715905474048
+    },
+    "tile_bounds_15": {
+      "min_x": -5.9419306666659395,
+      "min_y": 5.690135168237248,
+      "max_x": -3.2376604444452823,
+      "max_y": 7.448686362189619
+    }
+  },
+  {
+    "id": 77,
+    "name": "B1",
+    "sid": 67,
+    "path": "overlays\\overlay_77.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fc8ebfddf60edb971f97f200cac71dfc_872370263096503798.png",
+    "bounds": {
+      "north": 0.04725,
+      "west": -0.0978,
+      "south": 0.00032,
+      "east": -0.02558
+    },
+    "tile_bounds_13": {
+      "min_x": -2.225493333333361,
+      "min_y": -0.9927182222222655,
+      "max_x": -0.5820871111109227,
+      "max_y": 0.0752001218697842
+    },
+    "tile_bounds_15": {
+      "min_x": -8.901973333333444,
+      "min_y": -0.9708728888890619,
+      "max_x": -2.328348444443691,
+      "max_y": 3.300800487479137
+    }
+  },
+  {
+    "id": 25,
+    "name": "B1",
+    "sid": 68,
+    "path": "overlays\\overlay_25.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/073ab95dc66410f5c2bae04b38d561e0_5872154372513968645.png",
+    "bounds": {
+      "north": 0.09227,
+      "west": -0.08974,
+      "south": 0.06735,
+      "east": -0.05365
+    },
+    "tile_bounds_13": {
+      "min_x": -2.042083555555564,
+      "min_y": 0.5325870196088545,
+      "max_x": -1.2208355555558228,
+      "max_y": 1.0996560186658826
+    },
+    "tile_bounds_15": {
+      "min_x": -8.168334222222256,
+      "min_y": 5.130348078435418,
+      "max_x": -4.883342222223291,
+      "max_y": 7.39862407466353
+    }
+  },
+  {
+    "id": 26,
+    "name": "B2",
+    "sid": 68,
+    "path": "overlays\\overlay_26.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/961efcf1c0b0ed8362e4df3d3cceaefb_1344069011450092969.png",
+    "bounds": {
+      "north": 0.08116,
+      "west": -0.06985,
+      "south": 0.07099,
+      "east": -0.05474
+    },
+    "tile_bounds_13": {
+      "min_x": -1.5894755555555093,
+      "min_y": 0.61541730220506,
+      "max_x": -1.245639111111359,
+      "max_y": 0.8468415065030968
+    },
+    "tile_bounds_15": {
+      "min_x": -6.357902222222037,
+      "min_y": 5.46166920882024,
+      "max_x": -4.982556444445436,
+      "max_y": 6.387366026012387
+    }
+  },
+  {
+    "id": 63,
+    "name": "B1",
+    "sid": 69,
+    "path": "overlays\\overlay_63.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/5c50fce63d037541bb2fe8f52cc07fbb_9118841041194624772.png",
+    "bounds": {
+      "north": 0.09443,
+      "west": -0.06097,
+      "south": 0.05308,
+      "east": 0.00268
+    },
+    "tile_bounds_13": {
+      "min_x": -1.3874062222221255,
+      "min_y": 0.2078650616649611,
+      "max_x": 0.060984888888924615,
+      "max_y": 1.1488080839058057
+    },
+    "tile_bounds_15": {
+      "min_x": -5.549624888888502,
+      "min_y": 3.8314602466598444,
+      "max_x": 0.24393955555569846,
+      "max_y": 7.595232335623223
+    }
+  },
+  {
+    "id": 0,
+    "name": "B1",
+    "sid": 70,
+    "path": "overlays\\overlay_0.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fc75ebe7eb149acf8651da6c3eab3c1b_1946340458107289407.png",
+    "bounds": {
+      "north": 0.05246,
+      "west": -0.09559,
+      "south": 0.01297,
+      "east": -0.03483
+    },
+    "tile_bounds_13": {
+      "min_x": -2.175203555555072,
+      "min_y": -0.7048604419237563,
+      "max_x": -0.7925759999998263,
+      "max_y": 0.1937566112364948
+    },
+    "tile_bounds_15": {
+      "min_x": -8.700814222220288,
+      "min_y": 0.1805582323049748,
+      "max_x": -3.1703039999993052,
+      "max_y": 3.775026444945979
+    }
+  },
+  {
+    "id": 64,
+    "name": "B1",
+    "sid": 71,
+    "path": "overlays\\overlay_64.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/826953a24cfee90041acad13a0ebe45d_4064600578302798526.png",
+    "bounds": {
+      "north": 0.10827,
+      "west": -0.10831,
+      "south": 0.06483,
+      "east": -0.07554
+    },
+    "tile_bounds_13": {
+      "min_x": -2.4646542222221797,
+      "min_y": 0.475242981455267,
+      "max_x": -1.7189546666663773,
+      "max_y": 1.463745466276123
+    },
+    "tile_bounds_15": {
+      "min_x": -9.858616888888719,
+      "min_y": 4.900971925821068,
+      "max_x": -6.875818666665509,
+      "max_y": 8.854981865104492
+    }
+  },
+  {
+    "id": 106,
+    "name": "B2",
+    "sid": 71,
+    "path": "overlays\\overlay_106.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/528b2d50bdb75d21382c8338df160cf2_8476297083472425563.png",
+    "bounds": {
+      "north": 0.08597,
+      "west": -0.10922,
+      "south": 0.06979,
+      "east": -0.09251
+    },
+    "tile_bounds_13": {
+      "min_x": -2.485361777777598,
+      "min_y": 0.5881106149313382,
+      "max_x": -2.1051164444443202,
+      "max_y": 0.9562958451715531
+    },
+    "tile_bounds_15": {
+      "min_x": -9.941447111110392,
+      "min_y": 5.352442459725353,
+      "max_x": -8.420465777777281,
+      "max_y": 6.825183380686212
+    }
+  },
+  {
+    "id": 65,
+    "name": "B1",
+    "sid": 72,
+    "path": "overlays\\overlay_65.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d2f724a15edd99f7280b0b4262ff2747_8350476570505000962.png",
+    "bounds": {
+      "north": 0.09737,
+      "west": -0.13912,
+      "south": 0.0222,
+      "east": -0.0571
+    },
+    "tile_bounds_13": {
+      "min_x": -3.165752888888619,
+      "min_y": -0.4948266540268378,
+      "max_x": -1.2993422222220943,
+      "max_y": 1.2157095109587317
+    },
+    "tile_bounds_15": {
+      "min_x": -12.663011555554476,
+      "min_y": 1.0206933838926489,
+      "max_x": -5.197368888888377,
+      "max_y": 7.862838043834927
+    }
+  },
+  {
+    "id": 105,
+    "name": "B2",
+    "sid": 72,
+    "path": "overlays\\overlay_105.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c0895775ed9f13c465947565da0b739b_3510487915206374327.png",
+    "bounds": {
+      "north": 0.04763,
+      "west": -0.08877,
+      "south": 0.02812,
+      "east": -0.05126
+    },
+    "tile_bounds_13": {
+      "min_x": -2.0200106666670763,
+      "min_y": -0.3601137520890916,
+      "max_x": -1.1664497777778706,
+      "max_y": 0.08384723594508614
+    },
+    "tile_bounds_15": {
+      "min_x": -8.080042666668305,
+      "min_y": 1.5595449916436337,
+      "max_x": -4.6657991111114825,
+      "max_y": 3.3353889437803446
+    }
+  },
+  {
+    "id": 66,
+    "name": "B1",
+    "sid": 74,
+    "path": "overlays\\overlay_66.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/93d3a52653c8aa323a0c4ff08a31fff4_5706288029407544943.png",
+    "bounds": {
+      "north": -0.1867,
+      "west": 0.67842,
+      "south": -0.20272,
+      "east": 0.69584
+    },
+    "tile_bounds_13": {
+      "min_x": 15.437823999999637,
+      "min_y": -5.613015846808594,
+      "max_x": 15.834225777777647,
+      "max_y": -5.248469740615292
+    },
+    "tile_bounds_15": {
+      "min_x": 61.75129599999855,
+      "min_y": -19.452063387234375,
+      "max_x": 63.33690311111059,
+      "max_y": -17.993878962461167
+    }
+  },
+  {
+    "id": 67,
+    "name": "B1",
+    "sid": 75,
+    "path": "overlays\\overlay_67.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d5fbbc784cc86bdb5413dc7fbfd97f9b_6958428021905119336.png",
+    "bounds": {
+      "north": -0.36595,
+      "west": 0.62622,
+      "south": -0.37827,
+      "east": 0.63503
+    },
+    "tile_bounds_13": {
+      "min_x": 14.24998400000004,
+      "min_y": -9.60780653186157,
+      "max_x": 14.450460444444616,
+      "max_y": -9.327452174348764
+    },
+    "tile_bounds_15": {
+      "min_x": 56.99993600000016,
+      "min_y": -35.43122612744628,
+      "max_x": 57.80184177777846,
+      "max_y": -34.309808697395056
+    }
+  },
+  {
+    "id": 68,
+    "name": "B1",
+    "sid": 76,
+    "path": "overlays\\overlay_68.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fe3e8d28ad47dbf2ef78c6c1f05a27a9_8198002858665067564.png",
+    "bounds": {
+      "north": -0.2259,
+      "west": 0.6372,
+      "south": -0.23617,
+      "east": 0.64524
+    },
+    "tile_bounds_13": {
+      "min_x": 14.499840000000404,
+      "min_y": -6.374194773884483,
+      "max_x": 14.682794666666268,
+      "max_y": -6.140493318070185
+    },
+    "tile_bounds_15": {
+      "min_x": 57.999360000001616,
+      "min_y": -22.49677909553793,
+      "max_x": 58.73117866666507,
+      "max_y": -21.56197327228074
+    }
+  },
+  {
+    "id": 69,
+    "name": "B1",
+    "sid": 77,
+    "path": "overlays\\overlay_69.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0a8a79c8cf644c773a0ea6e56fbaa74f_2818927871588391314.png",
+    "bounds": {
+      "north": -0.32387,
+      "west": 0.45829,
+      "south": -0.35247,
+      "east": 0.49
+    },
+    "tile_bounds_13": {
+      "min_x": 10.428643555555936,
+      "min_y": -9.020701256297798,
+      "max_x": 11.15022222222251,
+      "max_y": -8.369881024786082
+    },
+    "tile_bounds_15": {
+      "min_x": 41.714574222223746,
+      "min_y": -33.08280502519119,
+      "max_x": 44.60088888889004,
+      "max_y": -30.479524099144328
+    }
+  },
+  {
+    "id": 70,
+    "name": "B1",
+    "sid": 78,
+    "path": "overlays\\overlay_70.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a8ce24f1a0814245fcc65c806eca26db_9061171484760207634.png",
+    "bounds": {
+      "north": -0.29988,
+      "west": 0.36362,
+      "south": -0.31168,
+      "east": 0.37369
+    },
+    "tile_bounds_13": {
+      "min_x": 8.274375111111112,
+      "min_y": -8.092486535647367,
+      "max_x": 8.503523555556058,
+      "max_y": -7.823967155621176
+    },
+    "tile_bounds_15": {
+      "min_x": 33.09750044444445,
+      "min_y": -29.36994614258947,
+      "max_x": 34.01409422222423,
+      "max_y": -28.295868622484704
+    }
+  },
+  {
+    "id": 71,
+    "name": "B1",
+    "sid": 79,
+    "path": "overlays\\overlay_71.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9c1fba5510e879b3940ad9c1ec39aad3_3106940707948580527.png",
+    "bounds": {
+      "north": -0.31853,
+      "west": 0.35645,
+      "south": -0.33141,
+      "east": 0.37051
+    },
+    "tile_bounds_13": {
+      "min_x": 8.11121777777771,
+      "min_y": -8.541460719125098,
+      "max_x": 8.431160888888371,
+      "max_y": -8.248364448617394
+    },
+    "tile_bounds_15": {
+      "min_x": 32.44487111111084,
+      "min_y": -31.165842876500392,
+      "max_x": 33.724643555553484,
+      "max_y": -29.993457794469577
+    }
+  },
+  {
+    "id": 72,
+    "name": "B1",
+    "sid": 80,
+    "path": "overlays\\overlay_72.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1b0b5f4cd8318a8b0fcfda1399a924c4_5270134289681217475.png",
+    "bounds": {
+      "north": -0.2976,
+      "west": 0.34201,
+      "south": -0.31151,
+      "east": 0.36046
+    },
+    "tile_bounds_13": {
+      "min_x": 7.782627555555337,
+      "min_y": -8.088618033996681,
+      "max_x": 8.202467555554904,
+      "max_y": -7.772083783707785
+    },
+    "tile_bounds_15": {
+      "min_x": 31.130510222221346,
+      "min_y": -29.354472135986725,
+      "max_x": 32.809870222219615,
+      "max_y": -28.08833513483114
+    }
+  },
+  {
+    "id": 7,
+    "name": "B1",
+    "sid": 81,
+    "path": "overlays\\overlay_7.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/194ecbf931a56bd22e03b14f9cad047f_4540587359704001995.png",
+    "bounds": {
+      "north": -0.49998,
+      "west": 0.48772,
+      "south": -0.524,
+      "east": 0.52135
+    },
+    "tile_bounds_13": {
+      "min_x": 11.098339555555867,
+      "min_y": -12.924077335164839,
+      "max_x": 11.863608888888848,
+      "max_y": -12.377467063308359
+    },
+    "tile_bounds_15": {
+      "min_x": 44.39335822222347,
+      "min_y": -48.696309340659354,
+      "max_x": 47.45443555555539,
+      "max_y": -46.509868253233435
+    }
+  },
+  {
+    "id": 8,
+    "name": "B2",
+    "sid": 81,
+    "path": "overlays\\overlay_8.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e0f67719dc807ccac492a8f173127165_3987171777256287900.png",
+    "bounds": {
+      "north": -0.51158,
+      "west": 0.50027,
+      "south": -0.51765,
+      "east": 0.5066
+    },
+    "tile_bounds_13": {
+      "min_x": 11.383921777777687,
+      "min_y": -12.779573587173218,
+      "max_x": 11.527964444444478,
+      "max_y": -12.641441793281047
+    },
+    "tile_bounds_15": {
+      "min_x": 45.53568711111075,
+      "min_y": -48.11829434869287,
+      "max_x": 46.111857777777914,
+      "max_y": -47.565767173124186
+    }
+  },
+  {
+    "id": 4,
+    "name": "B1",
+    "sid": 82,
+    "path": "overlays\\overlay_4.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8d8a83e4a28857deb7b894eb5c72e24b_1076230677310666624.png",
+    "bounds": {
+      "north": -0.23622,
+      "west": 0.61696,
+      "south": -0.24189,
+      "east": 0.62315
+    },
+    "tile_bounds_13": {
+      "min_x": 14.039267555555853,
+      "min_y": -6.504357684419119,
+      "max_x": 14.180124444445028,
+      "max_y": -6.375332561329742
+    },
+    "tile_bounds_15": {
+      "min_x": 56.15707022222341,
+      "min_y": -23.017430737676477,
+      "max_x": 56.72049777778011,
+      "max_y": -22.501330245318968
+    }
+  },
+  {
+    "id": 5,
+    "name": "B2",
+    "sid": 82,
+    "path": "overlays\\overlay_5.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f037df1f5b135502cc972cd1f80a9e10_6184113512129850337.png",
+    "bounds": {
+      "north": -0.23837,
+      "west": 0.61703,
+      "south": -0.24543,
+      "east": 0.62252
+    },
+    "tile_bounds_13": {
+      "min_x": 14.040860444444661,
+      "min_y": -6.584913079527723,
+      "max_x": 14.165788444444843,
+      "max_y": -6.424257425373071
+    },
+    "tile_bounds_15": {
+      "min_x": 56.163441777778644,
+      "min_y": -23.339652318110893,
+      "max_x": 56.66315377777937,
+      "max_y": -22.697029701492283
+    }
+  },
+  {
+    "id": 6,
+    "name": "B3",
+    "sid": 82,
+    "path": "overlays\\overlay_6.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/21e781a13703c1d3067600008e557dab_409591113608169652.png",
+    "bounds": {
+      "north": -0.23815,
+      "west": 0.61672,
+      "south": -0.24702,
+      "east": 0.6253
+    },
+    "tile_bounds_13": {
+      "min_x": 14.033806222221756,
+      "min_y": -6.621094746962626,
+      "max_x": 14.229048888889338,
+      "max_y": -6.419251159864871
+    },
+    "tile_bounds_15": {
+      "min_x": 56.135224888887024,
+      "min_y": -23.484378987850505,
+      "max_x": 56.91619555555735,
+      "max_y": -22.677004639459483
+    }
+  },
+  {
+    "id": 73,
+    "name": "B1",
+    "sid": 83,
+    "path": "overlays\\overlay_73.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/240e6ac36ccc2da3046a74573d12dd32_2831584882910682896.png",
+    "bounds": {
+      "north": -0.32886,
+      "west": 0.52297,
+      "south": -0.33945,
+      "east": 0.53327
+    },
+    "tile_bounds_13": {
+      "min_x": 11.900472888888544,
+      "min_y": -8.724418521235748,
+      "max_x": 12.134855111110483,
+      "max_y": -8.483433089198115
+    },
+    "tile_bounds_15": {
+      "min_x": 47.601891555554175,
+      "min_y": -31.89767408494299,
+      "max_x": 48.53942044444193,
+      "max_y": -30.93373235679246
+    }
+  },
+  {
+    "id": 9,
+    "name": "B1",
+    "sid": 84,
+    "path": "overlays\\overlay_9.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f516f4200be5538dee8f760c556ffcbc_7748753827845325413.png",
+    "bounds": {
+      "north": -0.37772,
+      "west": 0.58866,
+      "south": -0.38323,
+      "east": 0.59689
+    },
+    "tile_bounds_13": {
+      "min_x": 13.39528533333305,
+      "min_y": -9.720676579645442,
+      "max_x": 13.58256355555568,
+      "max_y": -9.5952907039391
+    },
+    "tile_bounds_15": {
+      "min_x": 53.5811413333322,
+      "min_y": -35.88270631858177,
+      "max_x": 54.33025422222272,
+      "max_y": -35.3811628157564
+    }
+  },
+  {
+    "id": 10,
+    "name": "B2",
+    "sid": 84,
+    "path": "overlays\\overlay_10.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4549fa85fc8436e1a2d87744b795a4f1_1204736000687949573.png",
+    "bounds": {
+      "north": -0.37737,
+      "west": 0.58704,
+      "south": -0.38301,
+      "east": 0.59583
+    },
+    "tile_bounds_13": {
+      "min_x": 13.358421333333354,
+      "min_y": -9.715670245502224,
+      "max_x": 13.558442666666451,
+      "max_y": -9.587326086581925
+    },
+    "tile_bounds_15": {
+      "min_x": 53.433685333333415,
+      "min_y": -35.8626809820089,
+      "max_x": 54.233770666665805,
+      "max_y": -35.3493043463277
+    }
+  },
+  {
+    "id": 11,
+    "name": "B3",
+    "sid": 84,
+    "path": "overlays\\overlay_11.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/75c2735eaa4e441da9d09f112422b60e_8661158688093292477.png",
+    "bounds": {
+      "north": -0.37095,
+      "west": 0.59185,
+      "south": -0.38275,
+      "east": 0.60184
+    },
+    "tile_bounds_13": {
+      "min_x": 13.46787555555511,
+      "min_y": -9.709753668952544,
+      "max_x": 13.695203555555963,
+      "max_y": -9.44123230475634
+    },
+    "tile_bounds_15": {
+      "min_x": 53.87150222222044,
+      "min_y": -35.839014675810176,
+      "max_x": 54.78081422222385,
+      "max_y": -34.76492921902536
+    }
+  },
+  {
+    "id": 78,
+    "name": "B1",
+    "sid": 90,
+    "path": "overlays\\overlay_78.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9ebe9a1d26607e46cb73be8787f4eb53_1503467146778924386.png",
+    "bounds": {
+      "north": 0.43507,
+      "west": 0.0082,
+      "south": 0.17422,
+      "east": 0.23126
+    },
+    "tile_bounds_13": {
+      "min_x": 0.186595555554959,
+      "min_y": 2.9644789981116446,
+      "max_x": 5.262449777777874,
+      "max_y": 8.900354698064803
+    },
+    "tile_bounds_15": {
+      "min_x": 0.746382222219836,
+      "min_y": 14.857915992446578,
+      "max_x": 21.049799111111497,
+      "max_y": 38.60141879225921
+    }
+  },
+  {
+    "id": 81,
+    "name": "B1",
+    "sid": 91,
+    "path": "overlays\\overlay_81.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/40df5c94dafad75ccfb19038eb5297ed_6602597124927588191.png",
+    "bounds": {
+      "north": 0.33447,
+      "west": 0.01833,
+      "south": 0.29851,
+      "east": 0.04255
+    },
+    "tile_bounds_13": {
+      "min_x": 0.41710933333342837,
+      "min_y": 5.792791619452601,
+      "max_x": 0.9682488888893204,
+      "max_y": 6.611093894765872
+    },
+    "tile_bounds_15": {
+      "min_x": 1.6684373333337135,
+      "min_y": 26.171166477810402,
+      "max_x": 3.8729955555572815,
+      "max_y": 29.44437557906349
+    }
+  },
+  {
+    "id": 82,
+    "name": "B2",
+    "sid": 91,
+    "path": "overlays\\overlay_82.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1df6eb5b7e92bd0ff74cce16ccd26127_8617876234599064329.png",
+    "bounds": {
+      "north": 0.33744,
+      "west": 0.03284,
+      "south": 0.32465,
+      "east": 0.04933
+    },
+    "tile_bounds_13": {
+      "min_x": 0.7472924444446107,
+      "min_y": 6.387630642369004,
+      "max_x": 1.1225315555557245,
+      "max_y": 6.6786790565884075
+    },
+    "tile_bounds_15": {
+      "min_x": 2.989169777778443,
+      "min_y": 28.550522569476016,
+      "max_x": 4.490126222222898,
+      "max_y": 29.71471622635363
+    }
+  },
+  {
+    "id": 83,
+    "name": "B3",
+    "sid": 91,
+    "path": "overlays\\overlay_83.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/24d2b918a205847543342620ff80c5f0_7460642428522826978.png",
+    "bounds": {
+      "north": 0.34512,
+      "west": 0.0295,
+      "south": 0.31533,
+      "east": 0.04547
+    },
+    "tile_bounds_13": {
+      "min_x": 0.6712888888887392,
+      "min_y": 6.175545556806355,
+      "max_x": 1.0346951111114322,
+      "max_y": 6.853444823670088
+    },
+    "tile_bounds_15": {
+      "min_x": 2.6851555555549567,
+      "min_y": 27.70218222722542,
+      "max_x": 4.138780444445729,
+      "max_y": 30.413779294680353
+    }
+  },
+  {
+    "id": 84,
+    "name": "B1",
+    "sid": 92,
+    "path": "overlays\\overlay_84.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4002b3be67c267bffbf0ca76a61ec539_5879140757853367607.png",
+    "bounds": {
+      "north": 0.2545,
+      "west": 0.01793,
+      "south": 0.18795,
+      "east": 0.06436
+    },
+    "tile_bounds_13": {
+      "min_x": 0.4080071111111465,
+      "min_y": 3.2769143370856,
+      "max_x": 1.4645475555553276,
+      "max_y": 4.791307932812742
+    },
+    "tile_bounds_15": {
+      "min_x": 1.632028444444586,
+      "min_y": 16.1076573483424,
+      "max_x": 5.85819022222131,
+      "max_y": 22.16523173125097
+    }
+  },
+  {
+    "id": 85,
+    "name": "B2",
+    "sid": 92,
+    "path": "overlays\\overlay_85.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a9767cb4c80b7a937ad4b7481b71ec17_8760381394197366410.png",
+    "bounds": {
+      "north": 0.21532,
+      "west": 0.01944,
+      "south": 0.18222,
+      "east": 0.06909
+    },
+    "tile_bounds_13": {
+      "min_x": 0.44236799999998766,
+      "min_y": 3.1465243233810725,
+      "max_x": 1.572181333332992,
+      "max_y": 3.899737755309161
+    },
+    "tile_bounds_15": {
+      "min_x": 1.7694719999999506,
+      "min_y": 15.58609729352429,
+      "max_x": 6.288725333331968,
+      "max_y": 18.598951021236644
+    }
+  },
+  {
+    "id": 3,
+    "name": "B1",
+    "sid": 97,
+    "path": "overlays\\overlay_3.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b117edd0ec07f1375260583c1b3b26b9_677579143251380714.png",
+    "bounds": {
+      "north": 0.1269,
+      "west": -0.05877,
+      "south": 0.09994,
+      "east": -0.01876
+    },
+    "tile_bounds_13": {
+      "min_x": -1.33734400000003,
+      "min_y": 1.274191375434384,
+      "max_x": -0.42689422222201756,
+      "max_y": 1.8876823608929953
+    },
+    "tile_bounds_15": {
+      "min_x": -5.34937600000012,
+      "min_y": 8.096765501737536,
+      "max_x": -1.7075768888880702,
+      "max_y": 10.550729443571981
+    }
+  },
+  {
+    "id": 90,
+    "name": "B1",
+    "sid": 98,
+    "path": "overlays\\overlay_90.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6c6821307d905414179670d6cbf5f444_8863915827347621385.png",
+    "bounds": {
+      "north": 0.22683,
+      "west": 0.05651,
+      "south": 0.20729,
+      "east": 0.07735
+    },
+    "tile_bounds_13": {
+      "min_x": 1.2859164444444104,
+      "min_y": 3.7170094013958987,
+      "max_x": 1.7601422222223846,
+      "max_y": 4.1616561499017735
+    },
+    "tile_bounds_15": {
+      "min_x": 5.143665777777642,
+      "min_y": 17.868037605583595,
+      "max_x": 7.040568888889538,
+      "max_y": 19.646624599607094
+    }
+  },
+  {
+    "id": 92,
+    "name": "B1",
+    "sid": 99,
+    "path": "overlays\\overlay_92.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/568c0522e3dc8374df580ccbf354027f_8716676436330254902.png",
+    "bounds": {
+      "north": 0.29167,
+      "west": 0.05989,
+      "south": 0.27467,
+      "east": 0.08376
+    },
+    "tile_bounds_13": {
+      "min_x": 1.3628302222223283,
+      "min_y": 5.250292384607292,
+      "max_x": 1.906005333333269,
+      "max_y": 5.637141555016569
+    },
+    "tile_bounds_15": {
+      "min_x": 5.451320888889313,
+      "min_y": 24.001169538429167,
+      "max_x": 7.624021333333076,
+      "max_y": 25.548566220066277
+    }
+  },
+  {
+    "id": 93,
+    "name": "B2",
+    "sid": 99,
+    "path": "overlays\\overlay_93.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d8ff70710bf3153c34b00a18c31b3784_7847206822110186888.png",
+    "bounds": {
+      "north": 0.28871,
+      "west": 0.07865,
+      "south": 0.26441,
+      "east": 0.10673
+    },
+    "tile_bounds_13": {
+      "min_x": 1.7897244444448006,
+      "min_y": 5.016817800786612,
+      "max_x": 2.4287004444440754,
+      "max_y": 5.569784246644758
+    },
+    "tile_bounds_15": {
+      "min_x": 7.158897777779202,
+      "min_y": 23.067271203146447,
+      "max_x": 9.714801777776302,
+      "max_y": 25.279136986579033
+    }
+  },
+  {
+    "id": 94,
+    "name": "B3",
+    "sid": 99,
+    "path": "overlays\\overlay_94.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0cf6da6c539473692c44551c6f30bb3a_1313299430934646766.png",
+    "bounds": {
+      "north": 0.33104,
+      "west": 0.08694,
+      "south": 0.27497,
+      "east": 0.10772
+    },
+    "tile_bounds_13": {
+      "min_x": 1.9783680000000459,
+      "min_y": 5.257119129804323,
+      "max_x": 2.451228444444496,
+      "max_y": 6.5330410228784785
+    },
+    "tile_bounds_15": {
+      "min_x": 7.9134720000001835,
+      "min_y": 24.028476519217293,
+      "max_x": 9.804913777777983,
+      "max_y": 29.132164091513914
+    }
+  },
+  {
+    "id": 114,
+    "name": "B1",
+    "sid": 100,
+    "path": "overlays\\overlay_114.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/49e98ee7fea6fbe3675360a6f4ec10ab_7102698188469205986.png",
+    "bounds": {
+      "north": 0.42013,
+      "west": 0.0489,
+      "south": 0.36028,
+      "east": 0.08376
+    },
+    "tile_bounds_13": {
+      "min_x": 1.1127466666666805,
+      "min_y": 7.198425583156677,
+      "max_x": 1.906005333333269,
+      "max_y": 8.560377229319784
+    },
+    "tile_bounds_15": {
+      "min_x": 4.450986666666722,
+      "min_y": 31.793702332626708,
+      "max_x": 7.624021333333076,
+      "max_y": 37.241508917279134
+    }
+  },
+  {
+    "id": 115,
+    "name": "B1",
+    "sid": 101,
+    "path": "overlays\\overlay_115.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2689c08c508188210a23c99f360477b9_8756573242485383675.png",
+    "bounds": {
+      "north": 0.38451,
+      "west": 0.13191,
+      "south": 0.37447,
+      "east": 0.14814
+    },
+    "tile_bounds_13": {
+      "min_x": 3.0016853333336257,
+      "min_y": 7.521333555070214,
+      "max_x": 3.3710080000000744,
+      "max_y": 7.749804344487529
+    },
+    "tile_bounds_15": {
+      "min_x": 12.006741333334503,
+      "min_y": 33.085334220280856,
+      "max_x": 13.484032000000298,
+      "max_y": 33.99921737795012
+    }
+  },
+  {
+    "id": 116,
+    "name": "B2",
+    "sid": 101,
+    "path": "overlays\\overlay_116.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9281cf7a3c1a6ba365d6e9b4fcd6d2ba_4724223419585521397.png",
+    "bounds": {
+      "north": 0.38348,
+      "west": 0.12712,
+      "south": 0.36459,
+      "east": 0.14962
+    },
+    "tile_bounds_13": {
+      "min_x": 2.892686222222437,
+      "min_y": 7.296503989885878,
+      "max_x": 3.4046862222221534,
+      "max_y": 7.726365595874086
+    },
+    "tile_bounds_15": {
+      "min_x": 11.570744888889749,
+      "min_y": 32.18601595954351,
+      "max_x": 13.618744888888614,
+      "max_y": 33.90546238349634
+    }
+  },
+  {
+    "id": 117,
+    "name": "B3",
+    "sid": 101,
+    "path": "overlays\\overlay_117.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/bd91b274a16d2c7024c1bc0369014c89_8610978769273521405.png",
+    "bounds": {
+      "north": 0.38675,
+      "west": 0.11338,
+      "south": 0.37249,
+      "east": 0.13846
+    },
+    "tile_bounds_13": {
+      "min_x": 2.5800248888890565,
+      "min_y": 7.476276597830292,
+      "max_x": 3.150734222222127,
+      "max_y": 7.800777943477897
+    },
+    "tile_bounds_15": {
+      "min_x": 10.320099555556226,
+      "min_y": 32.90510639132117,
+      "max_x": 12.602936888888507,
+      "max_y": 34.20311177391159
+    }
+  },
+  {
+    "id": 118,
+    "name": "B1",
+    "sid": 102,
+    "path": "overlays\\overlay_118.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e0977422c34ecd5bd0c5fcd64e95b529_99112092923728554.png",
+    "bounds": {
+      "north": 0.43244,
+      "west": 0.07143,
+      "south": 0.42455,
+      "east": 0.08349
+    },
+    "tile_bounds_13": {
+      "min_x": 1.6254293333331589,
+      "min_y": 8.660959517453648,
+      "max_x": 1.8998613333333196,
+      "max_y": 8.840505871935875
+    },
+    "tile_bounds_15": {
+      "min_x": 6.5017173333326355,
+      "min_y": 37.64383806981459,
+      "max_x": 7.5994453333332785,
+      "max_y": 38.3620234877435
+    }
+  },
+  {
+    "id": 119,
+    "name": "B2",
+    "sid": 102,
+    "path": "overlays\\overlay_119.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/17f1d2db9f74244dd9acc92510f3cc2f_3501800476399945120.png",
+    "bounds": {
+      "north": 0.43154,
+      "west": 0.06433,
+      "south": 0.41454,
+      "east": 0.08417
+    },
+    "tile_bounds_13": {
+      "min_x": 1.463864888889475,
+      "min_y": 8.433170299262201,
+      "max_x": 1.915335111110835,
+      "max_y": 8.82002528981593
+    },
+    "tile_bounds_15": {
+      "min_x": 5.8554595555579,
+      "min_y": 36.732681197048805,
+      "max_x": 7.66134044444334,
+      "max_y": 38.28010115926372
+    }
+  },
+  {
+    "id": 120,
+    "name": "B3",
+    "sid": 102,
+    "path": "overlays\\overlay_120.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6b145bb6a0c926b4f1517799cbe8f34b_3834181647060400469.png",
+    "bounds": {
+      "north": 0.43179,
+      "west": 0.06347,
+      "south": 0.40907,
+      "east": 0.08203
+    },
+    "tile_bounds_13": {
+      "min_x": 1.444295111111387,
+      "min_y": 8.308694195243334,
+      "max_x": 1.8666382222227185,
+      "max_y": 8.82571434016154
+    },
+    "tile_bounds_15": {
+      "min_x": 5.777180444445548,
+      "min_y": 36.234776780973334,
+      "max_x": 7.466552888890874,
+      "max_y": 38.30285736064616
+    }
+  },
+  {
+    "id": 121,
+    "name": "B1",
+    "sid": 103,
+    "path": "overlays\\overlay_121.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c45e202445e8052552f978f28c6b7fb4_7853616739385166179.png",
+    "bounds": {
+      "north": 0.39516,
+      "west": 0.01558,
+      "south": 0.35726,
+      "east": 0.04264
+    },
+    "tile_bounds_13": {
+      "min_x": 0.3545315555556954,
+      "min_y": 7.129702458089014,
+      "max_x": 0.9702968888886971,
+      "max_y": 7.992156621102367
+    },
+    "tile_bounds_15": {
+      "min_x": 1.4181262222227815,
+      "min_y": 31.518809832356055,
+      "max_x": 3.8811875555547886,
+      "max_y": 34.96862648440947
+    }
+  },
+  {
+    "id": 123,
+    "name": "B1",
+    "sid": 104,
+    "path": "overlays\\overlay_123.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4c813aedc9a73c6039ffb746d3f26316_296253492064505246.png",
+    "bounds": {
+      "north": 0.36835,
+      "west": 0.11069,
+      "south": 0.36062,
+      "east": 0.1222
+    },
+    "tile_bounds_13": {
+      "min_x": 2.5188124444448476,
+      "min_y": 7.206162625149773,
+      "max_x": 2.780728888888916,
+      "max_y": 7.382066628976645
+    },
+    "tile_bounds_15": {
+      "min_x": 10.07524977777939,
+      "min_y": 31.82465050059909,
+      "max_x": 11.122915555555664,
+      "max_y": 32.52826651590658
+    }
+  },
+  {
+    "id": 124,
+    "name": "B1",
+    "sid": 105,
+    "path": "overlays\\overlay_124.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/40fd5ecd6ac40271fe362a60eef516e7_2181787879713220643.png",
+    "bounds": {
+      "north": 0.43722,
+      "west": 0.10987,
+      "south": 0.42211,
+      "east": 0.11923
+    },
+    "tile_bounds_13": {
+      "min_x": 2.500152888888806,
+      "min_y": 8.605434446345043,
+      "max_x": 2.7131448888885643,
+      "max_y": 8.94928056001163
+    },
+    "tile_bounds_15": {
+      "min_x": 10.000611555555224,
+      "min_y": 37.421737785380174,
+      "max_x": 10.852579555554257,
+      "max_y": 38.79712224004652
+    }
+  },
+  {
+    "id": 125,
+    "name": "B1",
+    "sid": 106,
+    "path": "overlays\\overlay_125.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/32290d88cb0e4bf7b31bf18bb13698f6_7978337756379965309.png",
+    "bounds": {
+      "north": 0.00318,
+      "west": 0.20211,
+      "south": -0.01451,
+      "east": 0.22145
+    },
+    "tile_bounds_13": {
+      "min_x": 4.599125333333177,
+      "min_y": -1.3301831146400218,
+      "max_x": 5.039217777777594,
+      "max_y": -0.9276373332963885
+    },
+    "tile_bounds_15": {
+      "min_x": 18.396501333332708,
+      "min_y": -2.3207324585600873,
+      "max_x": 20.156871111110377,
+      "max_y": -0.7105493331855541
+    }
+  },
+  {
+    "id": 126,
+    "name": "B1",
+    "sid": 107,
+    "path": "overlays\\overlay_126.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7f343d5a12a6fe83820af524effeeb87_7205825576677589600.png",
+    "bounds": {
+      "north": 0.22382,
+      "west": 0.04555,
+      "south": 0.21309,
+      "east": 0.05654
+    },
+    "tile_bounds_13": {
+      "min_x": 1.0365155555555248,
+      "min_y": 3.8489925117846724,
+      "max_x": 1.2865991111111725,
+      "max_y": 4.093161398007851
+    },
+    "tile_bounds_15": {
+      "min_x": 4.146062222222099,
+      "min_y": 18.39597004713869,
+      "max_x": 5.14639644444469,
+      "max_y": 19.372645592031404
+    }
+  },
+  {
+    "id": 127,
+    "name": "B2",
+    "sid": 107,
+    "path": "overlays\\overlay_127.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/10230ec1dff37ce487b1145bc1490dea_1092203315806904430.png",
+    "bounds": {
+      "north": 0.22387,
+      "west": 0.04512,
+      "south": 0.20506,
+      "east": 0.07071
+    },
+    "tile_bounds_13": {
+      "min_x": 1.0267306666664808,
+      "min_y": 3.66626418396163,
+      "max_x": 1.6090453333326877,
+      "max_y": 4.094299184469037
+    },
+    "tile_bounds_15": {
+      "min_x": 4.106922666665923,
+      "min_y": 17.66505673584652,
+      "max_x": 6.436181333330751,
+      "max_y": 19.377196737876147
+    }
+  },
+  {
+    "id": 128,
+    "name": "B1",
+    "sid": 108,
+    "path": "overlays\\overlay_128.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7f3eabd2687350c8b6eebae9bce96fb0_8414265057187719878.png",
+    "bounds": {
+      "north": 0.31477,
+      "west": 0.16443,
+      "south": 0.28532,
+      "east": 0.19414
+    },
+    "tile_bounds_13": {
+      "min_x": 3.741696000000047,
+      "min_y": 5.492641945410924,
+      "max_x": 4.4177635555552115,
+      "max_y": 6.162802253047175
+    },
+    "tile_bounds_15": {
+      "min_x": 14.966784000000189,
+      "min_y": 24.970567781643695,
+      "max_x": 17.671054222220846,
+      "max_y": 27.6512090121887
+    }
+  },
+  {
+    "id": 129,
+    "name": "B2",
+    "sid": 108,
+    "path": "overlays\\overlay_129.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/004f9c840788f38475508e7cfdf3647a_810527382176179691.png",
+    "bounds": {
+      "north": 0.35706,
+      "west": 0.15975,
+      "south": 0.29052,
+      "east": 0.19993
+    },
+    "tile_bounds_13": {
+      "min_x": 3.6351999999997133,
+      "min_y": 5.610972328385742,
+      "max_x": 4.549518222222105,
+      "max_y": 7.12515125855316
+    },
+    "tile_bounds_15": {
+      "min_x": 14.540799999998853,
+      "min_y": 25.443889313542968,
+      "max_x": 18.19807288888842,
+      "max_y": 31.50060503421264
+    }
+  },
+  {
+    "id": 130,
+    "name": "B3",
+    "sid": 108,
+    "path": "overlays\\overlay_130.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a883e154ea86cc354f33b62f3465184e_5917220082642731232.png",
+    "bounds": {
+      "north": 0.33871,
+      "west": 0.13863,
+      "south": 0.30822,
+      "east": 0.17323
+    },
+    "tile_bounds_13": {
+      "min_x": 3.1546026666665057,
+      "min_y": 6.013751161348864,
+      "max_x": 3.941944888888429,
+      "max_y": 6.707579115237877
+    },
+    "tile_bounds_15": {
+      "min_x": 12.618410666666023,
+      "min_y": 27.055004645395456,
+      "max_x": 15.767779555553716,
+      "max_y": 29.830316460951508
+    }
+  },
+  {
+    "id": 131,
+    "name": "B1",
+    "sid": 109,
+    "path": "overlays\\overlay_131.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d5799908657a2fad32d7a7ac32c988c7_2311677733067404582.png",
+    "bounds": {
+      "north": 0.26278,
+      "west": 0.14533,
+      "south": 0.25506,
+      "east": 0.15331
+    },
+    "tile_bounds_13": {
+      "min_x": 3.3070648888888172,
+      "min_y": 4.804051169913237,
+      "max_x": 3.488654222222067,
+      "max_y": 4.979725852695083
+    },
+    "tile_bounds_15": {
+      "min_x": 13.228259555555269,
+      "min_y": 22.216204679652947,
+      "max_x": 13.954616888888268,
+      "max_y": 22.91890341078033
+    }
+  },
+  {
+    "id": 132,
+    "name": "B2",
+    "sid": 109,
+    "path": "overlays\\overlay_132.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/81c912b1ef8e09f9e0f1be0bdea5dc30_7804765883588766198.png",
+    "bounds": {
+      "north": 0.26324,
+      "west": 0.13899,
+      "south": 0.25327,
+      "east": 0.1514
+    },
+    "tile_bounds_13": {
+      "min_x": 3.1627946666667413,
+      "min_y": 4.763318324692136,
+      "max_x": 3.445191111110944,
+      "max_y": 4.990193518536216
+    },
+    "tile_bounds_15": {
+      "min_x": 12.651178666666965,
+      "min_y": 22.053273298768545,
+      "max_x": 13.780764444443776,
+      "max_y": 22.960774074144865
+    }
+  },
+  {
+    "id": 133,
+    "name": "B3",
+    "sid": 109,
+    "path": "overlays\\overlay_133.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/263a895817045a9d4d57ae1e98d314e3_1997114329671463500.png",
+    "bounds": {
+      "north": 0.27114,
+      "west": 0.13792,
+      "south": 0.24807,
+      "east": 0.15075
+    },
+    "tile_bounds_13": {
+      "min_x": 3.1384462222222282,
+      "min_y": 4.644988303300579,
+      "max_x": 3.430399999999281,
+      "max_y": 5.169964362283281
+    },
+    "tile_bounds_15": {
+      "min_x": 12.553784888888913,
+      "min_y": 21.579953213202316,
+      "max_x": 13.721599999997125,
+      "max_y": 23.679857449133124
+    }
+  },
+  {
+    "id": 134,
+    "name": "B4",
+    "sid": 109,
+    "path": "overlays\\overlay_134.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/64bf5ce2500eaea2109cde84407a9e12_3016772025831300026.png",
+    "bounds": {
+      "north": 0.27077,
+      "west": 0.1245,
+      "south": 0.24822,
+      "east": 0.14305
+    },
+    "tile_bounds_13": {
+      "min_x": 2.8330666666670368,
+      "min_y": 4.648401668646329,
+      "max_x": 3.2551822222221745,
+      "max_y": 5.161544712579598
+    },
+    "tile_bounds_15": {
+      "min_x": 11.332266666668147,
+      "min_y": 21.593606674585317,
+      "max_x": 13.020728888888698,
+      "max_y": 23.646178850318393
+    }
+  },
+  {
+    "id": 135,
+    "name": "B1",
+    "sid": 110,
+    "path": "overlays\\overlay_135.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8399e424466a96602d67a1500365caee_6497531990272425499.png",
+    "bounds": {
+      "north": 0.25173,
+      "west": 0.1611,
+      "south": 0.22588,
+      "east": 0.18186
+    },
+    "tile_bounds_13": {
+      "min_x": 3.6659200000003693,
+      "min_y": 4.140038203422591,
+      "max_x": 4.138325333333341,
+      "max_y": 4.728274428838176
+    },
+    "tile_bounds_15": {
+      "min_x": 14.663680000001477,
+      "min_y": 19.560152813690365,
+      "max_x": 16.553301333333366,
+      "max_y": 21.913097715352706
+    }
+  },
+  {
+    "id": 136,
+    "name": "B2",
+    "sid": 110,
+    "path": "overlays\\overlay_136.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8d8592072c7d4ae1f1721f7de6ca22d7_7532324797778772042.png",
+    "bounds": {
+      "north": 0.25935,
+      "west": 0.16821,
+      "south": 0.24346,
+      "east": 0.17997
+    },
+    "tile_bounds_13": {
+      "min_x": 3.8277119999993374,
+      "min_y": 4.540084227096486,
+      "max_x": 4.095317333333696,
+      "max_y": 4.901673486899654
+    },
+    "tile_bounds_15": {
+      "min_x": 15.31084799999735,
+      "min_y": 21.160336908385943,
+      "max_x": 16.381269333334785,
+      "max_y": 22.606693947598615
+    }
+  },
+  {
+    "id": 137,
+    "name": "B1",
+    "sid": 111,
+    "path": "overlays\\overlay_137.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/61ffd435252ff91142206ce733529205_8569485656918761027.png",
+    "bounds": {
+      "north": 0.29618,
+      "west": 0.1886,
+      "south": 0.28648,
+      "east": 0.19676
+    },
+    "tile_bounds_13": {
+      "min_x": 4.291697777777699,
+      "min_y": 5.519038718482534,
+      "max_x": 4.477383111111521,
+      "max_y": 5.739770461011176
+    },
+    "tile_bounds_15": {
+      "min_x": 17.166791111110797,
+      "min_y": 25.076154873930136,
+      "max_x": 17.909532444446086,
+      "max_y": 25.959081844044704
+    }
+  },
+  {
+    "id": 138,
+    "name": "B2",
+    "sid": 111,
+    "path": "overlays\\overlay_138.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/46258d7c54c11398ce32d043979ac9b1_2812699414610071828.png",
+    "bounds": {
+      "north": 0.29598,
+      "west": 0.18885,
+      "south": 0.27899,
+      "east": 0.21011
+    },
+    "tile_bounds_13": {
+      "min_x": 4.29738666666708,
+      "min_y": 5.348597532061376,
+      "max_x": 4.7811697777779045,
+      "max_y": 5.735219289133511
+    },
+    "tile_bounds_15": {
+      "min_x": 17.18954666666832,
+      "min_y": 24.394390128245504,
+      "max_x": 19.124679111111618,
+      "max_y": 25.940877156534043
+    }
+  },
+  {
+    "id": 139,
+    "name": "B3",
+    "sid": 111,
+    "path": "overlays\\overlay_139.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/83cb58cded6e485380cb330958431736_8075557426902980128.png",
+    "bounds": {
+      "north": 0.2985,
+      "west": 0.19929,
+      "south": 0.28073,
+      "east": 0.21655
+    },
+    "tile_bounds_13": {
+      "min_x": 4.534954666666636,
+      "min_y": 5.3881926710619155,
+      "max_x": 4.927715555555551,
+      "max_y": 5.792564060808672
+    },
+    "tile_bounds_15": {
+      "min_x": 18.139818666666542,
+      "min_y": 24.552770684247662,
+      "max_x": 19.710862222222204,
+      "max_y": 26.17025624323469
+    }
+  },
+  {
+    "id": 140,
+    "name": "B1",
+    "sid": 112,
+    "path": "overlays\\overlay_140.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fc2a12a4bbafdc92da397f4f9b27bec6_3637306616843313448.png",
+    "bounds": {
+      "north": 0.21539,
+      "west": 0.11745,
+      "south": 0.20255,
+      "east": 0.1295
+    },
+    "tile_bounds_13": {
+      "min_x": 2.672639999999774,
+      "min_y": 3.609147378171201,
+      "max_x": 2.9468444444446504,
+      "max_y": 3.901330655450238
+    },
+    "tile_bounds_15": {
+      "min_x": 10.690559999999095,
+      "min_y": 17.436589512684805,
+      "max_x": 11.787377777778602,
+      "max_y": 18.60532262180095
+    }
+  },
+  {
+    "id": 141,
+    "name": "B2",
+    "sid": 112,
+    "path": "overlays\\overlay_141.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fc6ba74aae41d945cae64e4f04ec79e9_898029600148856604.png",
+    "bounds": {
+      "north": 0.21086,
+      "west": 0.10427,
+      "south": 0.19213,
+      "east": 0.12499
+    },
+    "tile_bounds_13": {
+      "min_x": 2.3727217777777696,
+      "min_y": 3.372033082544476,
+      "max_x": 2.8442168888886954,
+      "max_y": 3.798247275605263
+    },
+    "tile_bounds_15": {
+      "min_x": 9.490887111111078,
+      "min_y": 16.488132330177905,
+      "max_x": 11.376867555554782,
+      "max_y": 18.192989102421052
+    }
+  },
+  {
+    "id": 142,
+    "name": "B1",
+    "sid": 113,
+    "path": "overlays\\overlay_142.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/35a6a1a0bac09f2c463daded2acdf084_2307495856324368995.png",
+    "bounds": {
+      "north": 0.3032,
+      "west": -0.00453,
+      "south": 0.28053,
+      "east": 0.02561
+    },
+    "tile_bounds_13": {
+      "min_x": -0.10308266666652344,
+      "min_y": 5.383641505360174,
+      "max_x": 0.5827697777776848,
+      "max_y": 5.899516646349184
+    },
+    "tile_bounds_15": {
+      "min_x": -0.41233066666609375,
+      "min_y": 24.534566021440696,
+      "max_x": 2.331079111110739,
+      "max_y": 26.598066585396737
+    }
+  },
+  {
+    "id": 143,
+    "name": "B1",
+    "sid": 114,
+    "path": "overlays\\overlay_143.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/63face5f158a236855f2b6c039895662_2277918333210928796.png",
+    "bounds": {
+      "north": 0.21049,
+      "west": 0.14627,
+      "south": 0.2013,
+      "east": 0.16816
+    },
+    "tile_bounds_13": {
+      "min_x": 3.3284551111109977,
+      "min_y": 3.580702757079962,
+      "max_x": 3.826574222222007,
+      "max_y": 3.7898276631326553
+    },
+    "tile_bounds_15": {
+      "min_x": 13.31382044444399,
+      "min_y": 17.322811028319848,
+      "max_x": 15.306296888888028,
+      "max_y": 18.15931065253062
+    }
+  },
+  {
+    "id": 144,
+    "name": "B2",
+    "sid": 114,
+    "path": "overlays\\overlay_144.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1bf15eb27d52804893587e5fc974bb49_96954188550234556.png",
+    "bounds": {
+      "north": 0.21371,
+      "west": 0.15417,
+      "south": 0.19293,
+      "east": 0.17478
+    },
+    "tile_bounds_13": {
+      "min_x": 3.5082240000001548,
+      "min_y": 3.3902376297669434,
+      "max_x": 3.977216000000226,
+      "max_y": 3.8631010540866555
+    },
+    "tile_bounds_15": {
+      "min_x": 14.032896000000619,
+      "min_y": 16.560950519067774,
+      "max_x": 15.908864000000904,
+      "max_y": 18.452404216346622
+    }
+  },
+  {
+    "id": 145,
+    "name": "B1",
+    "sid": 115,
+    "path": "overlays\\overlay_145.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4ce6a598129037d5f05982495a936c97_6715480830374159353.png",
+    "bounds": {
+      "north": 0.33512,
+      "west": 0.19203,
+      "south": 0.31769,
+      "east": 0.21779
+    },
+    "tile_bounds_13": {
+      "min_x": 4.369749333332948,
+      "min_y": 6.229249487337711,
+      "max_x": 4.955932444444443,
+      "max_y": 6.625885258393737
+    },
+    "tile_bounds_15": {
+      "min_x": 17.47899733333179,
+      "min_y": 27.916997949350844,
+      "max_x": 19.82372977777777,
+      "max_y": 29.503541033574948
+    }
+  },
+  {
+    "id": 146,
+    "name": "B1",
+    "sid": 116,
+    "path": "overlays\\overlay_146.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2648de0b5240883fd9cb9b7e9be542a4_410019360115297488.png",
+    "bounds": {
+      "north": 0.22724,
+      "west": 0.15254,
+      "south": 0.21736,
+      "east": 0.16224
+    },
+    "tile_bounds_13": {
+      "min_x": 3.4711324444442653,
+      "min_y": 3.946159419561809,
+      "max_x": 3.6918613333336907,
+      "max_y": 4.170986000925495
+    },
+    "tile_bounds_15": {
+      "min_x": 13.884529777777061,
+      "min_y": 18.784637678247236,
+      "max_x": 14.767445333334763,
+      "max_y": 19.68394400370198
+    }
+  },
+  {
+    "id": 147,
+    "name": "B1",
+    "sid": 117,
+    "path": "overlays\\overlay_147.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/01f4d689e8dd6f0d9296f872f3908064_8358952627084807290.png",
+    "bounds": {
+      "north": 0.05933,
+      "west": -0.04057,
+      "south": 0.04173,
+      "east": -0.02245
+    },
+    "tile_bounds_13": {
+      "min_x": -0.9231928888889342,
+      "min_y": -0.05041058271353904,
+      "max_x": -0.510862222221931,
+      "max_y": 0.35008735238716326
+    },
+    "tile_bounds_15": {
+      "min_x": -3.692771555555737,
+      "min_y": 2.798357669145844,
+      "max_x": -2.043448888887724,
+      "max_y": 4.400349409548653
+    }
+  },
+  {
+    "id": 148,
+    "name": "B1",
+    "sid": 118,
+    "path": "overlays\\overlay_148.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/37597326ff46dd86c60cdc9c993705a9_1548900728171407813.png",
+    "bounds": {
+      "north": 0.1441,
+      "west": 0.31752,
+      "south": 0.12933,
+      "east": 0.33478
+    },
+    "tile_bounds_13": {
+      "min_x": 7.225344000000405,
+      "min_y": 1.9429784991325505,
+      "max_x": 7.618104888888411,
+      "max_y": 2.27907901242952
+    },
+    "tile_bounds_15": {
+      "min_x": 28.90137600000162,
+      "min_y": 10.771913996530202,
+      "max_x": 30.472419555553643,
+      "max_y": 12.11631604971808
+    }
+  },
+  {
+    "id": 150,
+    "name": "B1",
+    "sid": 119,
+    "path": "overlays\\overlay_150.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c7a718f9e70f10d265175c875db63a7f_3883355791388929558.png",
+    "bounds": {
+      "north": 0.17731,
+      "west": 0.24849,
+      "south": 0.1464,
+      "east": 0.2818
+    },
+    "tile_bounds_13": {
+      "min_x": 5.6545280000000275,
+      "min_y": 2.3314169583904913,
+      "max_x": 6.4125155555557285,
+      "max_y": 3.034793995641394
+    },
+    "tile_bounds_15": {
+      "min_x": 22.61811200000011,
+      "min_y": 12.325667833561965,
+      "max_x": 25.650062222222914,
+      "max_y": 15.139175982565575
+    }
+  },
+  {
+    "id": 151,
+    "name": "B1",
+    "sid": 120,
+    "path": "overlays\\overlay_151.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/468a5eb02ff727608710c53e99713823_7259495069836584276.png",
+    "bounds": {
+      "north": 0.14,
+      "west": 0.20023,
+      "south": 0.11922,
+      "east": 0.2332
+    },
+    "tile_bounds_13": {
+      "min_x": 4.556344888888816,
+      "min_y": 1.712919291000162,
+      "max_x": 5.306595555555759,
+      "max_y": 2.185780947897456
+    },
+    "tile_bounds_15": {
+      "min_x": 18.225379555555264,
+      "min_y": 9.851677164000648,
+      "max_x": 21.226382222223037,
+      "max_y": 11.743123791589824
+    }
+  },
+  {
+    "id": 152,
+    "name": "B1",
+    "sid": 121,
+    "path": "overlays\\overlay_152.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/90635e23b1838c5b78f05d81bc8443ed_850877299564618220.png",
+    "bounds": {
+      "north": 0.20905,
+      "west": 0.26804,
+      "south": 0.19343,
+      "east": 0.28788
+    },
+    "tile_bounds_13": {
+      "min_x": 6.099399111111779,
+      "min_y": 3.4016154722157808,
+      "max_x": 6.550869333333139,
+      "max_y": 3.7570594435155726
+    },
+    "tile_bounds_15": {
+      "min_x": 24.397596444447117,
+      "min_y": 16.606461888863123,
+      "max_x": 26.203477333332557,
+      "max_y": 18.02823777406229
+    }
+  },
+  {
+    "id": 153,
+    "name": "B1",
+    "sid": 122,
+    "path": "overlays\\overlay_153.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8a7aac418eaf5ec60a1c2d2d04ac71ee_7372761752834355864.png",
+    "bounds": {
+      "north": 0.19268,
+      "west": 0.26412,
+      "south": 0.1731,
+      "east": 0.28292
+    },
+    "tile_bounds_13": {
+      "min_x": 6.010197333333053,
+      "min_y": 2.9389926588228263,
+      "max_x": 6.438001777777572,
+      "max_y": 3.3845487086682624
+    },
+    "tile_bounds_15": {
+      "min_x": 24.040789333332214,
+      "min_y": 14.755970635291305,
+      "max_x": 25.752007111110288,
+      "max_y": 16.53819483467305
+    }
+  },
+  {
+    "id": 154,
+    "name": "B2",
+    "sid": 122,
+    "path": "overlays\\overlay_154.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/94b0f9bb84112d461635394f29a81397_6048403423114102950.png",
+    "bounds": {
+      "north": 0.19909,
+      "west": 0.26828,
+      "south": 0.18072,
+      "east": 0.28906
+    },
+    "tile_bounds_13": {
+      "min_x": 6.104860444444967,
+      "min_y": 3.112390818842414,
+      "max_x": 6.5777208888894165,
+      "max_y": 3.530412672316743
+    },
+    "tile_bounds_15": {
+      "min_x": 24.419441777779866,
+      "min_y": 15.449563275369655,
+      "max_x": 26.310883555557666,
+      "max_y": 17.12165068926697
+    }
+  },
+  {
+    "id": 155,
+    "name": "B1",
+    "sid": 123,
+    "path": "overlays\\overlay_155.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/4d40e220796705ddfe89825a8fa8609c_4875871630955351567.png",
+    "bounds": {
+      "north": 0.15648,
+      "west": 0.23793,
+      "south": 0.11063,
+      "east": 0.2788
+    },
+    "tile_bounds_13": {
+      "min_x": 5.414229333333424,
+      "min_y": 1.5174486753753627,
+      "max_x": 6.344248888888615,
+      "max_y": 2.56079375991294
+    },
+    "tile_bounds_15": {
+      "min_x": 21.656917333333695,
+      "min_y": 9.06979470150145,
+      "max_x": 25.37699555555446,
+      "max_y": 13.24317503965176
+    }
+  },
+  {
+    "id": 156,
+    "name": "B1",
+    "sid": 124,
+    "path": "overlays\\overlay_156.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7928dfcfc9876980c6c7c6144318da68_3266475714384044810.png",
+    "bounds": {
+      "north": 0.14234,
+      "west": 0.28685,
+      "south": 0.12182,
+      "east": 0.31741
+    },
+    "tile_bounds_13": {
+      "min_x": 6.527431111110673,
+      "min_y": 1.7720838663390168,
+      "max_x": 7.222840888888641,
+      "max_y": 2.239029109528474
+    },
+    "tile_bounds_15": {
+      "min_x": 26.10972444444269,
+      "min_y": 10.088335465356067,
+      "max_x": 28.891363555554562,
+      "max_y": 11.956116438113895
+    }
+  },
+  {
+    "id": 162,
+    "name": "B1",
+    "sid": 129,
+    "path": "overlays\\overlay_162.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/58c8f4eefe8ee23fef1da6b0eadd7691_7824486262150245731.png",
+    "bounds": {
+      "north": 0.11351,
+      "west": 0.09168,
+      "south": 0.09866,
+      "east": 0.13315
+    },
+    "tile_bounds_13": {
+      "min_x": 2.0862293333329944,
+      "min_y": 1.2450642205785698,
+      "max_x": 3.0299022222225176,
+      "max_y": 1.5829848007492728
+    },
+    "tile_bounds_15": {
+      "min_x": 8.344917333331978,
+      "min_y": 7.980256882314279,
+      "max_x": 12.11960888889007,
+      "max_y": 9.331939202997091
+    }
+  },
+  {
+    "id": 163,
+    "name": "B2",
+    "sid": 129,
+    "path": "overlays\\overlay_163.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b7460924af6eee7e2afdd0022109f2ae_537020172302316849.png",
+    "bounds": {
+      "north": 0.11222,
+      "west": 0.12051,
+      "south": 0.1002,
+      "east": 0.13399
+    },
+    "tile_bounds_13": {
+      "min_x": 2.7422719999995024,
+      "min_y": 1.2801078289030556,
+      "max_x": 3.0490168888891276,
+      "max_y": 1.5536300771286733
+    },
+    "tile_bounds_15": {
+      "min_x": 10.96908799999801,
+      "min_y": 8.120431315612223,
+      "max_x": 12.19606755555651,
+      "max_y": 9.214520308514693
+    }
+  },
+  {
+    "id": 164,
+    "name": "B3",
+    "sid": 129,
+    "path": "overlays\\overlay_164.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/606531a9445b1993fc0abf77c116d4fc_4453367036925503085.png",
+    "bounds": {
+      "north": 0.11377,
+      "west": 0.11922,
+      "south": 0.09728,
+      "east": 0.13236
+    },
+    "tile_bounds_13": {
+      "min_x": 2.71291733333328,
+      "min_y": 1.213661508003952,
+      "max_x": 3.011925333333238,
+      "max_y": 1.5889012568309226
+    },
+    "tile_bounds_15": {
+      "min_x": 10.85166933333312,
+      "min_y": 7.854646032015808,
+      "max_x": 12.047701333332952,
+      "max_y": 9.35560502732369
+    }
+  },
+  {
+    "id": 165,
+    "name": "B4",
+    "sid": 129,
+    "path": "overlays\\overlay_165.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1533e26bbcf4a960d73963f8bd5a725e_3354279742024322950.png",
+    "bounds": {
+      "north": 0.1078,
+      "west": 0.11802,
+      "south": 0.09054,
+      "east": 0.14026
+    },
+    "tile_bounds_13": {
+      "min_x": 2.6856106666664346,
+      "min_y": 1.0602888574576355,
+      "max_x": 3.191694222222395,
+      "max_y": 1.4530503361525007
+    },
+    "tile_bounds_15": {
+      "min_x": 10.742442666665738,
+      "min_y": 7.241155429830542,
+      "max_x": 12.76677688888958,
+      "max_y": 8.812201344610003
+    }
+  },
+  {
+    "id": 173,
+    "name": "B1",
+    "sid": 133,
+    "path": "overlays\\overlay_173.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6bb0a25671e4a0781a4d4e3af654dbe8_8009499527285203226.png",
+    "bounds": {
+      "north": -0.113,
+      "west": -0.32357,
+      "south": -0.1342,
+      "east": -0.30107
+    },
+    "tile_bounds_13": {
+      "min_x": -7.363015111111054,
+      "min_y": -4.053798347772499,
+      "max_x": -6.851015111111337,
+      "max_y": -3.5713794447437976
+    },
+    "tile_bounds_15": {
+      "min_x": -29.452060444444214,
+      "min_y": -13.215193391089997,
+      "max_x": -27.40406044444535,
+      "max_y": -11.28551777897519
+    }
+  },
+  {
+    "id": 174,
+    "name": "B1",
+    "sid": 134,
+    "path": "overlays\\overlay_174.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2341be7bb58ec971400786d6275351a0_4141683507766478002.png",
+    "bounds": {
+      "north": -0.09745,
+      "west": -0.29506,
+      "south": -0.12905,
+      "east": -0.26192
+    },
+    "tile_bounds_13": {
+      "min_x": -6.71425422222228,
+      "min_y": -3.936606927380126,
+      "max_x": -5.960135111111413,
+      "max_y": -3.2175299580339924
+    },
+    "tile_bounds_15": {
+      "min_x": -26.85701688888912,
+      "min_y": -12.746427709520503,
+      "max_x": -23.84054044444565,
+      "max_y": -9.87011983213597
+    }
+  },
+  {
+    "id": 175,
+    "name": "B1",
+    "sid": 135,
+    "path": "overlays\\overlay_175.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/91a87def60a4e105e7c0ed8e260bf84b_3916591247141986059.png",
+    "bounds": {
+      "north": -0.15593,
+      "west": -0.32623,
+      "south": -0.16812,
+      "east": -0.3143
+    },
+    "tile_bounds_13": {
+      "min_x": -7.423544888888955,
+      "min_y": -4.8256694897172565,
+      "max_x": -7.152071111111127,
+      "max_y": -4.548278157844834
+    },
+    "tile_bounds_15": {
+      "min_x": -29.69417955555582,
+      "min_y": -16.302677958869026,
+      "max_x": -28.608284444444507,
+      "max_y": -15.193112631379336
+    }
+  },
+  {
+    "id": 176,
+    "name": "B2",
+    "sid": 135,
+    "path": "overlays\\overlay_176.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6119b458fe9e4b31ded4f645c46eb1de_246280011885645010.png",
+    "bounds": {
+      "north": -0.15945,
+      "west": -0.32632,
+      "south": -0.16387,
+      "east": -0.3185
+    },
+    "tile_bounds_13": {
+      "min_x": -7.425592888889241,
+      "min_y": -4.728957972709395,
+      "max_x": -7.2476444444446315,
+      "max_y": -4.628378016777788
+    },
+    "tile_bounds_15": {
+      "min_x": -29.702371555556965,
+      "min_y": -15.91583189083758,
+      "max_x": -28.990577777778526,
+      "max_y": -15.51351206711115
+    }
+  },
+  {
+    "id": 177,
+    "name": "B1",
+    "sid": 136,
+    "path": "overlays\\overlay_177.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/31339771049bf02d2cdbdd88e85c21fe_2004059375243785100.png",
+    "bounds": {
+      "north": -0.19663,
+      "west": -0.22826,
+      "south": -0.22101,
+      "east": -0.2135
+    },
+    "tile_bounds_13": {
+      "min_x": -5.194183111111215,
+      "min_y": -6.029217805109511,
+      "max_x": -4.858311111111561,
+      "max_y": -5.4744336718622435
+    },
+    "tile_bounds_15": {
+      "min_x": -20.77673244444486,
+      "min_y": -21.116871220438043,
+      "max_x": -19.433244444446245,
+      "max_y": -18.897734687448974
+    }
+  },
+  {
+    "id": 178,
+    "name": "B1",
+    "sid": 137,
+    "path": "overlays\\overlay_178.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/14c56ba07b093aa219cbdb62e45f74f2_1062647677851851316.png",
+    "bounds": {
+      "north": -0.14537,
+      "west": -0.28605,
+      "south": -0.1737,
+      "east": -0.24836
+    },
+    "tile_bounds_13": {
+      "min_x": -6.509226666666564,
+      "min_y": -4.952646054682191,
+      "max_x": -5.651569777777695,
+      "max_y": -4.30797866019293
+    },
+    "tile_bounds_15": {
+      "min_x": -26.036906666666255,
+      "min_y": -16.810584218728764,
+      "max_x": -22.60627911111078,
+      "max_y": -14.23191464077172
+    }
+  },
+  {
+    "id": 179,
+    "name": "B1",
+    "sid": 138,
+    "path": "overlays\\overlay_179.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9bba4a1dd895429f0d5a2f036cf61827_2867591550109372546.png",
+    "bounds": {
+      "north": -0.18469,
+      "west": -0.32125,
+      "south": -0.21689,
+      "east": -0.24475
+    },
+    "tile_bounds_13": {
+      "min_x": -7.31022222222191,
+      "min_y": -5.935464231655715,
+      "max_x": -5.569422222222329,
+      "max_y": -5.202730833725582
+    },
+    "tile_bounds_15": {
+      "min_x": -29.24088888888764,
+      "min_y": -20.74185692662286,
+      "max_x": -22.277688888889315,
+      "max_y": -17.810923334902327
+    }
+  },
+  {
+    "id": 180,
+    "name": "B1",
+    "sid": 139,
+    "path": "overlays\\overlay_180.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e723796c6546d1d8f9ff7944915812bc_4500321966615252922.png",
+    "bounds": {
+      "north": -0.15387,
+      "west": -0.22878,
+      "south": -0.17104,
+      "east": -0.21058
+    },
+    "tile_bounds_13": {
+      "min_x": -5.206016000000091,
+      "min_y": -4.89211600298222,
+      "max_x": -4.79186488888854,
+      "max_y": -4.5014015420874784
+    },
+    "tile_bounds_15": {
+      "min_x": -20.824064000000362,
+      "min_y": -16.56846401192888,
+      "max_x": -19.16745955555416,
+      "max_y": -15.005606168349914
+    }
+  },
+  {
+    "id": 181,
+    "name": "B1",
+    "sid": 140,
+    "path": "overlays\\overlay_181.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/598f245bf03657ca4449d18d8a1d11b5_3436507418759030804.png",
+    "bounds": {
+      "north": -0.18542,
+      "west": -0.27081,
+      "south": -0.20792,
+      "east": -0.24943
+    },
+    "tile_bounds_13": {
+      "min_x": -6.162432000000081,
+      "min_y": -5.731345495504684,
+      "max_x": -5.675918222222208,
+      "max_y": -5.219342475925259
+    },
+    "tile_bounds_15": {
+      "min_x": -24.649728000000323,
+      "min_y": -19.925381982018735,
+      "max_x": -22.703672888888832,
+      "max_y": -17.877369903701037
+    }
+  },
+  {
+    "id": 182,
+    "name": "B1",
+    "sid": 141,
+    "path": "overlays\\overlay_182.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/c7ebf8b1e6af65937c96b78fa149892e_6062639180879164965.png",
+    "bounds": {
+      "north": -0.18916,
+      "west": -0.26106,
+      "south": -0.20693,
+      "east": -0.24501
+    },
+    "tile_bounds_13": {
+      "min_x": -5.94056533333287,
+      "min_y": -5.708817347875993,
+      "max_x": -5.575338666666994,
+      "max_y": -5.304448708408017
+    },
+    "tile_bounds_15": {
+      "min_x": -23.76226133333148,
+      "min_y": -19.83526939150397,
+      "max_x": -22.301354666667976,
+      "max_y": -18.21779483363207
+    }
+  },
+  {
+    "id": 183,
+    "name": "B1",
+    "sid": 142,
+    "path": "overlays\\overlay_183.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/90c0347c8609f1b99f7a0cf455f4f907_4915753725993266543.png",
+    "bounds": {
+      "north": -0.10484,
+      "west": -0.21392,
+      "south": -0.12871,
+      "east": -0.17365
+    },
+    "tile_bounds_13": {
+      "min_x": -4.867868444444412,
+      "min_y": -3.9288700189181327,
+      "max_x": -3.9515022222226435,
+      "max_y": -3.385693775733671
+    },
+    "tile_bounds_15": {
+      "min_x": -19.471473777777646,
+      "min_y": -12.71548007567253,
+      "max_x": -15.806008888890574,
+      "max_y": -10.542775102934684
+    }
+  },
+  {
+    "id": 184,
+    "name": "L1",
+    "sid": 143,
+    "path": "overlays\\overlay_184.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3acc296fd5e5f246c6ffe4946b1d7c5c_7034178786659702049.png",
+    "bounds": {
+      "north": -0.22539,
+      "west": -0.28966,
+      "south": -0.26377,
+      "east": -0.25497
+    },
+    "tile_bounds_13": {
+      "min_x": -6.591374222222385,
+      "min_y": -7.002254090527458,
+      "max_x": -5.80198399999972,
+      "max_y": -6.128887894738
+    },
+    "tile_bounds_15": {
+      "min_x": -26.36549688888954,
+      "min_y": -25.009016362109833,
+      "max_x": -23.20793599999888,
+      "max_y": -21.515551578952
+    }
+  },
+  {
+    "id": 185,
+    "name": "B1",
+    "sid": 144,
+    "path": "overlays\\overlay_185.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6fb8e793b9e15d3b46cc68d0403f946a_8254434712521741473.png",
+    "bounds": {
+      "north": -0.22848,
+      "west": -0.28425,
+      "south": -0.24368,
+      "east": -0.27326
+    },
+    "tile_bounds_13": {
+      "min_x": -6.468266666666295,
+      "min_y": -6.545090494554643,
+      "max_x": -6.218183111111102,
+      "max_y": -6.1992031129530005
+    },
+    "tile_bounds_15": {
+      "min_x": -25.87306666666518,
+      "min_y": -23.18036197821857,
+      "max_x": -24.87273244444441,
+      "max_y": -21.796812451812002
+    }
+  },
+  {
+    "id": 186,
+    "name": "B2",
+    "sid": 144,
+    "path": "overlays\\overlay_186.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7970e21d9b0b1978f7a4012c6d65ede8_4034327275019997445.png",
+    "bounds": {
+      "north": -0.22779,
+      "west": -0.29343,
+      "south": -0.25046,
+      "east": -0.26759
+    },
+    "tile_bounds_13": {
+      "min_x": -6.677162666666845,
+      "min_y": -6.699374595760673,
+      "max_x": -6.0891591111112575,
+      "max_y": -6.183501655154032
+    },
+    "tile_bounds_15": {
+      "min_x": -26.70865066666738,
+      "min_y": -23.797498383042694,
+      "max_x": -24.35663644444503,
+      "max_y": -21.734006620616128
+    }
+  },
+  {
+    "id": 187,
+    "name": "B1",
+    "sid": 145,
+    "path": "overlays\\overlay_187.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f2da79bad5deb356cfcb8d43da1d5036_4111063270545792029.png",
+    "bounds": {
+      "north": -0.17404,
+      "west": -0.20603,
+      "south": -0.1901,
+      "east": -0.19383
+    },
+    "tile_bounds_13": {
+      "min_x": -4.688327111110993,
+      "min_y": -5.325839047784029,
+      "max_x": -4.410709333333216,
+      "max_y": -4.960382979195856
+    },
+    "tile_bounds_15": {
+      "min_x": -18.753308444443974,
+      "min_y": -18.303356191136118,
+      "max_x": -17.642837333332864,
+      "max_y": -16.841531916783424
+    }
+  },
+  {
+    "id": 188,
+    "name": "B2",
+    "sid": 145,
+    "path": "overlays\\overlay_188.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f3981d937741bcd6f38bc2be92238f91_4247912603273700474.png",
+    "bounds": {
+      "north": -0.17353,
+      "west": -0.21684,
+      "south": -0.20161,
+      "east": -0.18121
+    },
+    "tile_bounds_13": {
+      "min_x": -4.934314666666523,
+      "min_y": -5.5877570229067715,
+      "max_x": -4.123534222222133,
+      "max_y": -4.948777592478109
+    },
+    "tile_bounds_15": {
+      "min_x": -19.737258666666094,
+      "min_y": -19.351028091627086,
+      "max_x": -16.494136888888534,
+      "max_y": -16.795110369912436
+    }
+  },
+  {
+    "id": 189,
+    "name": "B1",
+    "sid": 146,
+    "path": "overlays\\overlay_189.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/892feef96931b82f4c0c0f23d48064bb_6777006216662304319.png",
+    "bounds": {
+      "north": -0.10441,
+      "west": -0.29781,
+      "south": -0.1482,
+      "east": -0.23402
+    },
+    "tile_bounds_13": {
+      "min_x": -6.776832000000013,
+      "min_y": -4.37237709375222,
+      "max_x": -5.3252551111108914,
+      "max_y": -3.3759088705310205
+    },
+    "tile_bounds_15": {
+      "min_x": -27.107328000000052,
+      "min_y": -14.489508375008882,
+      "max_x": -21.301020444443566,
+      "max_y": -10.503635482124082
+    }
+  },
+  {
+    "id": 190,
+    "name": "B2",
+    "sid": 146,
+    "path": "overlays\\overlay_190.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/8ff8d219a73fb85216474fd198039705_5332781363792967969.png",
+    "bounds": {
+      "north": -0.13772,
+      "west": -0.29292,
+      "south": -0.16116,
+      "east": -0.27592
+    },
+    "tile_bounds_13": {
+      "min_x": -6.665557333333709,
+      "min_y": -4.6672901690799335,
+      "max_x": -6.278712888889004,
+      "max_y": -4.133898128856345
+    },
+    "tile_bounds_15": {
+      "min_x": -26.662229333334835,
+      "min_y": -15.669160676319734,
+      "max_x": -25.114851555556015,
+      "max_y": -13.535592515425378
+    }
+  },
+  {
+    "id": 191,
+    "name": "B1",
+    "sid": 147,
+    "path": "overlays\\overlay_191.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/15c449f1d7f87dab1cb0d0552bfa7e9a_2088971514859696459.png",
+    "bounds": {
+      "north": -0.11222,
+      "west": -0.23445,
+      "south": -0.11892,
+      "east": -0.22577
+    },
+    "tile_bounds_13": {
+      "min_x": -5.33504000000039,
+      "min_y": -3.706092609591906,
+      "max_x": -5.137521777778147,
+      "max_y": -3.5536300771282185
+    },
+    "tile_bounds_15": {
+      "min_x": -21.34016000000156,
+      "min_y": -11.824370438367623,
+      "max_x": -20.55008711111259,
+      "max_y": -11.214520308512874
+    }
+  },
+  {
+    "id": 192,
+    "name": "B2",
+    "sid": 147,
+    "path": "overlays\\overlay_192.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e67e67316b5d14d899f9b0d050b6a826_8014638879966790669.png",
+    "bounds": {
+      "north": -0.11016,
+      "west": -0.2487,
+      "south": -0.14854,
+      "east": -0.22019
+    },
+    "tile_bounds_13": {
+      "min_x": -5.659306666666907,
+      "min_y": -4.380114008582495,
+      "max_x": -5.010545777777679,
+      "max_y": -3.5067535444113673
+    },
+    "tile_bounds_15": {
+      "min_x": -22.63722666666763,
+      "min_y": -14.520456034329982,
+      "max_x": -20.042183111110717,
+      "max_y": -11.02701417764547
+    }
+  },
+  {
+    "id": 193,
+    "name": "B1",
+    "sid": 148,
+    "path": "overlays\\overlay_193.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a6dfcf1b4b49f4a65191f0d2170e1b83_9205952717672369499.png",
+    "bounds": {
+      "north": -0.14665,
+      "west": -0.24621,
+      "south": -0.18023,
+      "east": -0.20439
+    },
+    "tile_bounds_13": {
+      "min_x": -5.60264533333293,
+      "min_y": -5.101240541304833,
+      "max_x": -4.65100799999982,
+      "max_y": -4.337105865882222
+    },
+    "tile_bounds_15": {
+      "min_x": -22.41058133333172,
+      "min_y": -17.40496216521933,
+      "max_x": -18.60403199999928,
+      "max_y": -14.348423463528889
+    }
+  },
+  {
+    "id": 194,
+    "name": "B2",
+    "sid": 148,
+    "path": "overlays\\overlay_194.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1d3ccb0809857dd860df098c80847800_2354739476237972176.png",
+    "bounds": {
+      "north": -0.13905,
+      "west": -0.2432,
+      "south": -0.17726,
+      "east": -0.21161
+    },
+    "tile_bounds_13": {
+      "min_x": -5.534151111110987,
+      "min_y": -5.033656212416645,
+      "max_x": -4.8153031111114615,
+      "max_y": -4.164163106021988
+    },
+    "tile_bounds_15": {
+      "min_x": -22.136604444443947,
+      "min_y": -17.13462484966658,
+      "max_x": -19.261212444445846,
+      "max_y": -13.656652424087952
+    }
+  },
+  {
+    "id": 195,
+    "name": "B1",
+    "sid": 149,
+    "path": "overlays\\overlay_195.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/cecf167c5e121a6175bf70c0794ec41b_662953795542529362.png",
+    "bounds": {
+      "north": -0.21703,
+      "west": -0.2667,
+      "south": -0.24834,
+      "east": -0.24589
+    },
+    "tile_bounds_13": {
+      "min_x": -6.0689066666664075,
+      "min_y": -6.651132360951124,
+      "max_x": -5.59536355555565,
+      "max_y": -5.938650032274381
+    },
+    "tile_bounds_15": {
+      "min_x": -24.27562666666563,
+      "min_y": -23.604529443804495,
+      "max_x": -22.3814542222226,
+      "max_y": -20.754600129097525
+    }
+  },
+  {
+    "id": 196,
+    "name": "B1",
+    "sid": 150,
+    "path": "overlays\\overlay_196.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/35c5535f70fcacd7f4719613ebcea61a_8073987056463453485.png",
+    "bounds": {
+      "north": 0.35204,
+      "west": 0.16361,
+      "south": 0.33692,
+      "east": 0.1746
+    },
+    "tile_bounds_13": {
+      "min_x": 3.723036444444915,
+      "min_y": 6.6668459627981065,
+      "max_x": 3.9731199999996534,
+      "max_y": 7.010916182481196
+    },
+    "tile_bounds_15": {
+      "min_x": 14.89214577777966,
+      "min_y": 29.667383851192426,
+      "max_x": 15.892479999998613,
+      "max_y": 31.043664729924785
+    }
+  },
+  {
+    "id": 197,
+    "name": "B1",
+    "sid": 151,
+    "path": "overlays\\overlay_197.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/cfe26c9a30cd02c6324e00d6526d39f8_6425712042519404036.png",
+    "bounds": {
+      "north": -0.12648,
+      "west": -0.38462,
+      "south": -0.14811,
+      "east": -0.36865
+    },
+    "tile_bounds_13": {
+      "min_x": -8.752241777778181,
+      "min_y": -4.3703290869061675,
+      "max_x": -8.388835555555488,
+      "max_y": -3.878125004195681
+    },
+    "tile_bounds_15": {
+      "min_x": -35.008967111112725,
+      "min_y": -14.48131634762467,
+      "max_x": -33.55534222222195,
+      "max_y": -12.512500016782724
+    }
+  },
+  {
+    "id": 198,
+    "name": "B1",
+    "sid": 152,
+    "path": "overlays\\overlay_198.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f18d1404f571664c2d6e905f887bcdfb_2556599135883310175.png",
+    "bounds": {
+      "north": -0.09393,
+      "west": -0.3562,
+      "south": -0.13326,
+      "east": -0.33302
+    },
+    "tile_bounds_13": {
+      "min_x": -8.105528888888784,
+      "min_y": -4.03240806728536,
+      "max_x": -7.578055111111098,
+      "max_y": -3.137430290757038
+    },
+    "tile_bounds_15": {
+      "min_x": -32.42211555555514,
+      "min_y": -13.129632269141439,
+      "max_x": -30.312220444444392,
+      "max_y": -9.549721163028153
+    }
+  },
+  {
+    "id": 199,
+    "name": "B1",
+    "sid": 153,
+    "path": "overlays\\overlay_199.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6547efd4287745dcf8d14af8edd24128_8419845686256158054.png",
+    "bounds": {
+      "north": -0.11428,
+      "west": -0.35628,
+      "south": -0.13395,
+      "east": -0.32992
+    },
+    "tile_bounds_13": {
+      "min_x": -8.107349333333332,
+      "min_y": -4.048109443307112,
+      "max_x": -7.507512888888414,
+      "max_y": -3.6005066131465355
+    },
+    "tile_bounds_15": {
+      "min_x": -32.42939733333333,
+      "min_y": -13.192437773228448,
+      "max_x": -30.030051555553655,
+      "max_y": -11.402026452586142
+    }
+  },
+  {
+    "id": 200,
+    "name": "B2",
+    "sid": 153,
+    "path": "overlays\\overlay_200.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/877c73d3d33ef706645d9bc565b31c73_5897252478219371090.png",
+    "bounds": {
+      "north": -0.11703,
+      "west": -0.33688,
+      "south": -0.13609,
+      "east": -0.32091
+    },
+    "tile_bounds_13": {
+      "min_x": -7.665891555555845,
+      "min_y": -4.096806467413444,
+      "max_x": -7.302485333333152,
+      "max_y": -3.663084518419055
+    },
+    "tile_bounds_15": {
+      "min_x": -30.66356622222338,
+      "min_y": -13.387225869653776,
+      "max_x": -29.20994133333261,
+      "max_y": -11.65233807367622
+    }
+  },
+  {
+    "id": 201,
+    "name": "B3",
+    "sid": 153,
+    "path": "overlays\\overlay_201.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a52911908b50bdb6cb80ec81f80cd36c_6381409856773908359.png",
+    "bounds": {
+      "north": -0.12699,
+      "west": -0.33946,
+      "south": -0.14219,
+      "east": -0.32297
+    },
+    "tile_bounds_13": {
+      "min_x": -7.7246008888887445,
+      "min_y": -4.235615765673174,
+      "max_x": -7.349361777777631,
+      "max_y": -3.889730365919604
+    },
+    "tile_bounds_15": {
+      "min_x": -30.898403555554978,
+      "min_y": -13.942463062692696,
+      "max_x": -29.397447111110523,
+      "max_y": -12.558921463678416
+    }
+  },
+  {
+    "id": 202,
+    "name": "L1",
+    "sid": 154,
+    "path": "overlays\\overlay_202.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e12f1cfe92ee0442592d306cbfe3fc66_8662294345174743849.png",
+    "bounds": {
+      "north": -0.00335,
+      "west": -0.41879,
+      "south": -0.02971,
+      "east": -0.38883
+    },
+    "tile_bounds_13": {
+      "min_x": -9.52979911111106,
+      "min_y": -1.6760675858522518,
+      "max_x": -8.84804266666697,
+      "max_y": -1.0762311111548115
+    },
+    "tile_bounds_15": {
+      "min_x": -38.11919644444424,
+      "min_y": -3.704270343409007,
+      "max_x": -35.39217066666788,
+      "max_y": -1.304924444619246
+    }
+  },
+  {
+    "id": 203,
+    "name": "B1",
+    "sid": 155,
+    "path": "overlays\\overlay_203.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/df1becf2fb559d12d81d50d2e7f41c9f_8355528697519235415.png",
+    "bounds": {
+      "north": 0.07461,
+      "west": -0.48147,
+      "south": 0.01623,
+      "east": -0.44258
+    },
+    "tile_bounds_13": {
+      "min_x": -10.956117333333168,
+      "min_y": -0.6306773283940856,
+      "max_x": -10.071153777777454,
+      "max_y": 0.6977924798243293
+    },
+    "tile_bounds_15": {
+      "min_x": -43.82446933333267,
+      "min_y": 0.47729068642365746,
+      "max_x": -40.284615111109815,
+      "max_y": 5.791169919297317
+    }
+  },
+  {
+    "id": 204,
+    "name": "B1",
+    "sid": 156,
+    "path": "overlays\\overlay_204.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f59bbffb77d720bf43c8b2da6342a1ad_7916829404064238828.png",
+    "bounds": {
+      "north": -0.00361,
+      "west": -0.41347,
+      "south": -0.01915,
+      "east": -0.39303
+    },
+    "tile_bounds_13": {
+      "min_x": -9.408739555555258,
+      "min_y": -1.4357688970021627,
+      "max_x": -8.94361600000002,
+      "max_y": -1.082147555609481
+    },
+    "tile_bounds_15": {
+      "min_x": -37.63495822222103,
+      "min_y": -2.743075588008651,
+      "max_x": -35.77446400000008,
+      "max_y": -1.3285902224379242
+    }
+  },
+  {
+    "id": 205,
+    "name": "B2",
+    "sid": 156,
+    "path": "overlays\\overlay_205.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b80d3ebd5486cad536e9a9e5df87686c_2342490423987179439.png",
+    "bounds": {
+      "north": -0.0055,
+      "west": -0.40849,
+      "south": -0.02138,
+      "east": -0.39741
+    },
+    "tile_bounds_13": {
+      "min_x": -9.295416888889122,
+      "min_y": -1.48651378906834,
+      "max_x": -9.043285333333642,
+      "max_y": -1.1251555557473694
+    },
+    "tile_bounds_15": {
+      "min_x": -37.18166755555649,
+      "min_y": -2.94605515627336,
+      "max_x": -36.17314133333457,
+      "max_y": -1.5006222229894775
+    }
+  },
+  {
+    "id": 206,
+    "name": "B1",
+    "sid": 157,
+    "path": "overlays\\overlay_206.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f834eeb6294d0d82e91385565734e293_3549746299489550712.png",
+    "bounds": {
+      "north": -0.02335,
+      "west": -0.39467,
+      "south": -0.04327,
+      "east": -0.37921
+    },
+    "tile_bounds_13": {
+      "min_x": -8.980935111110739,
+      "min_y": -1.9846329824840723,
+      "max_x": -8.629134222222092,
+      "max_y": -1.5313422369299587
+    },
+    "tile_bounds_15": {
+      "min_x": -35.923740444442956,
+      "min_y": -4.938531929936289,
+      "max_x": -34.51653688888837,
+      "max_y": -3.125368947719835
+    }
+  },
+  {
+    "id": 207,
+    "name": "B2",
+    "sid": 157,
+    "path": "overlays\\overlay_207.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b138932681849212ae52a388274b878f_3500083352355446524.png",
+    "bounds": {
+      "north": -0.02018,
+      "west": -0.39398,
+      "south": -0.03829,
+      "east": -0.37002
+    },
+    "tile_bounds_13": {
+      "min_x": -8.96523377777794,
+      "min_y": -1.871310287077904,
+      "max_x": -8.420010666666712,
+      "max_y": -1.4592071206052424
+    },
+    "tile_bounds_15": {
+      "min_x": -35.86093511111176,
+      "min_y": -4.485241148311616,
+      "max_x": -33.68004266666685,
+      "max_y": -2.8368284824209695
+    }
+  },
+  {
+    "id": 208,
+    "name": "B3",
+    "sid": 157,
+    "path": "overlays\\overlay_208.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/32ba6bd3f9d2c0007cdfa92142c115dc_4609117903091373897.png",
+    "bounds": {
+      "north": -0.02335,
+      "west": -0.37655,
+      "south": -0.04576,
+      "east": -0.35233
+    },
+    "tile_bounds_13": {
+      "min_x": -8.568604444444645,
+      "min_y": -2.0412943329229165,
+      "max_x": -8.017464888888753,
+      "max_y": -1.5313422369299587
+    },
+    "tile_bounds_15": {
+      "min_x": -34.27441777777858,
+      "min_y": -5.165177331691666,
+      "max_x": -32.06985955555501,
+      "max_y": -3.125368947719835
+    }
+  },
+  {
+    "id": 209,
+    "name": "B4",
+    "sid": 157,
+    "path": "overlays\\overlay_209.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/55bc9b00766f097e39f5cc97b186a4d7_580911588972912882.png",
+    "bounds": {
+      "north": -0.00756,
+      "west": -0.37578,
+      "south": -0.03228,
+      "east": -0.3556
+    },
+    "tile_bounds_13": {
+      "min_x": -8.551082666666389,
+      "min_y": -1.7345493721923049,
+      "max_x": -8.091875555555816,
+      "max_y": -1.1720320004988025
+    },
+    "tile_bounds_15": {
+      "min_x": -34.204330666665555,
+      "min_y": -3.9381974887692195,
+      "max_x": -32.367502222223266,
+      "max_y": -1.68812800199521
+    }
+  },
+  {
+    "id": 210,
+    "name": "B5",
+    "sid": 157,
+    "path": "overlays\\overlay_210.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ba5a69bb4a1a29e67a7b8fbe80ef3a68_2275517407009830282.png",
+    "bounds": {
+      "north": -0.02748,
+      "west": -0.3823,
+      "south": -0.05143,
+      "east": -0.35963
+    },
+    "tile_bounds_13": {
+      "min_x": -8.699448888888583,
+      "min_y": -2.1703183793815697,
+      "max_x": -8.183580444444488,
+      "max_y": -1.6253226906410418
+    },
+    "tile_bounds_15": {
+      "min_x": -34.79779555555433,
+      "min_y": -5.681273517526279,
+      "max_x": -32.73432177777795,
+      "max_y": -3.5012907625641674
+    }
+  },
+  {
+    "id": 211,
+    "name": "B1",
+    "sid": 158,
+    "path": "overlays\\overlay_211.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/5e9d563270ab4d570c0e436d5c3b33d4_7296618539977586156.png",
+    "bounds": {
+      "north": -0.00455,
+      "west": -0.43365,
+      "south": -0.0158,
+      "east": -0.42257
+    },
+    "tile_bounds_13": {
+      "min_x": -9.86794666666674,
+      "min_y": -1.3595377823348826,
+      "max_x": -9.61581511111126,
+      "max_y": -1.1035377778862312
+    },
+    "tile_bounds_15": {
+      "min_x": -39.47178666666696,
+      "min_y": -2.4381511293395306,
+      "max_x": -38.46326044444504,
+      "max_y": -1.4141511115449248
+    }
+  },
+  {
+    "id": 212,
+    "name": "B2",
+    "sid": 158,
+    "path": "overlays\\overlay_212.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/fcf6962b0a67446f3ad9bc03c7f47e1d_7569453660618584169.png",
+    "bounds": {
+      "north": -0.00704,
+      "west": -0.43425,
+      "south": -0.02224,
+      "east": -0.41433
+    },
+    "tile_bounds_13": {
+      "min_x": -9.881599999999708,
+      "min_y": -1.50608356826433,
+      "max_x": -9.428309333333345,
+      "max_y": -1.1601991115139754
+    },
+    "tile_bounds_15": {
+      "min_x": -39.52639999999883,
+      "min_y": -3.0243342730573204,
+      "max_x": -37.71323733333338,
+      "max_y": -1.6407964460559015
+    }
+  },
+  {
+    "id": 213,
+    "name": "B3",
+    "sid": 158,
+    "path": "overlays\\overlay_213.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ee23f21db703cd069d3fa81d5aad7b60_8116175979177648291.png",
+    "bounds": {
+      "north": -0.01357,
+      "west": -0.43399,
+      "south": -0.02224,
+      "east": -0.41441
+    },
+    "tile_bounds_13": {
+      "min_x": -9.875683555555497,
+      "min_y": -1.50608356826433,
+      "max_x": -9.430129777777893,
+      "max_y": -1.308792891775738
+    },
+    "tile_bounds_15": {
+      "min_x": -39.50273422222199,
+      "min_y": -3.0243342730573204,
+      "max_x": -37.72051911111157,
+      "max_y": -2.2351715671029524
+    }
+  },
+  {
+    "id": 214,
+    "name": "B1",
+    "sid": 159,
+    "path": "overlays\\overlay_214.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/79ea7b6a491f5b7c28ccde6b53e154b7_6688712301162510256.png",
+    "bounds": {
+      "north": -0.03022,
+      "west": -0.39518,
+      "south": -0.03838,
+      "east": -0.38591
+    },
+    "tile_bounds_13": {
+      "min_x": -8.992540444444785,
+      "min_y": -1.8733582875365755,
+      "max_x": -8.781596444444403,
+      "max_y": -1.6876729207724566
+    },
+    "tile_bounds_15": {
+      "min_x": -35.97016177777914,
+      "min_y": -4.493433150146302,
+      "max_x": -35.126385777777614,
+      "max_y": -3.7506916830898263
+    }
+  },
+  {
+    "id": 215,
+    "name": "B1",
+    "sid": 160,
+    "path": "overlays\\overlay_215.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/bfc8903293d813e9b1400cb5317ab4f1_7023116803620046515.png",
+    "bounds": {
+      "north": -0.02945,
+      "west": -0.43133,
+      "south": -0.04456,
+      "east": -0.41931
+    },
+    "tile_bounds_13": {
+      "min_x": -9.81515377777805,
+      "min_y": -2.013987657773214,
+      "max_x": -9.541631999999936,
+      "max_y": -1.6701511406199643
+    },
+    "tile_bounds_15": {
+      "min_x": -39.2606151111122,
+      "min_y": -5.0559506310928555,
+      "max_x": -38.166527999999744,
+      "max_y": -3.680604562479857
+    }
+  },
+  {
+    "id": 216,
+    "name": "B2",
+    "sid": 160,
+    "path": "overlays\\overlay_216.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/563c07a15abb1145f6d57a711720fb73_2036228727460905291.png",
+    "bounds": {
+      "north": -0.02902,
+      "west": -0.43141,
+      "south": -0.04413,
+      "east": -0.41939
+    },
+    "tile_bounds_13": {
+      "min_x": -9.816974222222143,
+      "min_y": -2.004202765953778,
+      "max_x": -9.543452444444483,
+      "max_y": -1.6603662504567183
+    },
+    "tile_bounds_15": {
+      "min_x": -39.26789688888857,
+      "min_y": -5.016811063815112,
+      "max_x": -38.17380977777793,
+      "max_y": -3.641465001826873
+    }
+  },
+  {
+    "id": 217,
+    "name": "B1",
+    "sid": 161,
+    "path": "overlays\\overlay_217.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/479d6a4cf0bf73b3c4dbb1f049be0c93_8216215685201232637.png",
+    "bounds": {
+      "north": 0.02301,
+      "west": -0.41029,
+      "south": 0.01477,
+      "east": -0.3993
+    },
+    "tile_bounds_13": {
+      "min_x": -9.336376888888935,
+      "min_y": -0.6639004407220455,
+      "max_x": -9.086293333333742,
+      "max_y": -0.47639465259180724
+    },
+    "tile_bounds_15": {
+      "min_x": -37.34550755555574,
+      "min_y": 0.34439823711181816,
+      "max_x": -36.34517333333497,
+      "max_y": 1.094421389632771
+    }
+  },
+  {
+    "id": 218,
+    "name": "B2",
+    "sid": 161,
+    "path": "overlays\\overlay_218.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/31d7be35b4c2076df4a0e5433646d56b_7810177890897984129.png",
+    "bounds": {
+      "north": 0.02396,
+      "west": -0.40737,
+      "south": 0.01468,
+      "east": -0.39398
+    },
+    "tile_bounds_13": {
+      "min_x": -9.269930666666369,
+      "min_y": -0.6659484407896343,
+      "max_x": -8.96523377777794,
+      "max_y": -0.45477687299808167
+    },
+    "tile_bounds_15": {
+      "min_x": -37.079722666665475,
+      "min_y": 0.33620623684146267,
+      "max_x": -35.86093511111176,
+      "max_y": 1.1808925080076733
+    }
+  },
+  {
+    "id": 219,
+    "name": "B1",
+    "sid": 162,
+    "path": "overlays\\overlay_219.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1de060860dd25eaf7620ffb0da0e664f_4121742383039561203.png",
+    "bounds": {
+      "north": -0.00575,
+      "west": -0.40617,
+      "south": -0.01932,
+      "east": -0.39278
+    },
+    "tile_bounds_13": {
+      "min_x": -9.242623999999978,
+      "min_y": -1.4396373416648203,
+      "max_x": -8.937927111110639,
+      "max_y": -1.130844444664035
+    },
+    "tile_bounds_15": {
+      "min_x": -36.97049599999991,
+      "min_y": -2.758549366659281,
+      "max_x": -35.751708444442556,
+      "max_y": -1.5233777786561404
+    }
+  },
+  {
+    "id": 220,
+    "name": "B1",
+    "sid": 163,
+    "path": "overlays\\overlay_220.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e1eee66a32209b06a8321769e6287687_3514235859604181842.png",
+    "bounds": {
+      "north": -0.15112,
+      "west": -0.37732,
+      "south": -0.17155,
+      "east": -0.35105
+    },
+    "tile_bounds_13": {
+      "min_x": -8.586126222221992,
+      "min_y": -4.903721388180202,
+      "max_x": -7.98833777777736,
+      "max_y": -4.438823542658611
+    },
+    "tile_bounds_15": {
+      "min_x": -34.34450488888797,
+      "min_y": -16.614885552720807,
+      "max_x": -31.95335111110944,
+      "max_y": -14.755294170634443
+    }
+  },
+  {
+    "id": 226,
+    "name": "L1",
+    "sid": 165,
+    "path": "overlays\\overlay_226.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9a3e5fc0bce4f980f4d35eb8910d8561_4954767793221652048.png",
+    "bounds": {
+      "north": -0.23586,
+      "west": -0.45417,
+      "south": -0.27854,
+      "east": -0.42283
+    },
+    "tile_bounds_13": {
+      "min_x": -10.334890666666979,
+      "min_y": -7.338357410860226,
+      "max_x": -9.62173155555547,
+      "max_y": -6.367140491813188
+    },
+    "tile_bounds_15": {
+      "min_x": -41.339562666667916,
+      "min_y": -26.353429643440904,
+      "max_x": -38.48692622222188,
+      "max_y": -22.468561967252754
+    }
+  },
+  {
+    "id": 227,
+    "name": "B1",
+    "sid": 166,
+    "path": "overlays\\overlay_227.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0b4da27e1eabbed8ac9774995a53016a_2856332441287407986.png",
+    "bounds": {
+      "north": -0.23007,
+      "west": -0.42296,
+      "south": -0.26381,
+      "east": -0.40364
+    },
+    "tile_bounds_13": {
+      "min_x": -9.624689777777348,
+      "min_y": -7.003164322396515,
+      "max_x": -9.185052444444409,
+      "max_y": -6.23538473597182
+    },
+    "tile_bounds_15": {
+      "min_x": -38.49875911110939,
+      "min_y": -25.01265728958606,
+      "max_x": -36.740209777777636,
+      "max_y": -21.94153894388728
+    }
+  },
+  {
+    "id": 228,
+    "name": "B1",
+    "sid": 167,
+    "path": "overlays\\overlay_228.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d5ce60ab1cd61c701402047af0cd01db_8340823935955827163.png",
+    "bounds": {
+      "north": -0.22676,
+      "west": -0.38179,
+      "south": -0.25767,
+      "east": -0.35568
+    },
+    "tile_bounds_13": {
+      "min_x": -8.687843555555446,
+      "min_y": -6.863443764448675,
+      "max_x": -8.093696000000364,
+      "max_y": -6.160063248534243
+    },
+    "tile_bounds_15": {
+      "min_x": -34.751374222221784,
+      "min_y": -24.4537750577947,
+      "max_x": -32.374784000001455,
+      "max_y": -21.640252994136972
+    }
+  },
+  {
+    "id": 229,
+    "name": "B2",
+    "sid": 167,
+    "path": "overlays\\overlay_229.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/35374e8dbc87f8ee06e38c93f16a9bfd_666224395784104676.png",
+    "bounds": {
+      "north": -0.22689,
+      "west": -0.38187,
+      "south": -0.2578,
+      "east": -0.35577
+    },
+    "tile_bounds_13": {
+      "min_x": -8.689663999999993,
+      "min_y": -6.866402016600659,
+      "max_x": -8.095744000000195,
+      "max_y": -6.1630214939377765
+    },
+    "tile_bounds_15": {
+      "min_x": -34.758655999999974,
+      "min_y": -24.465608066402638,
+      "max_x": -32.38297600000078,
+      "max_y": -21.652085975751106
+    }
+  },
+  {
+    "id": 230,
+    "name": "B1",
+    "sid": 168,
+    "path": "overlays\\overlay_230.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/57c3a93c19dbdd1d1a7c9fb263d93f5a_3028855397902489256.png",
+    "bounds": {
+      "north": -0.18418,
+      "west": -0.40523,
+      "south": -0.20701,
+      "east": -0.37114
+    },
+    "tile_bounds_13": {
+      "min_x": -9.221233777777343,
+      "min_y": -5.710637804198086,
+      "max_x": -8.44549688888901,
+      "max_y": -5.191125440264841
+    },
+    "tile_bounds_15": {
+      "min_x": -36.88493511110937,
+      "min_y": -19.842551216792344,
+      "max_x": -33.78198755555604,
+      "max_y": -17.764501761059364
+    }
+  },
+  {
+    "id": 231,
+    "name": "B1",
+    "sid": 169,
+    "path": "overlays\\overlay_231.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/ef19969750616a2d2aa2372922e424d1_7694632528675820069.png",
+    "bounds": {
+      "north": 0.02421,
+      "west": -0.54993,
+      "south": 0.00129,
+      "east": -0.53387
+    },
+    "tile_bounds_13": {
+      "min_x": -12.51396266666643,
+      "min_y": -0.9706453333305944,
+      "max_x": -12.148508444444815,
+      "max_y": -0.44908798360620494
+    },
+    "tile_bounds_15": {
+      "min_x": -50.05585066666572,
+      "min_y": -0.8825813333223778,
+      "max_x": -48.59403377777926,
+      "max_y": 1.2036480655751802
+    }
+  },
+  {
+    "id": 232,
+    "name": "B1",
+    "sid": 170,
+    "path": "overlays\\overlay_232.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6d64de7847af21c9af39922b442a857f_7508427800134969084.png",
+    "bounds": {
+      "north": 0.06534,
+      "west": -0.64275,
+      "south": 0.05281,
+      "east": -0.63167
+    },
+    "tile_bounds_13": {
+      "min_x": -14.626133333333655,
+      "min_y": 0.20172105904202908,
+      "max_x": -14.374001777778176,
+      "max_y": 0.4868483222762734
+    },
+    "tile_bounds_15": {
+      "min_x": -58.50453333333462,
+      "min_y": 3.8068842361681163,
+      "max_x": -57.496007111112704,
+      "max_y": 4.947393289105094
+    }
+  },
+  {
+    "id": 233,
+    "name": "B1",
+    "sid": 171,
+    "path": "overlays\\overlay_233.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/981e7547fa8682c409e06a3df8e00ec3_3924774858371470410.png",
+    "bounds": {
+      "north": 0.14081,
+      "west": -0.68121,
+      "south": 0.1257,
+      "east": -0.66602
+    },
+    "tile_bounds_13": {
+      "min_x": -15.50131199999987,
+      "min_y": 1.8603756278821493,
+      "max_x": -15.155655111111173,
+      "max_y": 2.204213003240511
+    },
+    "tile_bounds_15": {
+      "min_x": -62.00524799999948,
+      "min_y": 10.441502511528597,
+      "max_x": -60.62262044444469,
+      "max_y": 11.816852012962045
+    }
+  },
+  {
+    "id": 234,
+    "name": "B2",
+    "sid": 172,
+    "path": "overlays\\overlay_234.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1db2b12b8ffe7c51f3a41eef477fba14_4255395054467435578.png",
+    "bounds": {
+      "north": 0.11952,
+      "west": -0.57775,
+      "south": 0.09814,
+      "east": -0.56186
+    },
+    "tile_bounds_13": {
+      "min_x": -13.147022222222404,
+      "min_y": 1.2332313142392195,
+      "max_x": -12.785436444444258,
+      "max_y": 1.7197459724825421
+    },
+    "tile_bounds_15": {
+      "min_x": -52.588088888889615,
+      "min_y": 7.932925256956878,
+      "max_x": -51.14174577777703,
+      "max_y": 9.878983889930169
+    }
+  },
+  {
+    "id": 235,
+    "name": "B3",
+    "sid": 172,
+    "path": "overlays\\overlay_235.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/43f4e3ab4d4a6f27bd9ef583ec34280a_6829059416353242141.png",
+    "bounds": {
+      "north": 0.14124,
+      "west": -0.59372,
+      "south": 0.1142,
+      "east": -0.558
+    },
+    "tile_bounds_13": {
+      "min_x": -13.510428444444187,
+      "min_y": 1.5986861650831088,
+      "max_x": -12.697599999999966,
+      "max_y": 2.2139979217695327
+    },
+    "tile_bounds_15": {
+      "min_x": -54.04171377777675,
+      "min_y": 9.394744660332435,
+      "max_x": -50.79039999999986,
+      "max_y": 11.85599168707813
+    }
+  },
+  {
+    "id": 236,
+    "name": "B4",
+    "sid": 172,
+    "path": "overlays\\overlay_236.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a09ff414ba288f05661493656342ca8b_5015554468896342976.png",
+    "bounds": {
+      "north": 0.13506,
+      "west": -0.60522,
+      "south": 0.09016,
+      "east": -0.56976
+    },
+    "tile_bounds_13": {
+      "min_x": -13.772117333333426,
+      "min_y": 1.0516417355952399,
+      "max_x": -12.965205333333415,
+      "max_y": 2.073368179575027
+    },
+    "tile_bounds_15": {
+      "min_x": -55.088469333333705,
+      "min_y": 7.2065669423809595,
+      "max_x": -51.86082133333366,
+      "max_y": 11.293472718300109
+    }
+  },
+  {
+    "id": 239,
+    "name": "B1",
+    "sid": 173,
+    "path": "overlays\\overlay_239.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/18a72ba9cd4c31dc8d272b404d57c6a3_5663980494112912883.png",
+    "bounds": {
+      "north": 0.19147,
+      "west": -0.5117,
+      "south": 0.16674,
+      "east": -0.49169
+    },
+    "tile_bounds_13": {
+      "min_x": -11.644017777777663,
+      "min_y": 2.7942666889716747,
+      "max_x": -11.188679111111014,
+      "max_y": 3.3570143317269867
+    },
+    "tile_bounds_15": {
+      "min_x": -46.57607111111065,
+      "min_y": 14.177066755886699,
+      "max_x": -44.75471644444406,
+      "max_y": 16.428057326907947
+    }
+  },
+  {
+    "id": 240,
+    "name": "B1",
+    "sid": 174,
+    "path": "overlays\\overlay_240.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a1002f3139b6465408fb5350a5b578bd_3373713377661170493.png",
+    "bounds": {
+      "north": 0.14459,
+      "west": -0.5001,
+      "south": 0.12751,
+      "east": -0.48568
+    },
+    "tile_bounds_13": {
+      "min_x": -11.380053333333308,
+      "min_y": 1.9015632839918908,
+      "max_x": -11.051918222222412,
+      "max_y": 2.290229270036434
+    },
+    "tile_bounds_15": {
+      "min_x": -45.52021333333323,
+      "min_y": 10.606253135967563,
+      "max_x": -44.20767288888965,
+      "max_y": 12.160917080145737
+    }
+  },
+  {
+    "id": 241,
+    "name": "B1",
+    "sid": 175,
+    "path": "overlays\\overlay_241.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2d19a47b4dce37609389b1e3aea781c3_312835451227469551.png",
+    "bounds": {
+      "north": 0.18752,
+      "west": -0.47005,
+      "south": 0.17567,
+      "east": -0.46327
+    },
+    "tile_bounds_13": {
+      "min_x": -10.696248888888476,
+      "min_y": 2.997474707477977,
+      "max_x": -10.541966222222072,
+      "max_y": 3.2671293956709633
+    },
+    "tile_bounds_15": {
+      "min_x": -42.784995555553905,
+      "min_y": 14.989898829911908,
+      "max_x": -42.16786488888829,
+      "max_y": 16.068517582683853
+    }
+  },
+  {
+    "id": 242,
+    "name": "B1",
+    "sid": 176,
+    "path": "overlays\\overlay_242.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0c5efb4e9b5a700d506b5713f76ece3c_3730812890439295476.png",
+    "bounds": {
+      "north": 0.16468,
+      "west": -0.45099,
+      "south": 0.14519,
+      "east": -0.4242
+    },
+    "tile_bounds_13": {
+      "min_x": -10.262527999999747,
+      "min_y": 2.3038826470256026,
+      "max_x": -9.65290666666715,
+      "max_y": 2.747390048469242
+    },
+    "tile_bounds_15": {
+      "min_x": -41.05011199999899,
+      "min_y": 12.21553058810241,
+      "max_x": -38.6116266666686,
+      "max_y": 13.989560193876969
+    }
+  },
+  {
+    "id": 243,
+    "name": "B2",
+    "sid": 176,
+    "path": "overlays\\overlay_243.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f6cc1b8d6d626f2a267bd344105870ef_3467164914266289938.png",
+    "bounds": {
+      "north": 0.17001,
+      "west": -0.45202,
+      "south": 0.15223,
+      "east": -0.42257
+    },
+    "tile_bounds_13": {
+      "min_x": -10.285966222222214,
+      "min_y": 2.464082297830373,
+      "max_x": -9.61581511111126,
+      "max_y": 2.868677676952757
+    },
+    "tile_bounds_15": {
+      "min_x": -41.14386488888886,
+      "min_y": 12.856329191321493,
+      "max_x": -38.46326044444504,
+      "max_y": 14.474710707811028
+    }
+  },
+  {
+    "id": 244,
+    "name": "B1",
+    "sid": 177,
+    "path": "overlays\\overlay_244.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b0e529fddce5cc80fe1f58adc58aa0e7_4050038234206151834.png",
+    "bounds": {
+      "north": 0.1591,
+      "west": -0.39252,
+      "south": 0.13626,
+      "east": -0.36676
+    },
+    "tile_bounds_13": {
+      "min_x": -8.932010666666429,
+      "min_y": 2.1006749227835826,
+      "max_x": -8.345827555555388,
+      "max_y": 2.6204135415591736
+    },
+    "tile_bounds_15": {
+      "min_x": -35.728042666665715,
+      "min_y": 11.40269969113433,
+      "max_x": -33.38331022222155,
+      "max_y": 13.481654166236694
+    }
+  },
+  {
+    "id": 245,
+    "name": "B1",
+    "sid": 178,
+    "path": "overlays\\overlay_245.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/835d87161ff5f3ec44b858d192c9d23b_2608618757246161263.png",
+    "bounds": {
+      "north": 0.15799,
+      "west": -0.38213,
+      "south": 0.14107,
+      "east": -0.37088
+    },
+    "tile_bounds_13": {
+      "min_x": -8.695580444444204,
+      "min_y": 2.2101294655853962,
+      "max_x": -8.439580444444346,
+      "max_y": 2.595154778189226
+    },
+    "tile_bounds_15": {
+      "min_x": -34.782321777776815,
+      "min_y": 11.840517862341585,
+      "max_x": -33.75832177777738,
+      "max_y": 13.380619112756904
+    }
+  },
+  {
+    "id": 246,
+    "name": "B1",
+    "sid": 179,
+    "path": "overlays\\overlay_246.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/416457f12600b91ff44d09e7e7539e3f_396325659656563135.png",
+    "bounds": {
+      "north": 0.17619,
+      "west": -0.34924,
+      "south": 0.16176,
+      "east": -0.33851
+    },
+    "tile_bounds_13": {
+      "min_x": -7.9471502222222625,
+      "min_y": 2.680943556625607,
+      "max_x": -7.70298311111128,
+      "max_y": 3.0093076521498006
+    },
+    "tile_bounds_15": {
+      "min_x": -31.78860088888905,
+      "min_y": 13.723774226502428,
+      "max_x": -30.81193244444512,
+      "max_y": 15.037230608599202
+    }
+  },
+  {
+    "id": 247,
+    "name": "B1",
+    "sid": 180,
+    "path": "overlays\\overlay_247.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/e7ae8fca876ccf134820d7d118f7fe22_2593443220333350338.png",
+    "bounds": {
+      "north": 0.19139,
+      "west": -0.35045,
+      "south": 0.1798,
+      "east": -0.33971
+    },
+    "tile_bounds_13": {
+      "min_x": -7.974684444444392,
+      "min_y": 3.09145560412162,
+      "max_x": -7.730289777777671,
+      "max_y": 3.3551938771220193
+    },
+    "tile_bounds_15": {
+      "min_x": -31.89873777777757,
+      "min_y": 15.36582241648648,
+      "max_x": -30.921159111110683,
+      "max_y": 16.420775508488077
+    }
+  },
+  {
+    "id": 248,
+    "name": "B1",
+    "sid": 181,
+    "path": "overlays\\overlay_248.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7277108575a4ca100b779faab3036e4e_131147537784834955.png",
+    "bounds": {
+      "north": 0.19817,
+      "west": -0.33469,
+      "south": 0.18237,
+      "east": -0.31872
+    },
+    "tile_bounds_13": {
+      "min_x": -7.616056888888579,
+      "min_y": 3.1499376739911895,
+      "max_x": -7.252650666666796,
+      "max_y": 3.5094774354024594
+    },
+    "tile_bounds_15": {
+      "min_x": -30.464227555554316,
+      "min_y": 15.599750695964758,
+      "max_x": -29.010602666667182,
+      "max_y": 17.037909741609838
+    }
+  },
+  {
+    "id": 249,
+    "name": "B1",
+    "sid": 182,
+    "path": "overlays\\overlay_249.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/399e31f71a636afb74dacad0c6518c3f_753925958642171918.png",
+    "bounds": {
+      "north": 0.19671,
+      "west": -0.31945,
+      "south": 0.17456,
+      "east": -0.28579
+    },
+    "tile_bounds_13": {
+      "min_x": -7.269262222222096,
+      "min_y": 2.9722159228376768,
+      "max_x": -6.503310222221899,
+      "max_y": 3.476254127030643
+    },
+    "tile_bounds_15": {
+      "min_x": -29.077048888888385,
+      "min_y": 14.888863691350707,
+      "max_x": -26.013240888887594,
+      "max_y": 16.90501650812257
+    }
+  },
+  {
+    "id": 250,
+    "name": "B1",
+    "sid": 183,
+    "path": "overlays\\overlay_250.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d6609658f4a6e1992e628e91474720b2_1493871574180100282.png",
+    "bounds": {
+      "north": 0.22565,
+      "west": -0.35225,
+      "south": 0.20332,
+      "east": -0.33181
+    },
+    "tile_bounds_13": {
+      "min_x": -8.015644444444206,
+      "min_y": 3.6266692658546162,
+      "max_x": -7.550520888888514,
+      "max_y": 4.134804385013922
+    },
+    "tile_bounds_15": {
+      "min_x": -32.06257777777682,
+      "min_y": 17.506677063418465,
+      "max_x": -30.202083555554054,
+      "max_y": 19.539217540055688
+    }
+  },
+  {
+    "id": 251,
+    "name": "B1",
+    "sid": 184,
+    "path": "overlays\\overlay_251.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/cf120b92b8f1707b61bc4e8ba7eef0ba_4233389229105507871.png",
+    "bounds": {
+      "north": 0.30172,
+      "west": -0.36762,
+      "south": 0.28695,
+      "east": -0.34615
+    },
+    "tile_bounds_13": {
+      "min_x": -8.365397333333021,
+      "min_y": 5.529733963504441,
+      "max_x": -7.876835555555317,
+      "max_y": 5.865837954864219
+    },
+    "tile_bounds_15": {
+      "min_x": -33.461589333332086,
+      "min_y": 25.118935854017764,
+      "max_x": -31.50734222222127,
+      "max_y": 26.463351819456875
+    }
+  },
+  {
+    "id": 252,
+    "name": "L1",
+    "sid": 185,
+    "path": "overlays\\overlay_252.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/79431714bc558f0d63a2c01d04f658c4_1523316569230970867.png",
+    "bounds": {
+      "north": 0.29339,
+      "west": -0.40153,
+      "south": 0.27227,
+      "east": -0.3829
+    },
+    "tile_bounds_13": {
+      "min_x": -9.1370382222226,
+      "min_y": 5.195678429189229,
+      "max_x": -8.71310222222246,
+      "max_y": 5.676281620709688
+    },
+    "tile_bounds_15": {
+      "min_x": -36.5481528888904,
+      "min_y": 23.782713716756916,
+      "max_x": -34.85240888888984,
+      "max_y": 25.70512648283875
+    }
+  },
+  {
+    "id": 254,
+    "name": "L2",
+    "sid": 185,
+    "path": "overlays\\overlay_254.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/1ff7ba32c1d3c1c621a953a035bf2ce4_3873604668219054453.png",
+    "bounds": {
+      "north": 0.29545,
+      "west": -0.3975,
+      "south": 0.27107,
+      "east": -0.37509
+    },
+    "tile_bounds_13": {
+      "min_x": -9.045333333333474,
+      "min_y": 5.168371455562919,
+      "max_x": -8.535381333333135,
+      "max_y": 5.723158684054397
+    },
+    "tile_bounds_15": {
+      "min_x": -36.181333333333896,
+      "min_y": 23.673485822251678,
+      "max_x": -34.14152533333254,
+      "max_y": 25.892634736217587
+    }
+  },
+  {
+    "id": 255,
+    "name": "L3",
+    "sid": 185,
+    "path": "overlays\\overlay_255.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/5c2efc76b635dd5027033bd3cf322cb1_5249452148693045240.png",
+    "bounds": {
+      "north": 0.27811,
+      "west": -0.39312,
+      "south": 0.26403,
+      "east": -0.37998
+    },
+    "tile_bounds_13": {
+      "min_x": -8.945664000000306,
+      "min_y": 5.008170597729531,
+      "max_x": -8.646655999999894,
+      "max_y": 5.328572406523108
+    },
+    "tile_bounds_15": {
+      "min_x": -35.782656000001225,
+      "min_y": 23.032682390918126,
+      "max_x": -34.586623999999574,
+      "max_y": 24.31428962609243
+    }
+  },
+  {
+    "id": 256,
+    "name": "L4",
+    "sid": 185,
+    "path": "overlays\\overlay_256.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/3a36d4b3e7dda59a4eac66bd8d5bf1d2_7040453101324400050.png",
+    "bounds": {
+      "north": 0.28511,
+      "west": -0.39441,
+      "south": 0.26965,
+      "east": -0.37818
+    },
+    "tile_bounds_13": {
+      "min_x": -8.975018666666529,
+      "min_y": 5.13605820693283,
+      "max_x": -8.605695999999625,
+      "max_y": 5.487863219535939
+    },
+    "tile_bounds_15": {
+      "min_x": -35.900074666666114,
+      "min_y": 23.54423282773132,
+      "max_x": -34.4227839999985,
+      "max_y": 24.951452878143755
+    }
+  },
+  {
+    "id": 257,
+    "name": "L5",
+    "sid": 185,
+    "path": "overlays\\overlay_257.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a00fd8f1ed216c7da03479976c01a788_7360770991846405699.png",
+    "bounds": {
+      "north": 0.29125,
+      "west": -0.40239,
+      "south": 0.26918,
+      "east": -0.38015
+    },
+    "tile_bounds_13": {
+      "min_x": -9.156607999999778,
+      "min_y": 5.125362977583336,
+      "max_x": -8.650524444444272,
+      "max_y": 5.627584098024272
+    },
+    "tile_bounds_15": {
+      "min_x": -36.62643199999911,
+      "min_y": 23.501451910333344,
+      "max_x": -34.60209777777709,
+      "max_y": 25.510336392097088
+    }
+  },
+  {
+    "id": 253,
+    "name": "B1",
+    "sid": 186,
+    "path": "overlays\\overlay_253.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/6c0a8210957d201e82c1d0a93b8ae815_4912056898495022332.png",
+    "bounds": {
+      "north": 0.28841,
+      "west": -0.42403,
+      "south": 0.27811,
+      "east": -0.40651
+    },
+    "tile_bounds_13": {
+      "min_x": -9.649038222221861,
+      "min_y": 5.328572406523108,
+      "max_x": -9.250360888888736,
+      "max_y": 5.5629574933991535
+    },
+    "tile_bounds_15": {
+      "min_x": -38.596152888887445,
+      "min_y": 24.31428962609243,
+      "max_x": -37.00144355555494,
+      "max_y": 25.251829973596614
+    }
+  },
+  {
+    "id": 259,
+    "name": "L1",
+    "sid": 187,
+    "path": "overlays\\overlay_259.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7941f475b4daa18c7aa9a7cf6b5558ba_4069350577237685691.png",
+    "bounds": {
+      "north": 0.18855,
+      "west": -0.48491,
+      "south": 0.15636,
+      "east": -0.45194
+    },
+    "tile_bounds_13": {
+      "min_x": -11.03439644444461,
+      "min_y": 2.55806308307001,
+      "max_x": -10.284145777778122,
+      "max_y": 3.2905677441135595
+    },
+    "tile_bounds_15": {
+      "min_x": -44.13758577777844,
+      "min_y": 13.23225233228004,
+      "max_x": -41.136583111112486,
+      "max_y": 16.162270976454238
+    }
+  },
+  {
+    "id": 260,
+    "name": "B1",
+    "sid": 188,
+    "path": "overlays\\overlay_260.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0d61b84532233606f592da46e0f40c4c_8132410141258236720.png",
+    "bounds": {
+      "north": 0.29902,
+      "west": -0.36324,
+      "south": 0.2839,
+      "east": -0.35268
+    },
+    "tile_bounds_13": {
+      "min_x": -8.265727999999854,
+      "min_y": 5.460328657859009,
+      "max_x": -8.02542933333325,
+      "max_y": 5.804397110564423
+    },
+    "tile_bounds_15": {
+      "min_x": -33.062911999999415,
+      "min_y": 24.841314631436035,
+      "max_x": -32.101717333333,
+      "max_y": 26.217588442257693
+    }
+  },
+  {
+    "id": 261,
+    "name": "B1",
+    "sid": 189,
+    "path": "overlays\\overlay_261.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/f08169c202dfb7d23246edf8fd4c5fe7_4383050441020612883.png",
+    "bounds": {
+      "north": 0.46297,
+      "west": -0.39003,
+      "south": 0.45353,
+      "east": -0.37449
+    },
+    "tile_bounds_13": {
+      "min_x": -8.87534933333336,
+      "min_y": 9.320434885555187,
+      "max_x": -8.521728000000167,
+      "max_y": 9.535254200937743
+    },
+    "tile_bounds_15": {
+      "min_x": -35.50139733333344,
+      "min_y": 40.28173954222075,
+      "max_x": -34.086912000000666,
+      "max_y": 41.14101680375097
+    }
+  },
+  {
+    "id": 262,
+    "name": "B2",
+    "sid": 189,
+    "path": "overlays\\overlay_262.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/249f0c96dc66dbe83c4c5ced4d273091_6358543563295191848.png",
+    "bounds": {
+      "north": 0.47181,
+      "west": -0.40016,
+      "south": 0.44099,
+      "east": -0.38093
+    },
+    "tile_bounds_13": {
+      "min_x": -9.10586311111092,
+      "min_y": 9.035071523893748,
+      "max_x": -8.668273777777813,
+      "max_y": 9.7364200054717
+    },
+    "tile_bounds_15": {
+      "min_x": -36.42345244444368,
+      "min_y": 39.14028609557499,
+      "max_x": -34.67309511111125,
+      "max_y": 41.9456800218868
+    }
+  },
+  {
+    "id": 263,
+    "name": "B3",
+    "sid": 189,
+    "path": "overlays\\overlay_263.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/0cd922b3f26b0c0ebdfd6837553ea4ea_4957641058180467504.png",
+    "bounds": {
+      "north": 0.46108,
+      "west": -0.40136,
+      "south": 0.45473,
+      "east": -0.3847
+    },
+    "tile_bounds_13": {
+      "min_x": -9.133169777778221,
+      "min_y": 9.347742409981038,
+      "max_x": -8.754062222222274,
+      "max_y": 9.492244802583173
+    },
+    "tile_bounds_15": {
+      "min_x": -36.532679111112884,
+      "min_y": 40.39096963992415,
+      "max_x": -35.016248888889095,
+      "max_y": 40.96897921033269
+    }
+  },
+  {
+    "id": 264,
+    "name": "B1",
+    "sid": 190,
+    "path": "overlays\\overlay_264.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/d413a24668108f0af5ecfa05f3ae5958_585946522159415391.png",
+    "bounds": {
+      "north": 0.47679,
+      "west": -0.38531,
+      "south": 0.45979,
+      "east": -0.36693
+    },
+    "tile_bounds_13": {
+      "min_x": -8.76794311111098,
+      "min_y": 9.462889188042936,
+      "max_x": -8.349695999999767,
+      "max_y": 9.84974655510996
+    },
+    "tile_bounds_15": {
+      "min_x": -35.07177244444392,
+      "min_y": 40.851556752171746,
+      "max_x": -33.39878399999907,
+      "max_y": 42.39898622043984
+    }
+  },
+  {
+    "id": 265,
+    "name": "B1",
+    "sid": 191,
+    "path": "overlays\\overlay_265.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a5ce88062468b2f63ee25656285c495f_3342061460807464081.png",
+    "bounds": {
+      "north": 0.49358,
+      "west": -0.3598,
+      "south": 0.47744,
+      "east": -0.34023
+    },
+    "tile_bounds_13": {
+      "min_x": -8.187448888888866,
+      "min_y": 9.864538179063402,
+      "max_x": -7.742122666666546,
+      "max_y": 10.231826033309062
+    },
+    "tile_bounds_15": {
+      "min_x": -32.749795555555465,
+      "min_y": 42.45815271625361,
+      "max_x": -30.968490666666185,
+      "max_y": 43.92730413323625
+    }
+  },
+  {
+    "id": 266,
+    "name": "B2",
+    "sid": 191,
+    "path": "overlays\\overlay_266.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/a5e351f75b5b0f942f7dea8d87bb7750_5260993096084044418.png",
+    "bounds": {
+      "north": 0.4877,
+      "west": -0.35985,
+      "south": 0.47319,
+      "east": -0.3486
+    },
+    "tile_bounds_13": {
+      "min_x": -8.188586666666652,
+      "min_y": 9.76782373998185,
+      "max_x": -7.9325866666667935,
+      "max_y": 10.098018460570984
+    },
+    "tile_bounds_15": {
+      "min_x": -32.754346666666606,
+      "min_y": 42.0712949599274,
+      "max_x": -31.730346666667174,
+      "max_y": 43.392073842283935
+    }
+  },
+  {
+    "id": 267,
+    "name": "B3",
+    "sid": 191,
+    "path": "overlays\\overlay_267.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/9554ae185cdba4d8283ab40574a29e6a_5168094624778991939.png",
+    "bounds": {
+      "north": 0.47834,
+      "west": -0.36358,
+      "south": 0.46022,
+      "east": -0.34512
+    },
+    "tile_bounds_13": {
+      "min_x": -8.273464888889066,
+      "min_y": 9.472674392299723,
+      "max_x": -7.853397333333305,
+      "max_y": 9.885018891463005
+    },
+    "tile_bounds_15": {
+      "min_x": -33.093859555556264,
+      "min_y": 40.89069756919889,
+      "max_x": -31.41358933333322,
+      "max_y": 42.54007556585202
+    }
+  },
+  {
+    "id": 268,
+    "name": "B1",
+    "sid": 192,
+    "path": "overlays\\overlay_268.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/97b2ec977f46afa4e2c96de0e374ee5c_1356483737330744082.png",
+    "bounds": {
+      "north": 0.50899,
+      "west": -0.38325,
+      "south": 0.4816,
+      "east": -0.36169
+    },
+    "tile_bounds_13": {
+      "min_x": -8.721066666666957,
+      "min_y": 9.959204605562718,
+      "max_x": -8.230456888888966,
+      "max_y": 10.582502566885978
+    },
+    "tile_bounds_15": {
+      "min_x": -34.88426666666783,
+      "min_y": 42.83681842225087,
+      "max_x": -32.921827555555865,
+      "max_y": 45.33001026754391
+    }
+  },
+  {
+    "id": 269,
+    "name": "B1",
+    "sid": 193,
+    "path": "overlays\\overlay_269.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/939315d940bd62409f6cbe5261694bb1_1311216071378210323.png",
+    "bounds": {
+      "north": 0.50556,
+      "west": -0.39011,
+      "south": 0.4883,
+      "east": -0.37586
+    },
+    "tile_bounds_13": {
+      "min_x": -8.877169777777453,
+      "min_y": 10.111672289144735,
+      "max_x": -8.552903111110936,
+      "max_y": 10.504447952122064
+    },
+    "tile_bounds_15": {
+      "min_x": -35.508679111109814,
+      "min_y": 43.44668915657894,
+      "max_x": -34.211612444443745,
+      "max_y": 45.017791808488255
+    }
+  },
+  {
+    "id": 270,
+    "name": "B1",
+    "sid": 194,
+    "path": "overlays\\overlay_270.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/b076261796c2dc1d7a87df403508c8fe_643987392809789437.png",
+    "bounds": {
+      "north": 0.536,
+      "west": -0.396,
+      "south": 0.49951,
+      "east": -0.37702
+    },
+    "tile_bounds_13": {
+      "min_x": -9.011199999999917,
+      "min_y": 10.366771545359825,
+      "max_x": -8.57929955555528,
+      "max_y": 11.197155685499638
+    },
+    "tile_bounds_15": {
+      "min_x": -36.04479999999967,
+      "min_y": 44.4670861814393,
+      "max_x": -34.31719822222112,
+      "max_y": 47.78862274199855
+    }
+  },
+  {
+    "id": 271,
+    "name": "B1",
+    "sid": 195,
+    "path": "overlays\\overlay_271.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/7e8cea2865f65d50b6e6aadbf3750019_667785531529346070.png",
+    "bounds": {
+      "north": 0.55759,
+      "west": -0.396,
+      "south": 0.54136,
+      "east": -0.37874
+    },
+    "tile_bounds_13": {
+      "min_x": -9.011199999999917,
+      "min_y": 11.319130854139985,
+      "max_x": -8.618439111111002,
+      "max_y": 11.688470506168414
+    },
+    "tile_bounds_15": {
+      "min_x": -36.04479999999967,
+      "min_y": 48.27652341655994,
+      "max_x": -34.47375644444401,
+      "max_y": 49.75388202467366
+    }
+  },
+  {
+    "id": 272,
+    "name": "B2",
+    "sid": 195,
+    "path": "overlays\\overlay_272.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/81284bcab6568232b3e4bdd27827b96e_8861435578936908280.png",
+    "bounds": {
+      "north": 0.55295,
+      "west": -0.39879,
+      "south": 0.53578,
+      "east": -0.38127
+    },
+    "tile_bounds_13": {
+      "min_x": -9.074687999999696,
+      "min_y": 11.19214924429889,
+      "max_x": -8.67601066666657,
+      "max_y": 11.582879769801366
+    },
+    "tile_bounds_15": {
+      "min_x": -36.298751999998785,
+      "min_y": 47.76859697719556,
+      "max_x": -34.70404266666628,
+      "max_y": 49.331519079205464
+    }
+  },
+  {
+    "id": 273,
+    "name": "B3",
+    "sid": 195,
+    "path": "overlays\\overlay_273.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/2c3eeb69e85ca562d71b7876f11390a1_7653087879301778236.png",
+    "bounds": {
+      "north": 0.56103,
+      "west": -0.40089,
+      "south": 0.54059,
+      "east": -0.38432
+    },
+    "tile_bounds_13": {
+      "min_x": -9.122474666666676,
+      "min_y": 11.301608295321785,
+      "max_x": -8.745415111111015,
+      "max_y": 11.766753347155372
+    },
+    "tile_bounds_15": {
+      "min_x": -36.489898666666704,
+      "min_y": 48.20643318128714,
+      "max_x": -34.98166044444406,
+      "max_y": 50.06701338862149
+    }
+  },
+  {
+    "id": 276,
+    "name": "B1",
+    "sid": 196,
+    "path": "overlays\\overlay_276.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/515b08d206e87a54944f9ee726a3b255_77082292579645098.png",
+    "bounds": {
+      "north": 0.31735,
+      "west": 0.471,
+      "south": 0.29537,
+      "east": 0.49135
+    },
+    "tile_bounds_13": {
+      "min_x": 10.71786666666685,
+      "min_y": 5.721338215412743,
+      "max_x": 11.180942222222257,
+      "max_y": 6.22151247964257
+    },
+    "tile_bounds_15": {
+      "min_x": 42.8714666666674,
+      "min_y": 25.885352861650972,
+      "max_x": 44.723768888889026,
+      "max_y": 27.88604991857028
+    }
+  },
+  {
+    "id": 277,
+    "name": "B2",
+    "sid": 196,
+    "path": "overlays\\overlay_277.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/631f40a46ac3cc05f00c83abb606a92f_6293479178930985060.png",
+    "bounds": {
+      "north": 0.33083,
+      "west": 0.47624,
+      "south": 0.30747,
+      "east": 0.49685
+    },
+    "tile_bounds_13": {
+      "min_x": 10.837105777777651,
+      "min_y": 5.99668424833726,
+      "max_x": 11.306097777777723,
+      "max_y": 6.52826227649939
+    },
+    "tile_bounds_15": {
+      "min_x": 43.348423111110606,
+      "min_y": 26.98673699334904,
+      "max_x": 45.22439111111089,
+      "max_y": 29.11304910599756
+    }
+  },
+  {
+    "id": 278,
+    "name": "B3",
+    "sid": 196,
+    "path": "overlays\\overlay_278.png",
+    "image_url": "https://game-cdn.appsample.com/gim/overlays/83de16d8498382d15f12a84ee3cc3443_3378470210445600543.png",
+    "bounds": {
+      "north": 0.32035,
+      "west": 0.47302,
+      "south": 0.30619,
+      "east": 0.48933
+    },
+    "tile_bounds_13": {
+      "min_x": 10.763832888888828,
+      "min_y": 5.967556719565437,
+      "max_x": 11.134976000000279,
+      "max_y": 6.289780203406735
+    },
+    "tile_bounds_15": {
+      "min_x": 43.05533155555531,
+      "min_y": 26.870226878261747,
+      "max_x": 44.539904000001115,
+      "max_y": 28.15912081362694
+    }
+  }
+]

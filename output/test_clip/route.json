@@ -1,0 +1,6254 @@
+[
+  {
+    "index": 0,
+    "timestamp": 0.0,
+    "frame": 0,
+    "minimap": "minimaps/000000.png"
+  },
+  {
+    "index": 1,
+    "timestamp": 1.0,
+    "frame": 60,
+    "minimap": "minimaps/000001.png"
+  },
+  {
+    "index": 2,
+    "timestamp": 2.0,
+    "frame": 120,
+    "minimap": "minimaps/000002.png"
+  },
+  {
+    "index": 3,
+    "timestamp": 3.0,
+    "frame": 180,
+    "minimap": "minimaps/000003.png"
+  },
+  {
+    "index": 4,
+    "timestamp": 4.0,
+    "frame": 240,
+    "minimap": "minimaps/000004.png"
+  },
+  {
+    "index": 5,
+    "timestamp": 5.0,
+    "frame": 300,
+    "minimap": "minimaps/000005.png"
+  },
+  {
+    "index": 6,
+    "timestamp": 6.0,
+    "frame": 360,
+    "minimap": "minimaps/000006.png"
+  },
+  {
+    "index": 7,
+    "timestamp": 7.0,
+    "frame": 420,
+    "minimap": "minimaps/000007.png"
+  },
+  {
+    "index": 8,
+    "timestamp": 8.0,
+    "frame": 480,
+    "minimap": "minimaps/000008.png"
+  },
+  {
+    "index": 9,
+    "timestamp": 9.0,
+    "frame": 540,
+    "minimap": "minimaps/000009.png"
+  },
+  {
+    "index": 10,
+    "timestamp": 10.0,
+    "frame": 600,
+    "minimap": "minimaps/000010.png"
+  },
+  {
+    "index": 11,
+    "timestamp": 11.0,
+    "frame": 660,
+    "minimap": "minimaps/000011.png"
+  },
+  {
+    "index": 12,
+    "timestamp": 12.0,
+    "frame": 720,
+    "minimap": "minimaps/000012.png"
+  },
+  {
+    "index": 13,
+    "timestamp": 13.0,
+    "frame": 780,
+    "minimap": "minimaps/000013.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.325,
+        "lat": 0.167139,
+        "lng": 0.362874,
+        "map_x": 24839.6,
+        "map_y": 11209.4
+      },
+      {
+        "tile": [
+          -38,
+          46
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.510857,
+        "lng": -0.411987,
+        "map_x": 6784.0,
+        "map_y": 3200.0
+      },
+      {
+        "tile": [
+          30,
+          6
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.071411,
+        "lng": 0.335083,
+        "map_x": 24192.0,
+        "map_y": 13440.0
+      },
+      {
+        "tile": [
+          42,
+          18
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.203247,
+        "lng": 0.466919,
+        "map_x": 27264.0,
+        "map_y": 10368.0
+      },
+      {
+        "tile": [
+          62,
+          -18
+        ],
+        "score": 1,
+        "confidence": 0.0,
+        "lat": -0.19226,
+        "lng": 0.686646,
+        "map_x": 32384.0,
+        "map_y": 19584.0
+      }
+    ],
+    "map_x": 24839.6,
+    "map_y": 11209.4,
+    "search_radius": 1,
+    "lat": 0.167139,
+    "lng": 0.362874,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 14,
+    "timestamp": 14.0,
+    "frame": 840,
+    "minimap": "minimaps/000014.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.725,
+    "match_score": 30,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 30,
+        "confidence": 0.725,
+        "lat": 0.167121,
+        "lng": 0.362758,
+        "map_x": 24836.9,
+        "map_y": 11209.8
+      }
+    ],
+    "map_x": 24836.9,
+    "map_y": 11209.8,
+    "search_radius": 2,
+    "lat": 0.167121,
+    "lng": 0.362758,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 15,
+    "timestamp": 15.0,
+    "frame": 900,
+    "minimap": "minimaps/000015.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.575,
+    "match_score": 24,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 24,
+        "confidence": 0.575,
+        "lat": 0.167146,
+        "lng": 0.363037,
+        "map_x": 24843.4,
+        "map_y": 11209.2
+      }
+    ],
+    "map_x": 24843.4,
+    "map_y": 11209.2,
+    "search_radius": 2,
+    "lat": 0.167146,
+    "lng": 0.363037,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 16,
+    "timestamp": 16.0,
+    "frame": 960,
+    "minimap": "minimaps/000016.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.575,
+    "match_score": 27,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 27,
+        "confidence": 0.575,
+        "lat": 0.16728,
+        "lng": 0.363526,
+        "map_x": 24854.8,
+        "map_y": 11206.1
+      }
+    ],
+    "map_x": 24854.8,
+    "map_y": 11206.1,
+    "search_radius": 2,
+    "lat": 0.16728,
+    "lng": 0.363526,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 17,
+    "timestamp": 17.0,
+    "frame": 1020,
+    "minimap": "minimaps/000017.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.6,
+    "match_score": 24,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 24,
+        "confidence": 0.6,
+        "lat": 0.167462,
+        "lng": 0.364414,
+        "map_x": 24875.5,
+        "map_y": 11201.8
+      }
+    ],
+    "map_x": 24875.5,
+    "map_y": 11201.8,
+    "search_radius": 2,
+    "lat": 0.167462,
+    "lng": 0.364414,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 18,
+    "timestamp": 18.0,
+    "frame": 1080,
+    "minimap": "minimaps/000018.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.6,
+    "match_score": 24,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 24,
+        "confidence": 0.6,
+        "lat": 0.167333,
+        "lng": 0.364946,
+        "map_x": 24887.9,
+        "map_y": 11204.9
+      }
+    ],
+    "map_x": 24887.9,
+    "map_y": 11204.9,
+    "search_radius": 2,
+    "lat": 0.167333,
+    "lng": 0.364946,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 19,
+    "timestamp": 19.0,
+    "frame": 1140,
+    "minimap": "minimaps/000019.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.55,
+    "match_score": 28,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 28,
+        "confidence": 0.55,
+        "lat": 0.167046,
+        "lng": 0.365238,
+        "map_x": 24894.7,
+        "map_y": 11211.6
+      }
+    ],
+    "map_x": 24894.7,
+    "map_y": 11211.6,
+    "search_radius": 2,
+    "lat": 0.167046,
+    "lng": 0.365238,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 20,
+    "timestamp": 20.0,
+    "frame": 1200,
+    "minimap": "minimaps/000020.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.4,
+        "lat": 0.166638,
+        "lng": 0.365998,
+        "map_x": 24912.4,
+        "map_y": 11221.1
+      }
+    ],
+    "map_x": 24912.4,
+    "map_y": 11221.1,
+    "search_radius": 2,
+    "lat": 0.166638,
+    "lng": 0.365998,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 21,
+    "timestamp": 21.0,
+    "frame": 1260,
+    "minimap": "minimaps/000021.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 19,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 19,
+        "confidence": 0.425,
+        "lat": 0.166668,
+        "lng": 0.365871,
+        "map_x": 24909.4,
+        "map_y": 11220.4
+      }
+    ],
+    "map_x": 24909.4,
+    "map_y": 11220.4,
+    "search_radius": 2,
+    "lat": 0.166668,
+    "lng": 0.365871,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 22,
+    "timestamp": 22.0,
+    "frame": 1320,
+    "minimap": "minimaps/000022.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.55,
+    "match_score": 22,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 22,
+        "confidence": 0.55,
+        "lat": 0.166877,
+        "lng": 0.366027,
+        "map_x": 24913.0,
+        "map_y": 11215.5
+      }
+    ],
+    "map_x": 24913.0,
+    "map_y": 11215.5,
+    "search_radius": 2,
+    "lat": 0.166877,
+    "lng": 0.366027,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 23,
+    "timestamp": 23.0,
+    "frame": 1380,
+    "minimap": "minimaps/000023.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.125,
+        "lat": 0.165975,
+        "lng": 0.365983,
+        "map_x": 24912.0,
+        "map_y": 11236.5
+      }
+    ],
+    "map_x": 24912.0,
+    "map_y": 11236.5,
+    "search_radius": 1,
+    "lat": 0.165975,
+    "lng": 0.365983,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 24,
+    "timestamp": 24.0,
+    "frame": 1440,
+    "minimap": "minimaps/000024.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.55,
+    "match_score": 25,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 25,
+        "confidence": 0.55,
+        "lat": 0.167256,
+        "lng": 0.366398,
+        "map_x": 24921.7,
+        "map_y": 11206.6
+      }
+    ],
+    "map_x": 24921.7,
+    "map_y": 11206.6,
+    "search_radius": 2,
+    "lat": 0.167256,
+    "lng": 0.366398,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 25,
+    "timestamp": 25.0,
+    "frame": 1500,
+    "minimap": "minimaps/000025.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.675,
+    "match_score": 27,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 27,
+        "confidence": 0.675,
+        "lat": 0.167322,
+        "lng": 0.366438,
+        "map_x": 24922.6,
+        "map_y": 11205.1
+      }
+    ],
+    "map_x": 24922.6,
+    "map_y": 11205.1,
+    "search_radius": 2,
+    "lat": 0.167322,
+    "lng": 0.366438,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 26,
+    "timestamp": 26.0,
+    "frame": 1560,
+    "minimap": "minimaps/000026.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.5,
+    "match_score": 21,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 21,
+        "confidence": 0.5,
+        "lat": 0.167202,
+        "lng": 0.366327,
+        "map_x": 24920.0,
+        "map_y": 11207.9
+      }
+    ],
+    "map_x": 24920.0,
+    "map_y": 11207.9,
+    "search_radius": 2,
+    "lat": 0.167202,
+    "lng": 0.366327,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 27,
+    "timestamp": 27.0,
+    "frame": 1620,
+    "minimap": "minimaps/000027.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.55,
+    "match_score": 24,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 24,
+        "confidence": 0.55,
+        "lat": 0.167748,
+        "lng": 0.366395,
+        "map_x": 24921.6,
+        "map_y": 11195.2
+      }
+    ],
+    "map_x": 24921.6,
+    "map_y": 11195.2,
+    "search_radius": 2,
+    "lat": 0.167748,
+    "lng": 0.366395,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 28,
+    "timestamp": 28.0,
+    "frame": 1680,
+    "minimap": "minimaps/000028.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 19,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 19,
+        "confidence": 0.4,
+        "lat": 0.168088,
+        "lng": 0.36585,
+        "map_x": 24908.9,
+        "map_y": 11187.3
+      }
+    ],
+    "map_x": 24908.9,
+    "map_y": 11187.3,
+    "search_radius": 2,
+    "lat": 0.168088,
+    "lng": 0.36585,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 29,
+    "timestamp": 29.0,
+    "frame": 1740,
+    "minimap": "minimaps/000029.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.168794,
+        "lng": 0.36607,
+        "map_x": 24914.1,
+        "map_y": 11170.8
+      }
+    ],
+    "map_x": 24914.1,
+    "map_y": 11170.8,
+    "search_radius": 2,
+    "lat": 0.168794,
+    "lng": 0.36607,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 30,
+    "timestamp": 30.0,
+    "frame": 1800,
+    "minimap": "minimaps/000030.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.45,
+    "match_score": 19,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 19,
+        "confidence": 0.45,
+        "lat": 0.169125,
+        "lng": 0.366087,
+        "map_x": 24914.5,
+        "map_y": 11163.1
+      }
+    ],
+    "map_x": 24914.5,
+    "map_y": 11163.1,
+    "search_radius": 2,
+    "lat": 0.169125,
+    "lng": 0.366087,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 31,
+    "timestamp": 31.0,
+    "frame": 1860,
+    "minimap": "minimaps/000031.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 20,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 20,
+        "confidence": 0.425,
+        "lat": 0.169441,
+        "lng": 0.366037,
+        "map_x": 24913.3,
+        "map_y": 11155.7
+      }
+    ],
+    "map_x": 24913.3,
+    "map_y": 11155.7,
+    "search_radius": 2,
+    "lat": 0.169441,
+    "lng": 0.366037,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 32,
+    "timestamp": 32.0,
+    "frame": 1920,
+    "minimap": "minimaps/000032.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.375,
+        "lat": 0.169665,
+        "lng": 0.365435,
+        "map_x": 24899.2,
+        "map_y": 11150.5
+      }
+    ],
+    "map_x": 24899.2,
+    "map_y": 11150.5,
+    "search_radius": 2,
+    "lat": 0.169665,
+    "lng": 0.365435,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 33,
+    "timestamp": 33.0,
+    "frame": 1980,
+    "minimap": "minimaps/000033.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 19,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 19,
+        "confidence": 0.425,
+        "lat": 0.169534,
+        "lng": 0.365872,
+        "map_x": 24909.4,
+        "map_y": 11153.6
+      }
+    ],
+    "map_x": 24909.4,
+    "map_y": 11153.6,
+    "search_radius": 2,
+    "lat": 0.169534,
+    "lng": 0.365872,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 34,
+    "timestamp": 34.0,
+    "frame": 2040,
+    "minimap": "minimaps/000034.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.375,
+        "lat": 0.170041,
+        "lng": 0.36571,
+        "map_x": 24905.7,
+        "map_y": 11141.7
+      }
+    ],
+    "map_x": 24905.7,
+    "map_y": 11141.7,
+    "search_radius": 2,
+    "lat": 0.170041,
+    "lng": 0.36571,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 35,
+    "timestamp": 35.0,
+    "frame": 2100,
+    "minimap": "minimaps/000035.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.275,
+        "lat": 0.170333,
+        "lng": 0.365502,
+        "map_x": 24900.8,
+        "map_y": 11134.9
+      }
+    ],
+    "map_x": 24900.8,
+    "map_y": 11134.9,
+    "search_radius": 2,
+    "lat": 0.170333,
+    "lng": 0.365502,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 36,
+    "timestamp": 36.0,
+    "frame": 2160,
+    "minimap": "minimaps/000036.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.175,
+        "lat": 0.170538,
+        "lng": 0.365278,
+        "map_x": 24895.6,
+        "map_y": 11130.2
+      }
+    ],
+    "map_x": 24895.6,
+    "map_y": 11130.2,
+    "search_radius": 1,
+    "lat": 0.170538,
+    "lng": 0.365278,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 37,
+    "timestamp": 37.0,
+    "frame": 2220,
+    "minimap": "minimaps/000037.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.125,
+        "lat": 0.168409,
+        "lng": 0.367113,
+        "map_x": 24938.4,
+        "map_y": 11179.8
+      }
+    ],
+    "map_x": 24938.4,
+    "map_y": 11179.8,
+    "search_radius": 1,
+    "lat": 0.168409,
+    "lng": 0.367113,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 38,
+    "timestamp": 38.0,
+    "frame": 2280,
+    "minimap": "minimaps/000038.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.225,
+        "lat": 0.1709,
+        "lng": 0.365272,
+        "map_x": 24895.4,
+        "map_y": 11121.7
+      }
+    ],
+    "map_x": 24895.4,
+    "map_y": 11121.7,
+    "search_radius": 1,
+    "lat": 0.1709,
+    "lng": 0.365272,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 39,
+    "timestamp": 39.0,
+    "frame": 2340,
+    "minimap": "minimaps/000039.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.175,
+        "lat": 0.171106,
+        "lng": 0.365638,
+        "map_x": 24904.0,
+        "map_y": 11116.9
+      }
+    ],
+    "map_x": 24904.0,
+    "map_y": 11116.9,
+    "search_radius": 2,
+    "lat": 0.171106,
+    "lng": 0.365638,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 40,
+    "timestamp": 40.0,
+    "frame": 2400,
+    "minimap": "minimaps/000040.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.125,
+        "lat": 0.170954,
+        "lng": 0.366011,
+        "map_x": 24912.7,
+        "map_y": 11120.5
+      }
+    ],
+    "map_x": 24912.7,
+    "map_y": 11120.5,
+    "search_radius": 2,
+    "lat": 0.170954,
+    "lng": 0.366011,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 41,
+    "timestamp": 41.0,
+    "frame": 2460,
+    "minimap": "minimaps/000041.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.15,
+        "lat": 0.170648,
+        "lng": 0.365989,
+        "map_x": 24912.2,
+        "map_y": 11127.6
+      }
+    ],
+    "map_x": 24912.2,
+    "map_y": 11127.6,
+    "search_radius": 2,
+    "lat": 0.170648,
+    "lng": 0.365989,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 42,
+    "timestamp": 42.0,
+    "frame": 2520,
+    "minimap": "minimaps/000042.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.275,
+        "lat": 0.168328,
+        "lng": 0.36487,
+        "map_x": 24886.1,
+        "map_y": 11181.7
+      }
+    ],
+    "map_x": 24886.1,
+    "map_y": 11181.7,
+    "search_radius": 2,
+    "lat": 0.168328,
+    "lng": 0.36487,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 43,
+    "timestamp": 43.0,
+    "frame": 2580,
+    "minimap": "minimaps/000043.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.167005,
+        "lng": 0.364336,
+        "map_x": 24873.6,
+        "map_y": 11212.5
+      }
+    ],
+    "map_x": 24873.6,
+    "map_y": 11212.5,
+    "search_radius": 1,
+    "lat": 0.167005,
+    "lng": 0.364336,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 44,
+    "timestamp": 44.0,
+    "frame": 2640,
+    "minimap": "minimaps/000044.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.225,
+        "lat": 0.167546,
+        "lng": 0.363894,
+        "map_x": 24863.3,
+        "map_y": 11199.9
+      }
+    ],
+    "map_x": 24863.3,
+    "map_y": 11199.9,
+    "search_radius": 1,
+    "lat": 0.167546,
+    "lng": 0.363894,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 45,
+    "timestamp": 45.0,
+    "frame": 2700,
+    "minimap": "minimaps/000045.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.167325,
+        "lng": 0.363187,
+        "map_x": 24846.9,
+        "map_y": 11205.0
+      }
+    ],
+    "map_x": 24846.9,
+    "map_y": 11205.0,
+    "search_radius": 1,
+    "lat": 0.167325,
+    "lng": 0.363187,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 46,
+    "timestamp": 46.0,
+    "frame": 2760,
+    "minimap": "minimaps/000046.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.25,
+        "lat": 0.167281,
+        "lng": 0.362762,
+        "map_x": 24837.0,
+        "map_y": 11206.1
+      }
+    ],
+    "map_x": 24837.0,
+    "map_y": 11206.1,
+    "search_radius": 1,
+    "lat": 0.167281,
+    "lng": 0.362762,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 47,
+    "timestamp": 47.0,
+    "frame": 2820,
+    "minimap": "minimaps/000047.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.225,
+        "lat": 0.166717,
+        "lng": 0.363144,
+        "map_x": 24845.9,
+        "map_y": 11219.2
+      }
+    ],
+    "map_x": 24845.9,
+    "map_y": 11219.2,
+    "search_radius": 1,
+    "lat": 0.166717,
+    "lng": 0.363144,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 48,
+    "timestamp": 48.0,
+    "frame": 2880,
+    "minimap": "minimaps/000048.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.175,
+        "lat": 0.166148,
+        "lng": 0.363452,
+        "map_x": 24853.0,
+        "map_y": 11232.5
+      }
+    ],
+    "map_x": 24853.0,
+    "map_y": 11232.5,
+    "search_radius": 1,
+    "lat": 0.166148,
+    "lng": 0.363452,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 49,
+    "timestamp": 49.0,
+    "frame": 2940,
+    "minimap": "minimaps/000049.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.15,
+        "lat": 0.1666,
+        "lng": 0.36678,
+        "map_x": 24930.6,
+        "map_y": 11221.9
+      }
+    ],
+    "map_x": 24930.6,
+    "map_y": 11221.9,
+    "search_radius": 1,
+    "lat": 0.1666,
+    "lng": 0.36678,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 50,
+    "timestamp": 50.0,
+    "frame": 3000,
+    "minimap": "minimaps/000050.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.175,
+        "lat": 0.165953,
+        "lng": 0.365113,
+        "map_x": 24891.7,
+        "map_y": 11237.0
+      }
+    ],
+    "map_x": 24891.7,
+    "map_y": 11237.0,
+    "search_radius": 1,
+    "lat": 0.165953,
+    "lng": 0.365113,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 51,
+    "timestamp": 51.0,
+    "frame": 3060,
+    "minimap": "minimaps/000051.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.166744,
+        "lng": 0.364155,
+        "map_x": 24869.4,
+        "map_y": 11218.6
+      }
+    ],
+    "map_x": 24869.4,
+    "map_y": 11218.6,
+    "search_radius": 1,
+    "lat": 0.166744,
+    "lng": 0.364155,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 52,
+    "timestamp": 52.0,
+    "frame": 3120,
+    "minimap": "minimaps/000052.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.166176,
+        "lng": 0.363934,
+        "map_x": 24864.3,
+        "map_y": 11231.8
+      }
+    ],
+    "map_x": 24864.3,
+    "map_y": 11231.8,
+    "search_radius": 1,
+    "lat": 0.166176,
+    "lng": 0.363934,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 53,
+    "timestamp": 53.0,
+    "frame": 3180,
+    "minimap": "minimaps/000053.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.15,
+        "lat": 0.165739,
+        "lng": 0.365723,
+        "map_x": 24906.0,
+        "map_y": 11242.0
+      }
+    ],
+    "map_x": 24906.0,
+    "map_y": 11242.0,
+    "search_radius": 1,
+    "lat": 0.165739,
+    "lng": 0.365723,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 54,
+    "timestamp": 54.0,
+    "frame": 3240,
+    "minimap": "minimaps/000054.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.25,
+        "lat": 0.166927,
+        "lng": 0.365443,
+        "map_x": 24899.4,
+        "map_y": 11214.3
+      }
+    ],
+    "map_x": 24899.4,
+    "map_y": 11214.3,
+    "search_radius": 1,
+    "lat": 0.166927,
+    "lng": 0.365443,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 55,
+    "timestamp": 55.0,
+    "frame": 3300,
+    "minimap": "minimaps/000055.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.15,
+        "lat": 0.14979,
+        "lng": 0.363597,
+        "map_x": 24856.4,
+        "map_y": 11613.6
+      }
+    ],
+    "map_x": 24856.4,
+    "map_y": 11613.6,
+    "search_radius": 1,
+    "lat": 0.14979,
+    "lng": 0.363597,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 56,
+    "timestamp": 56.0,
+    "frame": 3360,
+    "minimap": "minimaps/000056.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.165258,
+        "lng": 0.363758,
+        "map_x": 24860.2,
+        "map_y": 11253.2
+      }
+    ],
+    "map_x": 24860.2,
+    "map_y": 11253.2,
+    "search_radius": 1,
+    "lat": 0.165258,
+    "lng": 0.363758,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 57,
+    "timestamp": 57.0,
+    "frame": 3420,
+    "minimap": "minimaps/000057.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.25,
+        "lat": 0.160805,
+        "lng": 0.361306,
+        "map_x": 24803.0,
+        "map_y": 11357.0
+      }
+    ],
+    "map_x": 24803.0,
+    "map_y": 11357.0,
+    "search_radius": 2,
+    "lat": 0.160805,
+    "lng": 0.361306,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 58,
+    "timestamp": 58.0,
+    "frame": 3480,
+    "minimap": "minimaps/000058.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.525,
+    "match_score": 25,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 25,
+        "confidence": 0.525,
+        "lat": 0.160457,
+        "lng": 0.36136,
+        "map_x": 24804.3,
+        "map_y": 11365.1
+      }
+    ],
+    "map_x": 24804.3,
+    "map_y": 11365.1,
+    "search_radius": 2,
+    "lat": 0.160457,
+    "lng": 0.36136,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 59,
+    "timestamp": 59.0,
+    "frame": 3540,
+    "minimap": "minimaps/000059.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.125,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 60,
+    "timestamp": 60.0,
+    "frame": 3600,
+    "minimap": "minimaps/000060.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.1375,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.1375,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 61,
+    "timestamp": 61.0,
+    "frame": 3660,
+    "minimap": "minimaps/000061.png"
+  },
+  {
+    "index": 62,
+    "timestamp": 62.0,
+    "frame": 3720,
+    "minimap": "minimaps/000062.png"
+  },
+  {
+    "index": 63,
+    "timestamp": 63.0,
+    "frame": 3780,
+    "minimap": "minimaps/000063.png"
+  },
+  {
+    "index": 64,
+    "timestamp": 64.0,
+    "frame": 3840,
+    "minimap": "minimaps/000064.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.375,
+        "lat": 0.159496,
+        "lng": 0.36102,
+        "map_x": 24796.4,
+        "map_y": 11387.5
+      }
+    ],
+    "map_x": 24796.4,
+    "map_y": 11387.5,
+    "search_radius": 2,
+    "lat": 0.159496,
+    "lng": 0.36102,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 65,
+    "timestamp": 65.0,
+    "frame": 3900,
+    "minimap": "minimaps/000065.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.4,
+        "lat": 0.159495,
+        "lng": 0.36101,
+        "map_x": 24796.1,
+        "map_y": 11387.5
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.5,
+    "search_radius": 2,
+    "lat": 0.159495,
+    "lng": 0.36101,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 66,
+    "timestamp": 66.0,
+    "frame": 3960,
+    "minimap": "minimaps/000066.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.375,
+        "lat": 0.159515,
+        "lng": 0.361006,
+        "map_x": 24796.1,
+        "map_y": 11387.0
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.0,
+    "search_radius": 2,
+    "lat": 0.159515,
+    "lng": 0.361006,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 67,
+    "timestamp": 67.0,
+    "frame": 4020,
+    "minimap": "minimaps/000067.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.125,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 68,
+    "timestamp": 68.0,
+    "frame": 4080,
+    "minimap": "minimaps/000068.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.1375,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.1375,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 69,
+    "timestamp": 69.0,
+    "frame": 4140,
+    "minimap": "minimaps/000069.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.125,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 70,
+    "timestamp": 70.0,
+    "frame": 4200,
+    "minimap": "minimaps/000070.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.325,
+        "lat": 0.159454,
+        "lng": 0.360993,
+        "map_x": 24795.7,
+        "map_y": 11388.4
+      }
+    ],
+    "map_x": 24795.7,
+    "map_y": 11388.4,
+    "search_radius": 2,
+    "lat": 0.159454,
+    "lng": 0.360993,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 71,
+    "timestamp": 71.0,
+    "frame": 4260,
+    "minimap": "minimaps/000071.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.3,
+        "lat": 0.159511,
+        "lng": 0.360995,
+        "map_x": 24795.8,
+        "map_y": 11387.1
+      }
+    ],
+    "map_x": 24795.8,
+    "map_y": 11387.1,
+    "search_radius": 2,
+    "lat": 0.159511,
+    "lng": 0.360995,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 72,
+    "timestamp": 72.0,
+    "frame": 4320,
+    "minimap": "minimaps/000072.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.325,
+        "lat": 0.159511,
+        "lng": 0.360992,
+        "map_x": 24795.7,
+        "map_y": 11387.1
+      }
+    ],
+    "map_x": 24795.7,
+    "map_y": 11387.1,
+    "search_radius": 2,
+    "lat": 0.159511,
+    "lng": 0.360992,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 73,
+    "timestamp": 73.0,
+    "frame": 4380,
+    "minimap": "minimaps/000073.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.3,
+        "lat": 0.159525,
+        "lng": 0.360995,
+        "map_x": 24795.8,
+        "map_y": 11386.8
+      }
+    ],
+    "map_x": 24795.8,
+    "map_y": 11386.8,
+    "search_radius": 2,
+    "lat": 0.159525,
+    "lng": 0.360995,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 74,
+    "timestamp": 74.0,
+    "frame": 4440,
+    "minimap": "minimaps/000074.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.325,
+        "lat": 0.159531,
+        "lng": 0.360995,
+        "map_x": 24795.8,
+        "map_y": 11386.7
+      }
+    ],
+    "map_x": 24795.8,
+    "map_y": 11386.7,
+    "search_radius": 2,
+    "lat": 0.159531,
+    "lng": 0.360995,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 75,
+    "timestamp": 75.0,
+    "frame": 4500,
+    "minimap": "minimaps/000075.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.4,
+        "lat": 0.159538,
+        "lng": 0.361019,
+        "map_x": 24796.3,
+        "map_y": 11386.5
+      }
+    ],
+    "map_x": 24796.3,
+    "map_y": 11386.5,
+    "search_radius": 2,
+    "lat": 0.159538,
+    "lng": 0.361019,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 76,
+    "timestamp": 76.0,
+    "frame": 4560,
+    "minimap": "minimaps/000076.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.159491,
+        "lng": 0.36101,
+        "map_x": 24796.1,
+        "map_y": 11387.6
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.6,
+    "search_radius": 2,
+    "lat": 0.159491,
+    "lng": 0.36101,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 77,
+    "timestamp": 77.0,
+    "frame": 4620,
+    "minimap": "minimaps/000077.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.4,
+        "lat": 0.159509,
+        "lng": 0.361007,
+        "map_x": 24796.1,
+        "map_y": 11387.2
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.2,
+    "search_radius": 2,
+    "lat": 0.159509,
+    "lng": 0.361007,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 78,
+    "timestamp": 78.0,
+    "frame": 4680,
+    "minimap": "minimaps/000078.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.4,
+        "lat": 0.159501,
+        "lng": 0.361012,
+        "map_x": 24796.2,
+        "map_y": 11387.4
+      }
+    ],
+    "map_x": 24796.2,
+    "map_y": 11387.4,
+    "search_radius": 2,
+    "lat": 0.159501,
+    "lng": 0.361012,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 79,
+    "timestamp": 79.0,
+    "frame": 4740,
+    "minimap": "minimaps/000079.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.425,
+        "lat": 0.159504,
+        "lng": 0.36101,
+        "map_x": 24796.1,
+        "map_y": 11387.3
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.3,
+    "search_radius": 2,
+    "lat": 0.159504,
+    "lng": 0.36101,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 80,
+    "timestamp": 80.0,
+    "frame": 4800,
+    "minimap": "minimaps/000080.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.159525,
+        "lng": 0.361019,
+        "map_x": 24796.4,
+        "map_y": 11386.8
+      }
+    ],
+    "map_x": 24796.4,
+    "map_y": 11386.8,
+    "search_radius": 2,
+    "lat": 0.159525,
+    "lng": 0.361019,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 81,
+    "timestamp": 81.0,
+    "frame": 4860,
+    "minimap": "minimaps/000081.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.425,
+        "lat": 0.159476,
+        "lng": 0.360991,
+        "map_x": 24795.7,
+        "map_y": 11387.9
+      }
+    ],
+    "map_x": 24795.7,
+    "map_y": 11387.9,
+    "search_radius": 2,
+    "lat": 0.159476,
+    "lng": 0.360991,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 82,
+    "timestamp": 82.0,
+    "frame": 4920,
+    "minimap": "minimaps/000082.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.3,
+        "lat": 0.159493,
+        "lng": 0.36097,
+        "map_x": 24795.2,
+        "map_y": 11387.5
+      }
+    ],
+    "map_x": 24795.2,
+    "map_y": 11387.5,
+    "search_radius": 2,
+    "lat": 0.159493,
+    "lng": 0.36097,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 83,
+    "timestamp": 83.0,
+    "frame": 4980,
+    "minimap": "minimaps/000083.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.275,
+        "lat": 0.159478,
+        "lng": 0.360978,
+        "map_x": 24795.4,
+        "map_y": 11387.9
+      }
+    ],
+    "map_x": 24795.4,
+    "map_y": 11387.9,
+    "search_radius": 2,
+    "lat": 0.159478,
+    "lng": 0.360978,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 84,
+    "timestamp": 84.0,
+    "frame": 5040,
+    "minimap": "minimaps/000084.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.325,
+        "lat": 0.159478,
+        "lng": 0.361008,
+        "map_x": 24796.1,
+        "map_y": 11387.9
+      }
+    ],
+    "map_x": 24796.1,
+    "map_y": 11387.9,
+    "search_radius": 2,
+    "lat": 0.159478,
+    "lng": 0.361008,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 85,
+    "timestamp": 85.0,
+    "frame": 5100,
+    "minimap": "minimaps/000085.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.1625,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.1625,
+        "lat": 0.159302,
+        "lng": 0.379028,
+        "map_x": 25216.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 25216.0,
+    "map_y": 11392.0,
+    "search_radius": 1,
+    "lat": 0.159302,
+    "lng": 0.379028,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 86,
+    "timestamp": 86.0,
+    "frame": 5160,
+    "minimap": "minimaps/000086.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.159339,
+        "lng": 0.360691,
+        "map_x": 24788.7,
+        "map_y": 11391.1
+      }
+    ],
+    "map_x": 24788.7,
+    "map_y": 11391.1,
+    "search_radius": 2,
+    "lat": 0.159339,
+    "lng": 0.360691,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 87,
+    "timestamp": 87.0,
+    "frame": 5220,
+    "minimap": "minimaps/000087.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.275,
+        "lat": 0.159378,
+        "lng": 0.360686,
+        "map_x": 24788.6,
+        "map_y": 11390.2
+      }
+    ],
+    "map_x": 24788.6,
+    "map_y": 11390.2,
+    "search_radius": 2,
+    "lat": 0.159378,
+    "lng": 0.360686,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 88,
+    "timestamp": 88.0,
+    "frame": 5280,
+    "minimap": "minimaps/000088.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.25,
+        "lat": 0.159121,
+        "lng": 0.360999,
+        "map_x": 24795.9,
+        "map_y": 11396.2
+      }
+    ],
+    "map_x": 24795.9,
+    "map_y": 11396.2,
+    "search_radius": 2,
+    "lat": 0.159121,
+    "lng": 0.360999,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 89,
+    "timestamp": 89.0,
+    "frame": 5340,
+    "minimap": "minimaps/000089.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.25,
+        "lat": 0.159014,
+        "lng": 0.361731,
+        "map_x": 24812.9,
+        "map_y": 11398.7
+      }
+    ],
+    "map_x": 24812.9,
+    "map_y": 11398.7,
+    "search_radius": 2,
+    "lat": 0.159014,
+    "lng": 0.361731,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 90,
+    "timestamp": 90.0,
+    "frame": 5400,
+    "minimap": "minimaps/000090.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.325,
+        "lat": 0.158891,
+        "lng": 0.362341,
+        "map_x": 24827.2,
+        "map_y": 11401.6
+      }
+    ],
+    "map_x": 24827.2,
+    "map_y": 11401.6,
+    "search_radius": 2,
+    "lat": 0.158891,
+    "lng": 0.362341,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 91,
+    "timestamp": 91.0,
+    "frame": 5460,
+    "minimap": "minimaps/000091.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.425,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.425,
+        "lat": 0.158417,
+        "lng": 0.36305,
+        "map_x": 24843.7,
+        "map_y": 11412.6
+      }
+    ],
+    "map_x": 24843.7,
+    "map_y": 11412.6,
+    "search_radius": 2,
+    "lat": 0.158417,
+    "lng": 0.36305,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 92,
+    "timestamp": 92.0,
+    "frame": 5520,
+    "minimap": "minimaps/000092.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.16184,
+        "lng": 0.365649,
+        "map_x": 24904.2,
+        "map_y": 11332.9
+      }
+    ],
+    "map_x": 24904.2,
+    "map_y": 11332.9,
+    "search_radius": 1,
+    "lat": 0.16184,
+    "lng": 0.365649,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 93,
+    "timestamp": 93.0,
+    "frame": 5580,
+    "minimap": "minimaps/000093.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.5,
+    "match_score": 20,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 20,
+        "confidence": 0.5,
+        "lat": 0.157243,
+        "lng": 0.364241,
+        "map_x": 24871.4,
+        "map_y": 11440.0
+      }
+    ],
+    "map_x": 24871.4,
+    "map_y": 11440.0,
+    "search_radius": 2,
+    "lat": 0.157243,
+    "lng": 0.364241,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 94,
+    "timestamp": 94.0,
+    "frame": 5640,
+    "minimap": "minimaps/000094.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.575,
+    "match_score": 24,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 24,
+        "confidence": 0.575,
+        "lat": 0.156221,
+        "lng": 0.364999,
+        "map_x": 24889.1,
+        "map_y": 11463.8
+      }
+    ],
+    "map_x": 24889.1,
+    "map_y": 11463.8,
+    "search_radius": 2,
+    "lat": 0.156221,
+    "lng": 0.364999,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 95,
+    "timestamp": 95.0,
+    "frame": 5700,
+    "minimap": "minimaps/000095.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.65,
+    "match_score": 28,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 28,
+        "confidence": 0.65,
+        "lat": 0.155849,
+        "lng": 0.365593,
+        "map_x": 24902.9,
+        "map_y": 11472.5
+      }
+    ],
+    "map_x": 24902.9,
+    "map_y": 11472.5,
+    "search_radius": 2,
+    "lat": 0.155849,
+    "lng": 0.365593,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 96,
+    "timestamp": 96.0,
+    "frame": 5760,
+    "minimap": "minimaps/000096.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.525,
+    "match_score": 22,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 22,
+        "confidence": 0.525,
+        "lat": 0.155297,
+        "lng": 0.366176,
+        "map_x": 24916.5,
+        "map_y": 11485.3
+      }
+    ],
+    "map_x": 24916.5,
+    "map_y": 11485.3,
+    "search_radius": 2,
+    "lat": 0.155297,
+    "lng": 0.366176,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 97,
+    "timestamp": 97.0,
+    "frame": 5820,
+    "minimap": "minimaps/000097.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.15544,
+        "lng": 0.365272,
+        "map_x": 24895.5,
+        "map_y": 11482.0
+      }
+    ],
+    "map_x": 24895.5,
+    "map_y": 11482.0,
+    "search_radius": 1,
+    "lat": 0.15544,
+    "lng": 0.365272,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 98,
+    "timestamp": 98.0,
+    "frame": 5880,
+    "minimap": "minimaps/000098.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.1544,
+        "lng": 0.36687,
+        "map_x": 24932.7,
+        "map_y": 11506.2
+      }
+    ],
+    "map_x": 24932.7,
+    "map_y": 11506.2,
+    "search_radius": 1,
+    "lat": 0.1544,
+    "lng": 0.36687,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 99,
+    "timestamp": 99.0,
+    "frame": 5940,
+    "minimap": "minimaps/000099.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.175,
+        "lat": 0.154552,
+        "lng": 0.363749,
+        "map_x": 24860.0,
+        "map_y": 11502.7
+      }
+    ],
+    "map_x": 24860.0,
+    "map_y": 11502.7,
+    "search_radius": 1,
+    "lat": 0.154552,
+    "lng": 0.363749,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 100,
+    "timestamp": 100.0,
+    "frame": 6000,
+    "minimap": "minimaps/000100.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.153793,
+        "lng": 0.365986,
+        "map_x": 24912.1,
+        "map_y": 11520.4
+      }
+    ],
+    "map_x": 24912.1,
+    "map_y": 11520.4,
+    "search_radius": 1,
+    "lat": 0.153793,
+    "lng": 0.365986,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 101,
+    "timestamp": 101.0,
+    "frame": 6060,
+    "minimap": "minimaps/000101.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.55,
+    "match_score": 22,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 22,
+        "confidence": 0.55,
+        "lat": 0.153519,
+        "lng": 0.365905,
+        "map_x": 24910.2,
+        "map_y": 11526.8
+      }
+    ],
+    "map_x": 24910.2,
+    "map_y": 11526.8,
+    "search_radius": 2,
+    "lat": 0.153519,
+    "lng": 0.365905,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 102,
+    "timestamp": 102.0,
+    "frame": 6120,
+    "minimap": "minimaps/000102.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.125,
+        "lat": 0.15385,
+        "lng": 0.364476,
+        "map_x": 24876.9,
+        "map_y": 11519.0
+      }
+    ],
+    "map_x": 24876.9,
+    "map_y": 11519.0,
+    "search_radius": 1,
+    "lat": 0.15385,
+    "lng": 0.364476,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 103,
+    "timestamp": 103.0,
+    "frame": 6180,
+    "minimap": "minimaps/000103.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.15,
+        "lat": 0.152088,
+        "lng": 0.367293,
+        "map_x": 24942.5,
+        "map_y": 11560.1
+      }
+    ],
+    "map_x": 24942.5,
+    "map_y": 11560.1,
+    "search_radius": 1,
+    "lat": 0.152088,
+    "lng": 0.367293,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 104,
+    "timestamp": 104.0,
+    "frame": 6240,
+    "minimap": "minimaps/000104.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.575,
+    "match_score": 23,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 23,
+        "confidence": 0.575,
+        "lat": 0.151541,
+        "lng": 0.364913,
+        "map_x": 24887.1,
+        "map_y": 11572.8
+      }
+    ],
+    "map_x": 24887.1,
+    "map_y": 11572.8,
+    "search_radius": 2,
+    "lat": 0.151541,
+    "lng": 0.364913,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 105,
+    "timestamp": 105.0,
+    "frame": 6300,
+    "minimap": "minimaps/000105.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.5,
+    "match_score": 20,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 20,
+        "confidence": 0.5,
+        "lat": 0.151384,
+        "lng": 0.364862,
+        "map_x": 24885.9,
+        "map_y": 11576.5
+      }
+    ],
+    "map_x": 24885.9,
+    "map_y": 11576.5,
+    "search_radius": 2,
+    "lat": 0.151384,
+    "lng": 0.364862,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 106,
+    "timestamp": 106.0,
+    "frame": 6360,
+    "minimap": "minimaps/000106.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.125,
+        "lat": 0.150572,
+        "lng": 0.366054,
+        "map_x": 24913.7,
+        "map_y": 11595.4
+      }
+    ],
+    "map_x": 24913.7,
+    "map_y": 11595.4,
+    "search_radius": 1,
+    "lat": 0.150572,
+    "lng": 0.366054,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 107,
+    "timestamp": 107.0,
+    "frame": 6420,
+    "minimap": "minimaps/000107.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.150549,
+        "lng": 0.365363,
+        "map_x": 24897.6,
+        "map_y": 11596.0
+      }
+    ],
+    "map_x": 24897.6,
+    "map_y": 11596.0,
+    "search_radius": 1,
+    "lat": 0.150549,
+    "lng": 0.365363,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 108,
+    "timestamp": 108.0,
+    "frame": 6480,
+    "minimap": "minimaps/000108.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.375,
+        "lat": 0.15016,
+        "lng": 0.364643,
+        "map_x": 24880.8,
+        "map_y": 11605.0
+      }
+    ],
+    "map_x": 24880.8,
+    "map_y": 11605.0,
+    "search_radius": 2,
+    "lat": 0.15016,
+    "lng": 0.364643,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 109,
+    "timestamp": 109.0,
+    "frame": 6540,
+    "minimap": "minimaps/000109.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.35,
+        "lat": 0.149575,
+        "lng": 0.364525,
+        "map_x": 24878.0,
+        "map_y": 11618.7
+      }
+    ],
+    "map_x": 24878.0,
+    "map_y": 11618.7,
+    "search_radius": 2,
+    "lat": 0.149575,
+    "lng": 0.364525,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 110,
+    "timestamp": 110.0,
+    "frame": 6600,
+    "minimap": "minimaps/000110.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.14921,
+        "lng": 0.365324,
+        "map_x": 24896.7,
+        "map_y": 11627.2
+      }
+    ],
+    "map_x": 24896.7,
+    "map_y": 11627.2,
+    "search_radius": 1,
+    "lat": 0.14921,
+    "lng": 0.365324,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 111,
+    "timestamp": 111.0,
+    "frame": 6660,
+    "minimap": "minimaps/000111.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.148633,
+        "lng": 0.366421,
+        "map_x": 24922.2,
+        "map_y": 11640.6
+      }
+    ],
+    "map_x": 24922.2,
+    "map_y": 11640.6,
+    "search_radius": 1,
+    "lat": 0.148633,
+    "lng": 0.366421,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 112,
+    "timestamp": 112.0,
+    "frame": 6720,
+    "minimap": "minimaps/000112.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.225,
+        "lat": 0.147643,
+        "lng": 0.36665,
+        "map_x": 24927.6,
+        "map_y": 11663.7
+      }
+    ],
+    "map_x": 24927.6,
+    "map_y": 11663.7,
+    "search_radius": 1,
+    "lat": 0.147643,
+    "lng": 0.36665,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 113,
+    "timestamp": 113.0,
+    "frame": 6780,
+    "minimap": "minimaps/000113.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.25,
+        "lat": 0.147019,
+        "lng": 0.367039,
+        "map_x": 24936.6,
+        "map_y": 11678.2
+      }
+    ],
+    "map_x": 24936.6,
+    "map_y": 11678.2,
+    "search_radius": 1,
+    "lat": 0.147019,
+    "lng": 0.367039,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 114,
+    "timestamp": 114.0,
+    "frame": 6840,
+    "minimap": "minimaps/000114.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.275,
+        "lat": 0.146559,
+        "lng": 0.367557,
+        "map_x": 24948.7,
+        "map_y": 11688.9
+      }
+    ],
+    "map_x": 24948.7,
+    "map_y": 11688.9,
+    "search_radius": 1,
+    "lat": 0.146559,
+    "lng": 0.367557,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 115,
+    "timestamp": 115.0,
+    "frame": 6900,
+    "minimap": "minimaps/000115.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.225,
+        "lat": 0.146181,
+        "lng": 0.367433,
+        "map_x": 24945.8,
+        "map_y": 11697.7
+      }
+    ],
+    "map_x": 24945.8,
+    "map_y": 11697.7,
+    "search_radius": 1,
+    "lat": 0.146181,
+    "lng": 0.367433,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 116,
+    "timestamp": 116.0,
+    "frame": 6960,
+    "minimap": "minimaps/000116.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.25,
+        "lat": 0.146142,
+        "lng": 0.367353,
+        "map_x": 24943.9,
+        "map_y": 11698.6
+      }
+    ],
+    "map_x": 24943.9,
+    "map_y": 11698.6,
+    "search_radius": 1,
+    "lat": 0.146142,
+    "lng": 0.367353,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 117,
+    "timestamp": 117.0,
+    "frame": 7020,
+    "minimap": "minimaps/000117.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.225,
+        "lat": 0.146573,
+        "lng": 0.36726,
+        "map_x": 24941.8,
+        "map_y": 11688.6
+      }
+    ],
+    "map_x": 24941.8,
+    "map_y": 11688.6,
+    "search_radius": 1,
+    "lat": 0.146573,
+    "lng": 0.36726,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 118,
+    "timestamp": 118.0,
+    "frame": 7080,
+    "minimap": "minimaps/000118.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.225,
+        "lat": 0.147187,
+        "lng": 0.367017,
+        "map_x": 24936.1,
+        "map_y": 11674.3
+      }
+    ],
+    "map_x": 24936.1,
+    "map_y": 11674.3,
+    "search_radius": 1,
+    "lat": 0.147187,
+    "lng": 0.367017,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 119,
+    "timestamp": 119.0,
+    "frame": 7140,
+    "minimap": "minimaps/000119.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.225,
+        "lat": 0.147754,
+        "lng": 0.366984,
+        "map_x": 24935.3,
+        "map_y": 11661.1
+      }
+    ],
+    "map_x": 24935.3,
+    "map_y": 11661.1,
+    "search_radius": 1,
+    "lat": 0.147754,
+    "lng": 0.366984,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 120,
+    "timestamp": 120.0,
+    "frame": 7200,
+    "minimap": "minimaps/000120.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.25,
+        "lat": 0.148269,
+        "lng": 0.366574,
+        "map_x": 24925.8,
+        "map_y": 11649.1
+      }
+    ],
+    "map_x": 24925.8,
+    "map_y": 11649.1,
+    "search_radius": 1,
+    "lat": 0.148269,
+    "lng": 0.366574,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 121,
+    "timestamp": 121.0,
+    "frame": 7260,
+    "minimap": "minimaps/000121.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.1485,
+        "lng": 0.36616,
+        "map_x": 24916.2,
+        "map_y": 11643.7
+      }
+    ],
+    "map_x": 24916.2,
+    "map_y": 11643.7,
+    "search_radius": 1,
+    "lat": 0.1485,
+    "lng": 0.36616,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 122,
+    "timestamp": 122.0,
+    "frame": 7320,
+    "minimap": "minimaps/000122.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.375,
+        "lat": 0.148077,
+        "lng": 0.364343,
+        "map_x": 24873.8,
+        "map_y": 11653.5
+      }
+    ],
+    "map_x": 24873.8,
+    "map_y": 11653.5,
+    "search_radius": 2,
+    "lat": 0.148077,
+    "lng": 0.364343,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 123,
+    "timestamp": 123.0,
+    "frame": 7380,
+    "minimap": "minimaps/000123.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.4,
+        "lat": 0.148093,
+        "lng": 0.36341,
+        "map_x": 24852.1,
+        "map_y": 11653.2
+      }
+    ],
+    "map_x": 24852.1,
+    "map_y": 11653.2,
+    "search_radius": 2,
+    "lat": 0.148093,
+    "lng": 0.36341,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 124,
+    "timestamp": 124.0,
+    "frame": 7440,
+    "minimap": "minimaps/000124.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.375,
+        "lat": 0.148065,
+        "lng": 0.362478,
+        "map_x": 24830.4,
+        "map_y": 11653.8
+      }
+    ],
+    "map_x": 24830.4,
+    "map_y": 11653.8,
+    "search_radius": 2,
+    "lat": 0.148065,
+    "lng": 0.362478,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 125,
+    "timestamp": 125.0,
+    "frame": 7500,
+    "minimap": "minimaps/000125.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.375,
+        "lat": 0.148106,
+        "lng": 0.361761,
+        "map_x": 24813.6,
+        "map_y": 11652.9
+      }
+    ],
+    "map_x": 24813.6,
+    "map_y": 11652.9,
+    "search_radius": 2,
+    "lat": 0.148106,
+    "lng": 0.361761,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 126,
+    "timestamp": 126.0,
+    "frame": 7560,
+    "minimap": "minimaps/000126.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.375,
+        "lat": 0.14817,
+        "lng": 0.36112,
+        "map_x": 24798.7,
+        "map_y": 11651.4
+      }
+    ],
+    "map_x": 24798.7,
+    "map_y": 11651.4,
+    "search_radius": 2,
+    "lat": 0.14817,
+    "lng": 0.36112,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 127,
+    "timestamp": 127.0,
+    "frame": 7620,
+    "minimap": "minimaps/000127.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.3,
+        "lat": 0.148149,
+        "lng": 0.360541,
+        "map_x": 24785.2,
+        "map_y": 11651.9
+      }
+    ],
+    "map_x": 24785.2,
+    "map_y": 11651.9,
+    "search_radius": 2,
+    "lat": 0.148149,
+    "lng": 0.360541,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 128,
+    "timestamp": 128.0,
+    "frame": 7680,
+    "minimap": "minimaps/000128.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.3,
+        "lat": 0.148191,
+        "lng": 0.359771,
+        "map_x": 24767.3,
+        "map_y": 11650.9
+      }
+    ],
+    "map_x": 24767.3,
+    "map_y": 11650.9,
+    "search_radius": 2,
+    "lat": 0.148191,
+    "lng": 0.359771,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 129,
+    "timestamp": 129.0,
+    "frame": 7740,
+    "minimap": "minimaps/000129.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.3,
+        "lat": 0.148236,
+        "lng": 0.359101,
+        "map_x": 24751.7,
+        "map_y": 11649.9
+      }
+    ],
+    "map_x": 24751.7,
+    "map_y": 11649.9,
+    "search_radius": 2,
+    "lat": 0.148236,
+    "lng": 0.359101,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 130,
+    "timestamp": 130.0,
+    "frame": 7800,
+    "minimap": "minimaps/000130.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.175,
+        "lat": 0.148081,
+        "lng": 0.358749,
+        "map_x": 24743.5,
+        "map_y": 11653.5
+      }
+    ],
+    "map_x": 24743.5,
+    "map_y": 11653.5,
+    "search_radius": 2,
+    "lat": 0.148081,
+    "lng": 0.358749,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 131,
+    "timestamp": 131.0,
+    "frame": 7860,
+    "minimap": "minimaps/000131.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.225,
+        "lat": 0.148197,
+        "lng": 0.35866,
+        "map_x": 24741.4,
+        "map_y": 11650.8
+      }
+    ],
+    "map_x": 24741.4,
+    "map_y": 11650.8,
+    "search_radius": 2,
+    "lat": 0.148197,
+    "lng": 0.35866,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 132,
+    "timestamp": 132.0,
+    "frame": 7920,
+    "minimap": "minimaps/000132.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.225,
+        "lat": 0.147642,
+        "lng": 0.358665,
+        "map_x": 24741.5,
+        "map_y": 11663.7
+      }
+    ],
+    "map_x": 24741.5,
+    "map_y": 11663.7,
+    "search_radius": 2,
+    "lat": 0.147642,
+    "lng": 0.358665,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 133,
+    "timestamp": 133.0,
+    "frame": 7980,
+    "minimap": "minimaps/000133.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.2,
+        "lat": 0.147616,
+        "lng": 0.358193,
+        "map_x": 24730.5,
+        "map_y": 11664.3
+      }
+    ],
+    "map_x": 24730.5,
+    "map_y": 11664.3,
+    "search_radius": 2,
+    "lat": 0.147616,
+    "lng": 0.358193,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 134,
+    "timestamp": 134.0,
+    "frame": 8040,
+    "minimap": "minimaps/000134.png",
+    "tile_x": 46,
+    "tile_y": -50,
+    "confidence": 0.0,
+    "match_score": 0,
+    "tracking_mode": "expanding",
+    "best": [
+      46,
+      -50
+    ],
+    "candidates": [
+      {
+        "tile": [
+          46,
+          -50
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": -0.543815,
+        "lng": 0.510864,
+        "map_x": 28288.0,
+        "map_y": 27776.0
+      },
+      {
+        "tile": [
+          -62,
+          10
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.115356,
+        "lng": -0.675659,
+        "map_x": 640.0,
+        "map_y": 12416.0
+      },
+      {
+        "tile": [
+          -38,
+          26
+        ],
+        "score": 2,
+        "confidence": 0.0,
+        "lat": 0.291136,
+        "lng": -0.411987,
+        "map_x": 6784.0,
+        "map_y": 8320.0
+      },
+      {
+        "tile": [
+          -38,
+          50
+        ],
+        "score": 2,
+        "confidence": 0.0,
+        "lat": 0.554801,
+        "lng": -0.411987,
+        "map_x": 6784.0,
+        "map_y": 2176.0
+      },
+      {
+        "tile": [
+          -34,
+          30
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.335081,
+        "lng": -0.368042,
+        "map_x": 7808.0,
+        "map_y": 7296.0
+      }
+    ],
+    "map_x": 28288.0,
+    "map_y": 27776.0,
+    "search_radius": 1,
+    "lat": -0.543815,
+    "lng": 0.510864,
+    "event_type": "lost",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 135,
+    "timestamp": 135.0,
+    "frame": 8100,
+    "minimap": "minimaps/000135.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.147931,
+        "lng": 0.359288,
+        "map_x": 24756.0,
+        "map_y": 11656.9
+      }
+    ],
+    "map_x": 24756.0,
+    "map_y": 11656.9,
+    "search_radius": 2,
+    "lat": 0.147931,
+    "lng": 0.359288,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 136,
+    "timestamp": 136.0,
+    "frame": 8160,
+    "minimap": "minimaps/000136.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.275,
+        "lat": 0.147915,
+        "lng": 0.359295,
+        "map_x": 24756.2,
+        "map_y": 11657.3
+      }
+    ],
+    "map_x": 24756.2,
+    "map_y": 11657.3,
+    "search_radius": 2,
+    "lat": 0.147915,
+    "lng": 0.359295,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 137,
+    "timestamp": 137.0,
+    "frame": 8220,
+    "minimap": "minimaps/000137.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.375,
+    "match_score": 17,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 17,
+        "confidence": 0.375,
+        "lat": 0.148285,
+        "lng": 0.359237,
+        "map_x": 24754.8,
+        "map_y": 11648.7
+      }
+    ],
+    "map_x": 24754.8,
+    "map_y": 11648.7,
+    "search_radius": 2,
+    "lat": 0.148285,
+    "lng": 0.359237,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 138,
+    "timestamp": 138.0,
+    "frame": 8280,
+    "minimap": "minimaps/000138.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.25,
+        "lat": 0.148279,
+        "lng": 0.358491,
+        "map_x": 24737.5,
+        "map_y": 11648.8
+      }
+    ],
+    "map_x": 24737.5,
+    "map_y": 11648.8,
+    "search_radius": 2,
+    "lat": 0.148279,
+    "lng": 0.358491,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 139,
+    "timestamp": 139.0,
+    "frame": 8340,
+    "minimap": "minimaps/000139.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.275,
+        "lat": 0.14829,
+        "lng": 0.357772,
+        "map_x": 24720.7,
+        "map_y": 11648.6
+      }
+    ],
+    "map_x": 24720.7,
+    "map_y": 11648.6,
+    "search_radius": 2,
+    "lat": 0.14829,
+    "lng": 0.357772,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 140,
+    "timestamp": 140.0,
+    "frame": 8400,
+    "minimap": "minimaps/000140.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.275,
+        "lat": 0.148591,
+        "lng": 0.357398,
+        "map_x": 24712.0,
+        "map_y": 11641.6
+      }
+    ],
+    "map_x": 24712.0,
+    "map_y": 11641.6,
+    "search_radius": 2,
+    "lat": 0.148591,
+    "lng": 0.357398,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 141,
+    "timestamp": 141.0,
+    "frame": 8460,
+    "minimap": "minimaps/000141.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.325,
+        "lat": 0.148746,
+        "lng": 0.357644,
+        "map_x": 24717.7,
+        "map_y": 11638.0
+      }
+    ],
+    "map_x": 24717.7,
+    "map_y": 11638.0,
+    "search_radius": 2,
+    "lat": 0.148746,
+    "lng": 0.357644,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 142,
+    "timestamp": 142.0,
+    "frame": 8520,
+    "minimap": "minimaps/000142.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.25,
+        "lat": 0.148785,
+        "lng": 0.357695,
+        "map_x": 24718.9,
+        "map_y": 11637.1
+      }
+    ],
+    "map_x": 24718.9,
+    "map_y": 11637.1,
+    "search_radius": 2,
+    "lat": 0.148785,
+    "lng": 0.357695,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 143,
+    "timestamp": 143.0,
+    "frame": 8580,
+    "minimap": "minimaps/000143.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.225,
+        "lat": 0.148732,
+        "lng": 0.357656,
+        "map_x": 24718.0,
+        "map_y": 11638.3
+      }
+    ],
+    "map_x": 24718.0,
+    "map_y": 11638.3,
+    "search_radius": 2,
+    "lat": 0.148732,
+    "lng": 0.357656,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 144,
+    "timestamp": 144.0,
+    "frame": 8640,
+    "minimap": "minimaps/000144.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.175,
+        "lat": 0.148318,
+        "lng": 0.357378,
+        "map_x": 24711.5,
+        "map_y": 11647.9
+      }
+    ],
+    "map_x": 24711.5,
+    "map_y": 11647.9,
+    "search_radius": 2,
+    "lat": 0.148318,
+    "lng": 0.357378,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 145,
+    "timestamp": 145.0,
+    "frame": 8700,
+    "minimap": "minimaps/000145.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.225,
+        "lat": 0.147728,
+        "lng": 0.357562,
+        "map_x": 24715.8,
+        "map_y": 11661.7
+      }
+    ],
+    "map_x": 24715.8,
+    "map_y": 11661.7,
+    "search_radius": 2,
+    "lat": 0.147728,
+    "lng": 0.357562,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 146,
+    "timestamp": 146.0,
+    "frame": 8760,
+    "minimap": "minimaps/000146.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.15,
+        "lat": 0.147293,
+        "lng": 0.358185,
+        "map_x": 24730.3,
+        "map_y": 11671.8
+      }
+    ],
+    "map_x": 24730.3,
+    "map_y": 11671.8,
+    "search_radius": 2,
+    "lat": 0.147293,
+    "lng": 0.358185,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 147,
+    "timestamp": 147.0,
+    "frame": 8820,
+    "minimap": "minimaps/000147.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.275,
+        "lat": 0.146998,
+        "lng": 0.359163,
+        "map_x": 24753.1,
+        "map_y": 11678.7
+      }
+    ],
+    "map_x": 24753.1,
+    "map_y": 11678.7,
+    "search_radius": 2,
+    "lat": 0.146998,
+    "lng": 0.359163,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 148,
+    "timestamp": 148.0,
+    "frame": 8880,
+    "minimap": "minimaps/000148.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.3,
+        "lat": 0.146785,
+        "lng": 0.360166,
+        "map_x": 24776.5,
+        "map_y": 11683.6
+      }
+    ],
+    "map_x": 24776.5,
+    "map_y": 11683.6,
+    "search_radius": 2,
+    "lat": 0.146785,
+    "lng": 0.360166,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 149,
+    "timestamp": 149.0,
+    "frame": 8940,
+    "minimap": "minimaps/000149.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.35,
+        "lat": 0.146326,
+        "lng": 0.361058,
+        "map_x": 24797.3,
+        "map_y": 11694.3
+      }
+    ],
+    "map_x": 24797.3,
+    "map_y": 11694.3,
+    "search_radius": 2,
+    "lat": 0.146326,
+    "lng": 0.361058,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 150,
+    "timestamp": 150.0,
+    "frame": 9000,
+    "minimap": "minimaps/000150.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.175,
+        "lat": 0.14581,
+        "lng": 0.361918,
+        "map_x": 24817.3,
+        "map_y": 11706.4
+      }
+    ],
+    "map_x": 24817.3,
+    "map_y": 11706.4,
+    "search_radius": 2,
+    "lat": 0.14581,
+    "lng": 0.361918,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 151,
+    "timestamp": 151.0,
+    "frame": 9060,
+    "minimap": "minimaps/000151.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 11,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 11,
+        "confidence": 0.225,
+        "lat": 0.145565,
+        "lng": 0.362548,
+        "map_x": 24832.0,
+        "map_y": 11712.1
+      }
+    ],
+    "map_x": 24832.0,
+    "map_y": 11712.1,
+    "search_radius": 2,
+    "lat": 0.145565,
+    "lng": 0.362548,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 152,
+    "timestamp": 152.0,
+    "frame": 9120,
+    "minimap": "minimaps/000152.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.35,
+        "lat": 0.145732,
+        "lng": 0.363117,
+        "map_x": 24845.2,
+        "map_y": 11708.2
+      }
+    ],
+    "map_x": 24845.2,
+    "map_y": 11708.2,
+    "search_radius": 2,
+    "lat": 0.145732,
+    "lng": 0.363117,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 153,
+    "timestamp": 153.0,
+    "frame": 9180,
+    "minimap": "minimaps/000153.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.35,
+        "lat": 0.14577,
+        "lng": 0.363778,
+        "map_x": 24860.6,
+        "map_y": 11707.3
+      }
+    ],
+    "map_x": 24860.6,
+    "map_y": 11707.3,
+    "search_radius": 2,
+    "lat": 0.14577,
+    "lng": 0.363778,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 154,
+    "timestamp": 154.0,
+    "frame": 9240,
+    "minimap": "minimaps/000154.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.325,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.325,
+        "lat": 0.145765,
+        "lng": 0.363982,
+        "map_x": 24865.4,
+        "map_y": 11707.4
+      }
+    ],
+    "map_x": 24865.4,
+    "map_y": 11707.4,
+    "search_radius": 2,
+    "lat": 0.145765,
+    "lng": 0.363982,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 155,
+    "timestamp": 155.0,
+    "frame": 9300,
+    "minimap": "minimaps/000155.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.25,
+        "lat": 0.145767,
+        "lng": 0.364109,
+        "map_x": 24868.4,
+        "map_y": 11707.4
+      }
+    ],
+    "map_x": 24868.4,
+    "map_y": 11707.4,
+    "search_radius": 2,
+    "lat": 0.145767,
+    "lng": 0.364109,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 156,
+    "timestamp": 156.0,
+    "frame": 9360,
+    "minimap": "minimaps/000156.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 10,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 10,
+        "confidence": 0.2,
+        "lat": 0.145601,
+        "lng": 0.364318,
+        "map_x": 24873.2,
+        "map_y": 11711.3
+      }
+    ],
+    "map_x": 24873.2,
+    "map_y": 11711.3,
+    "search_radius": 2,
+    "lat": 0.145601,
+    "lng": 0.364318,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 157,
+    "timestamp": 157.0,
+    "frame": 9420,
+    "minimap": "minimaps/000157.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.25,
+    "match_score": 14,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 14,
+        "confidence": 0.25,
+        "lat": 0.145858,
+        "lng": 0.363946,
+        "map_x": 24864.6,
+        "map_y": 11705.3
+      }
+    ],
+    "map_x": 24864.6,
+    "map_y": 11705.3,
+    "search_radius": 2,
+    "lat": 0.145858,
+    "lng": 0.363946,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 158,
+    "timestamp": 158.0,
+    "frame": 9480,
+    "minimap": "minimaps/000158.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.275,
+    "match_score": 13,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 13,
+        "confidence": 0.275,
+        "lat": 0.146273,
+        "lng": 0.362511,
+        "map_x": 24831.1,
+        "map_y": 11695.6
+      }
+    ],
+    "map_x": 24831.1,
+    "map_y": 11695.6,
+    "search_radius": 2,
+    "lat": 0.146273,
+    "lng": 0.362511,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 159,
+    "timestamp": 159.0,
+    "frame": 9540,
+    "minimap": "minimaps/000159.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.35,
+        "lat": 0.146489,
+        "lng": 0.361317,
+        "map_x": 24803.3,
+        "map_y": 11690.5
+      }
+    ],
+    "map_x": 24803.3,
+    "map_y": 11690.5,
+    "search_radius": 2,
+    "lat": 0.146489,
+    "lng": 0.361317,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 160,
+    "timestamp": 160.0,
+    "frame": 9600,
+    "minimap": "minimaps/000160.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.3,
+    "match_score": 12,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 12,
+        "confidence": 0.3,
+        "lat": 0.147555,
+        "lng": 0.359608,
+        "map_x": 24763.5,
+        "map_y": 11665.7
+      }
+    ],
+    "map_x": 24763.5,
+    "map_y": 11665.7,
+    "search_radius": 2,
+    "lat": 0.147555,
+    "lng": 0.359608,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 161,
+    "timestamp": 161.0,
+    "frame": 9660,
+    "minimap": "minimaps/000161.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.35,
+    "match_score": 15,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 15,
+        "confidence": 0.35,
+        "lat": 0.148392,
+        "lng": 0.358281,
+        "map_x": 24732.6,
+        "map_y": 11646.2
+      }
+    ],
+    "map_x": 24732.6,
+    "map_y": 11646.2,
+    "search_radius": 2,
+    "lat": 0.148392,
+    "lng": 0.358281,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 162,
+    "timestamp": 162.0,
+    "frame": 9720,
+    "minimap": "minimaps/000162.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.125,
+        "lat": 0.167461,
+        "lng": 0.368049,
+        "map_x": 24960.2,
+        "map_y": 11201.9
+      }
+    ],
+    "map_x": 24960.2,
+    "map_y": 11201.9,
+    "search_radius": 1,
+    "lat": 0.167461,
+    "lng": 0.368049,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 163,
+    "timestamp": 163.0,
+    "frame": 9780,
+    "minimap": "minimaps/000163.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.45,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.45,
+        "lat": 0.150582,
+        "lng": 0.354951,
+        "map_x": 24655.0,
+        "map_y": 11595.2
+      }
+    ],
+    "map_x": 24655.0,
+    "map_y": 11595.2,
+    "search_radius": 2,
+    "lat": 0.150582,
+    "lng": 0.354951,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 164,
+    "timestamp": 164.0,
+    "frame": 9840,
+    "minimap": "minimaps/000164.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.225,
+    "match_score": 9,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 9,
+        "confidence": 0.225,
+        "lat": 0.151324,
+        "lng": 0.354034,
+        "map_x": 24633.6,
+        "map_y": 11577.9
+      }
+    ],
+    "map_x": 24633.6,
+    "map_y": 11577.9,
+    "search_radius": 2,
+    "lat": 0.151324,
+    "lng": 0.354034,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 165,
+    "timestamp": 165.0,
+    "frame": 9900,
+    "minimap": "minimaps/000165.png"
+  },
+  {
+    "index": 166,
+    "timestamp": 166.0,
+    "frame": 9960,
+    "minimap": "minimaps/000166.png"
+  },
+  {
+    "index": 167,
+    "timestamp": 167.0,
+    "frame": 10020,
+    "minimap": "minimaps/000167.png"
+  },
+  {
+    "index": 168,
+    "timestamp": 168.0,
+    "frame": 10080,
+    "minimap": "minimaps/000168.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.125,
+    "match_score": 6,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 6,
+        "confidence": 0.125,
+        "lat": 0.152903,
+        "lng": 0.353771,
+        "map_x": 24627.5,
+        "map_y": 11541.1
+      }
+    ],
+    "map_x": 24627.5,
+    "map_y": 11541.1,
+    "search_radius": 2,
+    "lat": 0.152903,
+    "lng": 0.353771,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 169,
+    "timestamp": 169.0,
+    "frame": 10140,
+    "minimap": "minimaps/000169.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.2,
+    "match_score": 8,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 8,
+        "confidence": 0.2,
+        "lat": 0.156611,
+        "lng": 0.357067,
+        "map_x": 24704.3,
+        "map_y": 11454.7
+      }
+    ],
+    "map_x": 24704.3,
+    "map_y": 11454.7,
+    "search_radius": 2,
+    "lat": 0.156611,
+    "lng": 0.357067,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 170,
+    "timestamp": 170.0,
+    "frame": 10200,
+    "minimap": "minimaps/000170.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.175,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.175,
+        "lat": 0.15412,
+        "lng": 0.355783,
+        "map_x": 24674.4,
+        "map_y": 11512.7
+      }
+    ],
+    "map_x": 24674.4,
+    "map_y": 11512.7,
+    "search_radius": 2,
+    "lat": 0.15412,
+    "lng": 0.355783,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 171,
+    "timestamp": 171.0,
+    "frame": 10260,
+    "minimap": "minimaps/000171.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.15,
+    "match_score": 7,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 7,
+        "confidence": 0.15,
+        "lat": 0.155182,
+        "lng": 0.357482,
+        "map_x": 24713.9,
+        "map_y": 11488.0
+      }
+    ],
+    "map_x": 24713.9,
+    "map_y": 11488.0,
+    "search_radius": 2,
+    "lat": 0.155182,
+    "lng": 0.357482,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 172,
+    "timestamp": 172.0,
+    "frame": 10320,
+    "minimap": "minimaps/000172.png",
+    "tile_x": 62,
+    "tile_y": -18,
+    "confidence": 0.0,
+    "match_score": 2,
+    "tracking_mode": "expanding",
+    "best": [
+      62,
+      -18
+    ],
+    "candidates": [
+      {
+        "tile": [
+          62,
+          -18
+        ],
+        "score": 2,
+        "confidence": 0.0,
+        "lat": -0.19226,
+        "lng": 0.686646,
+        "map_x": 32384.0,
+        "map_y": 19584.0
+      },
+      {
+        "tile": [
+          -42,
+          2
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": 0.027466,
+        "lng": -0.455933,
+        "map_x": 5760.0,
+        "map_y": 14464.0
+      },
+      {
+        "tile": [
+          -34,
+          2
+        ],
+        "score": 1,
+        "confidence": 0.0,
+        "lat": 0.027466,
+        "lng": -0.368042,
+        "map_x": 7808.0,
+        "map_y": 14464.0
+      },
+      {
+        "tile": [
+          22,
+          -18
+        ],
+        "score": 0,
+        "confidence": 0.0,
+        "lat": -0.19226,
+        "lng": 0.247192,
+        "map_x": 22144.0,
+        "map_y": 19584.0
+      },
+      {
+        "tile": [
+          -62,
+          14
+        ],
+        "score": 1,
+        "confidence": 0.0,
+        "lat": 0.159302,
+        "lng": -0.675659,
+        "map_x": 640.0,
+        "map_y": 11392.0
+      }
+    ],
+    "map_x": 32384.0,
+    "map_y": 19584.0,
+    "search_radius": 1,
+    "lat": -0.19226,
+    "lng": 0.686646,
+    "event_type": "lost",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 173,
+    "timestamp": 173.0,
+    "frame": 10380,
+    "minimap": "minimaps/000173.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.45,
+    "match_score": 20,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 20,
+        "confidence": 0.45,
+        "lat": 0.156063,
+        "lng": 0.35885,
+        "map_x": 24745.8,
+        "map_y": 11467.5
+      }
+    ],
+    "map_x": 24745.8,
+    "map_y": 11467.5,
+    "search_radius": 2,
+    "lat": 0.156063,
+    "lng": 0.35885,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 174,
+    "timestamp": 174.0,
+    "frame": 10440,
+    "minimap": "minimaps/000174.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.5,
+    "match_score": 21,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 21,
+        "confidence": 0.5,
+        "lat": 0.156041,
+        "lng": 0.358823,
+        "map_x": 24745.2,
+        "map_y": 11468.0
+      }
+    ],
+    "map_x": 24745.2,
+    "map_y": 11468.0,
+    "search_radius": 2,
+    "lat": 0.156041,
+    "lng": 0.358823,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 175,
+    "timestamp": 175.0,
+    "frame": 10500,
+    "minimap": "minimaps/000175.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.156036,
+        "lng": 0.358784,
+        "map_x": 24744.3,
+        "map_y": 11468.1
+      }
+    ],
+    "map_x": 24744.3,
+    "map_y": 11468.1,
+    "search_radius": 2,
+    "lat": 0.156036,
+    "lng": 0.358784,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 176,
+    "timestamp": 176.0,
+    "frame": 10560,
+    "minimap": "minimaps/000176.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.475,
+    "match_score": 19,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 19,
+        "confidence": 0.475,
+        "lat": 0.155973,
+        "lng": 0.358759,
+        "map_x": 24743.7,
+        "map_y": 11469.6
+      }
+    ],
+    "map_x": 24743.7,
+    "map_y": 11469.6,
+    "search_radius": 2,
+    "lat": 0.155973,
+    "lng": 0.358759,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 177,
+    "timestamp": 177.0,
+    "frame": 10620,
+    "minimap": "minimaps/000177.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.45,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.45,
+        "lat": 0.155796,
+        "lng": 0.358837,
+        "map_x": 24745.5,
+        "map_y": 11473.7
+      }
+    ],
+    "map_x": 24745.5,
+    "map_y": 11473.7,
+    "search_radius": 2,
+    "lat": 0.155796,
+    "lng": 0.358837,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 178,
+    "timestamp": 178.0,
+    "frame": 10680,
+    "minimap": "minimaps/000178.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.6,
+    "match_score": 25,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 25,
+        "confidence": 0.6,
+        "lat": 0.155372,
+        "lng": 0.358948,
+        "map_x": 24748.1,
+        "map_y": 11483.6
+      }
+    ],
+    "map_x": 24748.1,
+    "map_y": 11483.6,
+    "search_radius": 2,
+    "lat": 0.155372,
+    "lng": 0.358948,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 179,
+    "timestamp": 179.0,
+    "frame": 10740,
+    "minimap": "minimaps/000179.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 18,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 18,
+        "confidence": 0.4,
+        "lat": 0.154251,
+        "lng": 0.359483,
+        "map_x": 24760.6,
+        "map_y": 11509.7
+      }
+    ],
+    "map_x": 24760.6,
+    "map_y": 11509.7,
+    "search_radius": 2,
+    "lat": 0.154251,
+    "lng": 0.359483,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  },
+  {
+    "index": 180,
+    "timestamp": 180.0,
+    "frame": 10800,
+    "minimap": "minimaps/000180.png",
+    "tile_x": 34,
+    "tile_y": 14,
+    "confidence": 0.4,
+    "match_score": 16,
+    "tracking_mode": "tracking",
+    "best": [
+      34,
+      14
+    ],
+    "candidates": [
+      {
+        "tile": [
+          34,
+          14
+        ],
+        "score": 16,
+        "confidence": 0.4,
+        "lat": 0.153265,
+        "lng": 0.359934,
+        "map_x": 24771.1,
+        "map_y": 11532.7
+      }
+    ],
+    "map_x": 24771.1,
+    "map_y": 11532.7,
+    "search_radius": 2,
+    "lat": 0.153265,
+    "lng": 0.359934,
+    "event_type": "normal",
+    "segment_id": 0,
+    "map_name": "surface"
+  }
+]

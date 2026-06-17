@@ -1,0 +1,23 @@
+{
+  "name": "simulanka",
+  "display_name": "Simulanka",
+  "type": "underground",
+  "coarse_zoom": 13,
+  "fine_zoom": 13,
+  "tile_size": 256,
+  "zoom_levels": {
+    "13": {
+      "tile_count": 1024,
+      "bounds": {
+        "min_x": -16,
+        "max_x": 15,
+        "min_y": -16,
+        "max_y": 15
+      }
+    }
+  },
+  "overlays": [],
+  "parent_map": "surface",
+  "surface_bounds": null,
+  "notes": "surface_bounds to be derived by overlay linkage in Phase 2/3"
+}
