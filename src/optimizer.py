@@ -61,11 +61,10 @@ class RouteOptimizer:
         dt = state_b.get("timestamp", 0.0) - state_a.get("timestamp", 0.0)
         
         # dist is in pixels. tile_size is 256.
-        # So velocity in tiles per second = (dist / 256.0) / dt
+        # So velocity in tiles per second = (dist / tile_size) / dt
         if dt <= 0.0:
-            velocity = 0.0
-        else:
-            velocity = (dist / DEFAULT_TILE_SIZE) / dt
+            return 0.0
+        velocity = (dist / DEFAULT_TILE_SIZE) / dt
 
         if velocity == 0.0:
             return 0.0
@@ -197,6 +196,7 @@ class RouteOptimizer:
         optimized_entries = []
         current_segment_id = 0
         last_valid_pos = None
+        was_lost = True  # Start as True so first valid position doesn't trigger teleport
 
         for t, idx in enumerate(best_path_indices):
             entry = entries[t].copy()
@@ -212,7 +212,7 @@ class RouteOptimizer:
                     pass
                 else:
                     entry["map_name"] = chosen_state.get("map_name") or entry.get("map_name")
-                if last_valid_pos is not None:
+                if last_valid_pos is not None and not was_lost:
                     dx = chosen_state["map_x"] - last_valid_pos[0]
                     dy = chosen_state["map_y"] - last_valid_pos[1]
                     if (dx**2 + dy**2)**0.5 > TELEPORT_DISTANCE_PX:
@@ -221,6 +221,7 @@ class RouteOptimizer:
                         tracking_mode = "relocalized"
                 
                 last_valid_pos = (chosen_state["map_x"], chosen_state["map_y"])
+                was_lost = False
                 
                 entry["tile_x"] = tile[0]
                 entry["tile_y"] = tile[1]
@@ -247,6 +248,7 @@ class RouteOptimizer:
                 entry["event_type"] = "lost"
                 entry["segment_id"] = current_segment_id
                 entry["map_name"] = entry.get("map_name")
+                was_lost = True
 
             optimized_entries.append(entry)
 

@@ -162,6 +162,10 @@ class Localizer:
     def _coarse_search(self, mini_desc) -> list[tuple[int, int]]:
         if mini_desc is None or len(mini_desc) == 0:
             return []
+
+        if not self.coarse_data:
+            logger.warning("Coarse data is empty — no tiles precomputed. Global search will fail.")
+            return []
             
         scored = []
         for (tx, ty), (cand_kp, cand_desc, shape) in self.coarse_data.items():
