@@ -300,7 +300,7 @@ class Localizer:
         
         candidates = []
         search_radius = 0
-        current_mode = "lost"
+        current_mode = "tracking"
 
         if self.state in (TrackingState.UNINITIALIZED, TrackingState.LOST) or self.last_tile is None:
             current_mode = "global_search"
@@ -324,7 +324,7 @@ class Localizer:
             candidates = self._search_centers([self.last_tile], search_radius, variants)
             
             if not candidates or candidates[0]["confidence"] < self.confidence_threshold:
-                if self.state == TrackingState.TRACKING and search_radius == 1:
+                if search_radius == 1:
                     if self.frames_since_good_match == 0:
                         logger.debug(f"Confidence dropped, expanding to 5x5 around {self.last_tile}")
                     current_mode = "expanding"
