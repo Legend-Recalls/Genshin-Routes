@@ -62,11 +62,12 @@ def handle_localize():
         return
 
     from src.localizer import Localizer
+    from src.map_dataset import MapDataset
     map_dir = MAPS_DIR / "surface"
     if not map_dir.exists():
         print(f"Map directory not found: {map_dir}")
         return
-    localizer = Localizer(map_dir)
+    localizer = Localizer(MapDataset.load(map_dir))
     localizer.localize_route(route_dir)
 
     # Prompt auto-optimization
@@ -167,11 +168,12 @@ def handle_extract():
     choice = input("\nDo you want to run route localization now? [Y/n]: ").strip().lower()
     if choice in ("", "y", "yes"):
         from src.localizer import Localizer
+        from src.map_dataset import MapDataset
         map_dir = MAPS_DIR / "surface"
         if not map_dir.exists():
             print(f"Map directory not found: {map_dir}")
             return
-        localizer = Localizer(map_dir)
+        localizer = Localizer(MapDataset.load(map_dir))
         localizer.localize_route(output_dir)
 
         # Prompt auto-optimization
