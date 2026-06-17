@@ -23,4 +23,4 @@ sys.path.append(str(REPO_ROOT))
 # Route Explorer specific paths — these override parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATA_DIR = PROJECT_ROOT / "data"
-MAPS_DIR = REPO_ROOT / "maps"
+MAPS_DIR = PROJECT_ROOT / "maps"
