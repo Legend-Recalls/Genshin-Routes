@@ -311,7 +311,7 @@ def extract_minimaps(
     print(f"  Extracted {extracted} minimaps")
 
     # Generate filmstrip overview
-    generate_filmstrip(route_entries, out_dir, route_dir)
+    generate_filmstrip(route_entries, minimaps_dir, route_dir)
 
     return route_path
 
