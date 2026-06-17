@@ -5,7 +5,8 @@ from typing import Optional
 import cv2
 import numpy as np
 
-from src.ocr import OCRResult, crop_title_region
+from src.ocr import OCRResult
+from src.preprocessing import crop_title_region
 
 logger = logging.getLogger(__name__)
 

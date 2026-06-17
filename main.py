@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from config import OUTPUT_DIR, DATA_DIR, PROJECT_ROOT
+from config import OUTPUT_DIR, DATA_DIR, PROJECT_ROOT, MAPS_DIR
 
 logging.basicConfig(
     level=logging.INFO,
@@ -62,7 +62,10 @@ def handle_localize():
         return
 
     from src.localizer import Localizer
-    map_dir = PROJECT_ROOT / "reverse appsample"
+    map_dir = MAPS_DIR / "surface"
+    if not map_dir.exists():
+        print(f"Map directory not found: {map_dir}")
+        return
     localizer = Localizer(map_dir)
     localizer.localize_route(route_dir)
 
@@ -164,7 +167,10 @@ def handle_extract():
     choice = input("\nDo you want to run route localization now? [Y/n]: ").strip().lower()
     if choice in ("", "y", "yes"):
         from src.localizer import Localizer
-        map_dir = PROJECT_ROOT / "reverse appsample"
+        map_dir = MAPS_DIR / "surface"
+        if not map_dir.exists():
+            print(f"Map directory not found: {map_dir}")
+            return
         localizer = Localizer(map_dir)
         localizer.localize_route(output_dir)
 

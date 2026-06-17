@@ -14,6 +14,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from src.detector import crop_minimap
 from src.preprocessing import crop_title_region
 from src.profile_manager import get_default_profile
+from src.constants import (
+    DEFAULT_VERIFICATION_FRAMES, DEFAULT_VERIFICATION_COLS,
+    THUMB_WIDTH, THUMB_HEIGHT, SHEET_PADDING, LABEL_HEIGHT,
+    SHEET_BG_COLOR, JPEG_QUALITY, VERIFY_WINDOW_SIZE,
+    DEFAULT_EXTRACTION_FPS, OCR_DOWNSCALE_FACTOR,
+    FILMSTRIP_INTERVAL_SECONDS, FILMSTRIP_THUMB_SIZE, FILMSTRIP_PADDING,
+    FILMSTRIP_LABEL_HEIGHT, FILMSTRIP_EXTRA_WIDTH, FILMSTRIP_BG_COLOR,
+    FILMSTRIP_CIRCLE_THICKNESS, FILMSTRIP_FONT_SCALE,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -21,8 +30,8 @@ logger = logging.getLogger(__name__)
 def verify_minimap_region(
     video_path: Path,
     profile: dict,
-    num_frames: int = 8,
-    cols: int = 4,
+    num_frames: int = DEFAULT_VERIFICATION_FRAMES,
+    cols: int = DEFAULT_VERIFICATION_COLS,
     output_path: Path | None = None,
 ) -> Path:
     """Generate a contact sheet showing minimap crop region on sampled frames.
@@ -53,16 +62,16 @@ def verify_minimap_region(
     title_ratio = profile.get("title_region_ratio", {})
     circle = profile.get("minimap_circle", {})
 
-    thumb_w = 320
-    thumb_h = 180
+    thumb_w = THUMB_WIDTH
+    thumb_h = THUMB_HEIGHT
     rows = (num_frames + cols - 1) // cols
-    padding = 5
-    label_h = 25
+    padding = SHEET_PADDING
+    label_h = LABEL_HEIGHT
 
     sheet_h = rows * (thumb_h + label_h + padding) + padding
     sheet_w = cols * (thumb_w + padding) + padding
     sheet = np.zeros((sheet_h, sheet_w, 3), dtype=np.uint8)
-    sheet[:] = (40, 40, 40)
+    sheet[:] = SHEET_BG_COLOR
 
     indices = np.linspace(0, total_frames - 1, num_frames, dtype=int)
 
@@ -119,7 +128,7 @@ def verify_minimap_region(
     if output_path is None:
         output_path = Path("output") / "verification_preview.jpg"
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    cv2.imwrite(str(output_path), sheet, [cv2.IMWRITE_JPEG_QUALITY, 90])
+    cv2.imwrite(str(output_path), sheet, [cv2.IMWRITE_JPEG_QUALITY, JPEG_QUALITY])
 
     logger.info("Verification preview saved: %s", output_path)
     return output_path
@@ -147,7 +156,7 @@ def verify_and_confirm(
     img = cv2.imread(str(tmp_path))
     if img is not None:
         cv2.namedWindow("Verification", cv2.WINDOW_NORMAL)
-        cv2.resizeWindow("Verification", 1280, 720)
+        cv2.resizeWindow("Verification", *VERIFY_WINDOW_SIZE)
         cv2.imshow("Verification", img)
 
         print(f"\n  Blue = Minimap crop | Green = Minimap circle | Yellow = Title/Caption")
@@ -174,7 +183,7 @@ def extract_minimaps(
     video_path: str | Path,
     video_name: str,
     profile: dict | None = None,
-    fps: int = 1,
+    fps: int = DEFAULT_EXTRACTION_FPS,
     output_base: Path | None = None,
 ) -> Path:
     """Extract minimap and title crops from video at specified FPS.
@@ -192,6 +201,12 @@ def extract_minimaps(
     video_path = Path(video_path).resolve()
     if not video_path.exists():
         raise FileNotFoundError(f"Video not found: {video_path}")
+
+    if not video_name or not isinstance(video_name, str):
+        raise ValueError(f"video_name must be a non-empty string, got {video_name!r}")
+
+    if fps <= 0:
+        raise ValueError(f"fps must be positive, got {fps}")
 
     if profile is None:
         profile = get_default_profile()
@@ -264,7 +279,7 @@ def extract_minimaps(
 
                 if ocr_reader is not None:
                     import easyocr
-                    small = cv2.resize(title_crop, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA)
+                    small = cv2.resize(title_crop, None, fx=OCR_DOWNSCALE_FACTOR, fy=OCR_DOWNSCALE_FACTOR, interpolation=cv2.INTER_AREA)
                     gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
                     results = ocr_reader.readtext(gray)
                     if results:
@@ -292,7 +307,7 @@ def extract_minimaps(
     with open(route_path, "w", encoding="utf-8") as f:
         json.dump(route_entries, f, indent=2)
 
-    logger.info("Extracted %d minimaps to %s", extracted, out_dir)
+    logger.info("Extracted %d minimaps to %s", extracted, minimaps_dir)
     print(f"  Extracted {extracted} minimaps")
 
     # Generate filmstrip overview
@@ -305,10 +320,10 @@ def generate_filmstrip(
     route_entries: list[dict],
     minimaps_dir: Path,
     output_dir: Path,
-    interval_seconds: int = 30,
-    thumb_size: int = 128,
-    padding: int = 10,
-    label_height: int = 30,
+    interval_seconds: int = FILMSTRIP_INTERVAL_SECONDS,
+    thumb_size: int = FILMSTRIP_THUMB_SIZE,
+    padding: int = FILMSTRIP_PADDING,
+    label_height: int = FILMSTRIP_LABEL_HEIGHT,
 ) -> Path:
     """Generate a filmstrip overview image showing minimaps at regular intervals.
 
@@ -356,10 +371,10 @@ def generate_filmstrip(
     # Layout: vertical filmstrip
     cell_height = thumb_size + label_height + padding
     total_height = n * cell_height + padding
-    total_width = thumb_size + padding * 2 + 200  # Extra space for labels
+    total_width = thumb_size + padding * 2 + FILMSTRIP_EXTRA_WIDTH  # Extra space for labels
 
     strip = np.zeros((total_height, total_width, 3), dtype=np.uint8)
-    strip[:] = (30, 30, 30)  # Dark background
+    strip[:] = FILMSTRIP_BG_COLOR  # Dark background
 
     for i, entry in enumerate(selected):
         minimap_path = minimaps_dir / Path(entry["minimap"]).name
@@ -382,7 +397,7 @@ def generate_filmstrip(
 
         # Draw green circle indicator
         center = (x_off + thumb_size // 2, y_off + thumb_size // 2)
-        cv2.circle(strip, center, thumb_size // 2 - 2, (0, 255, 0), 2)
+        cv2.circle(strip, center, thumb_size // 2 - 2, (0, 255, 0), FILMSTRIP_CIRCLE_THICKNESS)
 
         # Add timestamp label
         ts = entry["timestamp"]
@@ -393,11 +408,11 @@ def generate_filmstrip(
         label_x = x_off + thumb_size + 15
         label_y = y_off + thumb_size // 2 + 5
         cv2.putText(strip, label, (label_x, label_y),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (200, 200, 200), 2)
+                    cv2.FONT_HERSHEY_SIMPLEX, FILMSTRIP_FONT_SCALE, (200, 200, 200), 2)
 
     # Save
     overview_path = output_dir / "overview.jpg"
-    cv2.imwrite(str(overview_path), strip, [cv2.IMWRITE_JPEG_QUALITY, 90])
+    cv2.imwrite(str(overview_path), strip, [cv2.IMWRITE_JPEG_QUALITY, JPEG_QUALITY])
 
     logger.info("Filmstrip saved: %s (%d entries)", overview_path, n)
     print(f"  Filmstrip saved: {overview_path}")

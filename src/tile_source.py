@@ -9,6 +9,7 @@ import cv2
 from PIL import Image
 
 from .matchers.base import CandidateImage
+from .constants import DEFAULT_TILE_SIZE, JPEG_QUALITY
 
 
 class TileSource:
@@ -16,7 +17,7 @@ class TileSource:
         self.map_dir = map_dir
         self.database_path = map_dir / "tile_database.json"
         self.database = self._load_database()
-        self.tile_size = int(self.database.get("tile_size", 256))
+        self.tile_size = int(self.database.get("tile_size", DEFAULT_TILE_SIZE))
         self.zoom = zoom
         self._stitched_cache = None
         self._tile_lookup = {}
@@ -281,5 +282,5 @@ class TileSource:
             preview.paste(tile_img, (px, py))
 
         cache_path.parent.mkdir(parents=True, exist_ok=True)
-        preview.save(cache_path, quality=90)
+        preview.save(cache_path, quality=JPEG_QUALITY)
         return preview, scale

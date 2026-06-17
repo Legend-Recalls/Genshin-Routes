@@ -178,8 +178,7 @@ def seek_frame(video_path: Path) -> Optional[tuple[np.ndarray, float]]:
     """Let user find a frame with HUD using trackbar."""
     cap = cv2.VideoCapture(str(video_path))
     if not cap.isOpened():
-        print(f"Cannot open: {video_path}")
-        return None
+        raise FileNotFoundError(f"Cannot open video: {video_path}")
 
     total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     fps = cap.get(cv2.CAP_PROP_FPS)

@@ -2,10 +2,13 @@ from __future__ import annotations
 
 import csv
 import json
+import logging
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
+
+logger = logging.getLogger(__name__)
 
 
 def _load_route_json(route_dir: Path, prefer_optimized: bool = True) -> list[dict[str, Any]]:
@@ -38,6 +41,10 @@ class RouteExporter:
     """Exports localized routes to interchange formats (JSON, GeoJSON, CSV)."""
 
     def __init__(self, route_dir: Path):
+        if not isinstance(route_dir, Path):
+            raise TypeError(f"route_dir must be a Path, got {type(route_dir).__name__}")
+        if not route_dir.exists():
+            raise FileNotFoundError(f"route_dir does not exist: {route_dir}")
         self.route_dir = route_dir
 
     def load_route(self, prefer_optimized: bool = True) -> list[dict[str, Any]]:
@@ -114,7 +121,7 @@ class RouteExporter:
         def seg_key(k: Any) -> Any:
             try:
                 return (0, float(k))
-            except Exception:
+            except (TypeError, ValueError):
                 return (1, str(k))
 
         for seg_id in sorted(segments.keys(), key=seg_key):

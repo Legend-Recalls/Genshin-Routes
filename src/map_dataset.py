@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .tile_source import TileSource
+from .constants import DEFAULT_TILE_SIZE
 
 
 @dataclass(frozen=True)
@@ -50,7 +51,7 @@ class MapDataset:
         coarse_zoom = int(metadata.get("coarse_zoom", min(map(int, zoom_levels.keys()))))
         fine_zoom = int(metadata.get("fine_zoom", max(map(int, zoom_levels.keys()))))
 
-        tile_size = int(metadata.get("tile_size", 256))
+        tile_size = int(metadata.get("tile_size", DEFAULT_TILE_SIZE))
 
         parent_map = metadata.get("parent_map", None)
         surface_bounds = metadata.get("surface_bounds", None)

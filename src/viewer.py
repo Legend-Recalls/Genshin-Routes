@@ -4,6 +4,8 @@ import json
 import os
 from pathlib import Path
 
+from .constants import HTTP_CACHE_MAX_AGE_TILES, HTTP_CACHE_MAX_AGE_MEDIA, DEFAULT_SERVER_PORT
+
 BASE_DIR = Path(__file__).parent
 MAPS_DIR = BASE_DIR.parent / "maps"
 SURFACE_DIR = MAPS_DIR / "surface"
@@ -106,7 +108,7 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
                 if data:
                     self.send_response(200)
                     self.send_header("Content-Type", "image/jpeg")
-                    self.send_header("Cache-Control", "public, max-age=604800, immutable")
+                    self.send_header("Cache-Control", f"public, max-age={HTTP_CACHE_MAX_AGE_TILES}, immutable")
                     self.send_header("Content-Length", len(data))
                     self.end_headers()
                     self.wfile.write(data)
@@ -218,7 +220,7 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
                 if data:
                     self.send_response(200)
                     self.send_header("Content-Type", "image/png")
-                    self.send_header("Cache-Control", "public, max-age=86400")
+                    self.send_header("Cache-Control", f"public, max-age={HTTP_CACHE_MAX_AGE_MEDIA}")
                     self.send_header("Content-Length", len(data))
                     self.end_headers()
                     self.wfile.write(data)
@@ -236,7 +238,7 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
                 if data:
                     self.send_response(200)
                     self.send_header("Content-Type", "image/png")
-                    self.send_header("Cache-Control", "public, max-age=86400")
+                    self.send_header("Cache-Control", f"public, max-age={HTTP_CACHE_MAX_AGE_MEDIA}")
                     self.send_header("Content-Length", len(data))
                     self.end_headers()
                     self.wfile.write(data)
@@ -249,7 +251,7 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
                     _title_cache[cache_key] = data
                     self.send_response(200)
                     self.send_header("Content-Type", "image/png")
-                    self.send_header("Cache-Control", "public, max-age=86400")
+                    self.send_header("Cache-Control", f"public, max-age={HTTP_CACHE_MAX_AGE_MEDIA}")
                     self.send_header("Content-Length", len(data))
                     self.end_headers()
                     self.wfile.write(data)
@@ -271,7 +273,7 @@ class ThreadedHTTPServer(socketserver.ThreadingMixIn, http.server.HTTPServer):
 if __name__ == "__main__":
     import sys
     preload()
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 9090
+    port = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_SERVER_PORT
     server = ThreadedHTTPServer(("127.0.0.1", port), TileHandler)
     print(f"Map viewer running at http://127.0.0.1:{port}")
     server.serve_forever()

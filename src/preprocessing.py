@@ -1,8 +1,11 @@
 import cv2
 import numpy as np
 
+from config import TITLE_CROP
+from .constants import CIRCULAR_MASK_RADIUS_SCALE, DEFAULT_SCALES
 
-def create_circular_mask(h: int, w: int, radius_scale: float = 0.90) -> np.ndarray:
+
+def create_circular_mask(h: int, w: int, radius_scale: float = CIRCULAR_MASK_RADIUS_SCALE) -> np.ndarray:
     """Create a 2D uint8 mask for cv2.detectAndCompute."""
     center = (w // 2, h // 2)
     radius = int(min(center) * radius_scale)
@@ -11,7 +14,7 @@ def create_circular_mask(h: int, w: int, radius_scale: float = 0.90) -> np.ndarr
     return mask
 
 
-def multi_scale(image: np.ndarray, scales=(0.9, 1.0, 1.1)) -> list[tuple[float, np.ndarray, np.ndarray]]:
+def multi_scale(image: np.ndarray, scales=DEFAULT_SCALES) -> list[tuple[float, np.ndarray, np.ndarray]]:
     """Return multiple scaled variants of the minimap and their masks."""
     variants = []
     h, w = image.shape[:2]
@@ -28,7 +31,7 @@ def multi_scale(image: np.ndarray, scales=(0.9, 1.0, 1.1)) -> list[tuple[float, 
     return variants
 
 
-def prepare_minimap(image: np.ndarray, scales=(0.9, 1.0, 1.1)) -> list[tuple[float, np.ndarray, np.ndarray]]:
+def prepare_minimap(image: np.ndarray, scales=DEFAULT_SCALES) -> list[tuple[float, np.ndarray, np.ndarray]]:
     """Pipeline: generate multi-scale variants with masks."""
     return multi_scale(image, scales)
 
@@ -48,6 +51,9 @@ def crop_title_region(frame: np.ndarray, profile: dict | None = None) -> np.ndar
         x1, y1 = r["x"], r["y"]
         x2, y2 = x1 + r["width"], y1 + r["height"]
     else:
-        x1, y1, x2, y2 = int(w * 0.55), int(h * 0.07), int(w * 0.95), int(h * 0.17)
+        x1 = int(w * TITLE_CROP["x_start_ratio"])
+        y1 = int(h * TITLE_CROP["y_start_ratio"])
+        x2 = int(w * TITLE_CROP["x_end_ratio"])
+        y2 = int(h * TITLE_CROP["y_end_ratio"])
 
     return frame[y1:y2, x1:x2]

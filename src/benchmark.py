@@ -7,6 +7,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from .constants import CONFIDENCE_THRESHOLD, CONFIDENCE_HISTOGRAM_BINS, HISTOGRAM_BIN_SCALE
+
 
 @dataclass
 class BenchmarkFrame:
@@ -39,13 +41,13 @@ class BenchmarkReport:
         self.lost_frames: int = 0
 
         # confidence histogram (10 bins over [0,1])
-        self.confidence_bins: list[float] = [0.0] * 10
+        self.confidence_bins: list[float] = [0.0] * CONFIDENCE_HISTOGRAM_BINS
 
         # low-confidence clusters (simple run-length encoding)
         self.low_confidence_regions: list[dict[str, Any]] = []
 
         # clustering thresholds
-        self.low_conf_threshold: float = 0.12
+        self.low_conf_threshold: float = CONFIDENCE_THRESHOLD
 
         # store per-frame info to build clusters
         self._current_low_run: dict[str, Any] | None = None
@@ -68,7 +70,7 @@ class BenchmarkReport:
         self.frame_confidences.append(confidence)
 
         # histogram
-        bin_idx = int(min(9, max(0, math.floor(confidence * 10.0))))
+        bin_idx = int(min(CONFIDENCE_HISTOGRAM_BINS - 1, max(0, math.floor(confidence * HISTOGRAM_BIN_SCALE))))
         self.confidence_bins[bin_idx] += 1
 
         # event-ish counters

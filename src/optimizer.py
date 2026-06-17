@@ -6,19 +6,32 @@ import time
 from pathlib import Path
 import numpy as np
 
+from .constants import (
+    LOST_EMISSION_COST, LOST_TRANSITION_PENALTY, MAX_SPEED_TILES_PER_SEC,
+    DEFAULT_TILE_SIZE, TRANSITION_SPEED_MULTIPLIER, TELEPORT_TRANSITION_COST,
+    OVER_SPEED_BASE_PENALTY, OVER_SPEED_VELOCITY_MULTIPLIER, TELEPORT_DISTANCE_PX,
+)
+
 logger = logging.getLogger(__name__)
 
 
 class RouteOptimizer:
     def __init__(
         self,
-        lost_emission_cost: float = 2.0,
-        lost_transition_penalty: float = 1.0,
-        max_speed_tiles_per_sec: float = 1.5,
+        lost_emission_cost: float = LOST_EMISSION_COST,
+        lost_transition_penalty: float = LOST_TRANSITION_PENALTY,
+        max_speed_tiles_per_sec: float = MAX_SPEED_TILES_PER_SEC,
     ):
         self.lost_emission_cost = lost_emission_cost
         self.lost_transition_penalty = lost_transition_penalty
         self.max_speed = max_speed_tiles_per_sec
+
+        if lost_emission_cost < 0:
+            raise ValueError(f"lost_emission_cost must be non-negative, got {lost_emission_cost}")
+        if lost_transition_penalty < 0:
+            raise ValueError(f"lost_transition_penalty must be non-negative, got {lost_transition_penalty}")
+        if max_speed_tiles_per_sec <= 0:
+            raise ValueError(f"max_speed_tiles_per_sec must be positive, got {max_speed_tiles_per_sec}")
 
     def _calc_transition_cost(self, state_a: dict, state_b: dict) -> float:
         """Calculate transition cost between two states based on travel velocity."""
@@ -37,7 +50,7 @@ class RouteOptimizer:
 
         if map_x_a is None or map_y_a is None or map_x_b is None or map_y_b is None:
             # Fall back to tile coordinate distance (converted to approximate pixels)
-            dist = float(np.sqrt((tile_b[0] - tile_a[0]) ** 2 + (tile_b[1] - tile_a[1]) ** 2)) * 256.0
+            dist = float(np.sqrt((tile_b[0] - tile_a[0]) ** 2 + (tile_b[1] - tile_a[1]) ** 2)) * DEFAULT_TILE_SIZE
         else:
             # Compute pixel distance
             dx = map_x_b - map_x_a
@@ -52,18 +65,18 @@ class RouteOptimizer:
         if dt <= 0.0:
             velocity = 0.0
         else:
-            velocity = (dist / 256.0) / dt
+            velocity = (dist / DEFAULT_TILE_SIZE) / dt
 
         if velocity == 0.0:
             return 0.0
         elif velocity <= self.max_speed:
-            return 0.2 * velocity
+            return TRANSITION_SPEED_MULTIPLIER * velocity
         else:
             if state_b.get("event_type") == "teleport":
                 # Allow large jump because the localizer marked it as a teleport
-                return 0.5
+                return TELEPORT_TRANSITION_COST
             # Heavy penalty for teleportation / large jumps
-            return 20.0 + 5.0 * velocity
+            return OVER_SPEED_BASE_PENALTY + OVER_SPEED_VELOCITY_MULTIPLIER * velocity
 
     def optimize_route(self, route_dir: Path) -> Path:
         """Run Viterbi pass over route candidates and write optimized_route.json."""
@@ -119,27 +132,23 @@ class RouteOptimizer:
             states_seq.append(step_states)
 
         # Step 2: Viterbi Forward Pass
-        # dp[t][j] = min cost to reach state j at frame t
         # backpointers[t][j] = index of state at t-1 leading to state j at t
         N = len(entries)
-        dp = []
         backpointers = []
 
         # Initialize t = 0
-        first_step_dp = []
+        prev_dp = []
         for state in states_seq[0]:
             if state["tile"] is None:
-                first_step_dp.append(self.lost_emission_cost)
+                prev_dp.append(self.lost_emission_cost)
             else:
-                first_step_dp.append(1.0 - state["confidence"])
-        dp.append(first_step_dp)
+                prev_dp.append(1.0 - state["confidence"])
         backpointers.append([-1] * len(states_seq[0]))
 
         # Forward DP loop
         for t in range(1, N):
             prev_states = states_seq[t - 1]
             curr_states = states_seq[t]
-            prev_dp = dp[t - 1]
 
             curr_dp = []
             curr_bp = []
@@ -164,7 +173,7 @@ class RouteOptimizer:
                 curr_dp.append(min_cost + emission)
                 curr_bp.append(best_i)
 
-            dp.append(curr_dp)
+            prev_dp = curr_dp
             backpointers.append(curr_bp)
 
         # Step 3: Backtracking
@@ -172,7 +181,7 @@ class RouteOptimizer:
         # Find index of best state at final frame
         min_final_cost = float("inf")
         best_final_j = 0
-        for j, val in enumerate(dp[-1]):
+        for j, val in enumerate(prev_dp):
             if val < min_final_cost:
                 min_final_cost = val
                 best_final_j = j
@@ -206,7 +215,7 @@ class RouteOptimizer:
                 if last_valid_pos is not None:
                     dx = chosen_state["map_x"] - last_valid_pos[0]
                     dy = chosen_state["map_y"] - last_valid_pos[1]
-                    if (dx**2 + dy**2)**0.5 > 1500:
+                    if (dx**2 + dy**2)**0.5 > TELEPORT_DISTANCE_PX:
                         current_segment_id += 1
                         event_type = "teleport"
                         tracking_mode = "relocalized"

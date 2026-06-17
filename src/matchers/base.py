@@ -9,6 +9,8 @@ from typing import Any, Iterable, Protocol
 import cv2
 import numpy as np
 
+from ..constants import TOP_K_CANDIDATES
+
 
 @dataclass
 class CandidateImage:
@@ -52,7 +54,7 @@ class BaseMatcher:
 
     name = "base"
 
-    def __init__(self, candidates: Iterable[CandidateImage], top_k: int = 20):
+    def __init__(self, candidates: Iterable[CandidateImage], top_k: int = TOP_K_CANDIDATES):
         self.candidates = list(candidates)
         self.top_k = top_k
 

@@ -9,6 +9,8 @@ import easyocr
 import numpy as np
 
 from config import OCR_CONFIDENCE_THRESHOLD
+from src.preprocessing import crop_title_region
+from src.constants import OCR_DOWNSCALE_FACTOR, INVALID_PUZZLE_NUMBER
 
 logger = logging.getLogger(__name__)
 
@@ -50,7 +52,7 @@ def parse_ocr_text(raw_text: str, confidence: float) -> OCRResult:
         try:
             number = int(number_str)
         except ValueError:
-            number = -1
+            number = INVALID_PUZZLE_NUMBER
         valid = number > 0 and confidence >= OCR_CONFIDENCE_THRESHOLD
         return OCRResult(
             raw_text=text,
@@ -64,34 +66,15 @@ def parse_ocr_text(raw_text: str, confidence: float) -> OCRResult:
         raw_text=text,
         confidence=confidence,
         parsed_name="UNKNOWN",
-        parsed_number=-1,
+        parsed_number=INVALID_PUZZLE_NUMBER,
         valid=False,
     )
-
-
-def crop_title_region(frame: np.ndarray, profile: dict | None = None) -> np.ndarray:
-    h, w = frame.shape[:2]
-
-    if profile and "title_region_ratio" in profile:
-        r = profile["title_region_ratio"]
-        x1 = int(r["x"] * w)
-        y1 = int(r["y"] * h)
-        x2 = int((r["x"] + r["width"]) * w)
-        y2 = int((r["y"] + r["height"]) * h)
-    else:
-        from config import TITLE_CROP
-        x1 = int(w * TITLE_CROP["x_start_ratio"])
-        x2 = int(w * TITLE_CROP["x_end_ratio"])
-        y1 = int(h * TITLE_CROP["y_start_ratio"])
-        y2 = int(h * TITLE_CROP["y_end_ratio"])
-
-    return frame[y1:y2, x1:x2]
 
 
 def run_ocr_on_crop(crop: np.ndarray) -> list[tuple[str, float]]:
     reader = get_reader()
 
-    small = cv2.resize(crop, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA)
+    small = cv2.resize(crop, None, fx=OCR_DOWNSCALE_FACTOR, fy=OCR_DOWNSCALE_FACTOR, interpolation=cv2.INTER_AREA)
     gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
 
     results = reader.readtext(gray)
@@ -108,7 +91,7 @@ def run_ocr(frame: np.ndarray, frame_number: int, timestamp: float, profile: dic
             raw_text="",
             confidence=0.0,
             parsed_name="UNKNOWN",
-            parsed_number=-1,
+            parsed_number=INVALID_PUZZLE_NUMBER,
             valid=False,
         )
 
