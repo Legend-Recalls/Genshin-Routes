@@ -324,7 +324,7 @@ class Localizer:
             candidates = self._search_centers([self.last_tile], search_radius, variants)
             
             if not candidates or candidates[0]["confidence"] < self.confidence_threshold:
-                if self.state == TrackingState.TRACKING:
+                if self.state == TrackingState.TRACKING and search_radius == 1:
                     if self.frames_since_good_match == 0:
                         logger.debug(f"Confidence dropped, expanding to 5x5 around {self.last_tile}")
                     current_mode = "expanding"
@@ -333,7 +333,7 @@ class Localizer:
                     
                 if not candidates or candidates[0]["confidence"] < self.confidence_threshold:
                     if self.frames_since_good_match <= LOST_FRAMES_BEFORE_GLOBAL:
-                        logger.debug("Tracking lost, global search")
+                        logger.debug("All local searches failed, global search")
                     current_mode = "global_search"
                     search_radius = 1
                     _, base_mini, base_mask = variants[1] if len(variants) >= 2 else variants[0]
