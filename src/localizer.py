@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 from .tile_source import TileSource
 from .matchers.base import to_gray
-from .preprocessing import prepare_minimap
+from .preprocessing import prepare_minimap, create_circular_mask
 from .map_dataset import MapDataset
 from .constants import (
     AKAZE_DISTANCE_THRESHOLD, CONFIDENCE_THRESHOLD, MIN_EXPECTED_MATCHES,
@@ -83,6 +83,18 @@ class LRUDescriptorCache:
 
     def clear(self) -> None:
         self.cache.clear()
+
+
+def is_valid_minimap(image: np.ndarray, min_laplacian_var: float = 50.0) -> bool:
+    """Check if an image has enough sharp features for AKAZE matching.
+
+    Blurry/foggy scenes and frames without a minimap HUD have low Laplacian
+    variance, meaning there are no sharp edges for feature detection.
+    """
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if image.ndim == 3 else image
+    laplacian_var = cv2.Laplacian(gray, cv2.CV_64F).var()
+    return laplacian_var >= min_laplacian_var
+
 
 class Localizer:
     def __init__(
@@ -451,6 +463,14 @@ class Localizer:
 
             minimap = cv2.imread(str(minimap_path))
             if minimap is None:
+                progress.update(1)
+                continue
+
+            if not is_valid_minimap(minimap):
+                entry["tracking_mode"] = "no_minimap"
+                entry["event_type"] = "no_minimap"
+                entry["confidence"] = 0.0
+                entry["match_score"] = 0
                 progress.update(1)
                 continue
 
