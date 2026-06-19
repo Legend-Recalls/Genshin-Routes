@@ -259,6 +259,250 @@
             border: 1px solid #30363d;
             font-family: monospace;
         }
+
+        /* --- Panel toggle buttons (hamburger) --- */
+        .panel-toggle {
+            position: absolute;
+            z-index: 200;
+            width: 34px;
+            height: 34px;
+            background: rgba(22, 27, 34, 0.95);
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            color: #c9d1d9;
+            font-size: 16px;
+            line-height: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background .15s, transform .15s;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        }
+        .panel-toggle:hover { background: #30363d; }
+
+        #toggleLeft {
+            top: 10px;
+            left: 10px;
+        }
+        #toggleRight {
+            top: 10px;
+            right: 10px;
+        }
+
+        /* When a side panel is collapsed, its toggle shifts out so it stays
+           clickable, and the panel itself is hidden via the body class. */
+        body.left-collapsed #sidebar { display: none; }
+        body.right-collapsed #captionPanel { display: none; }
+
+        /* #controls is hard-offset left:340px to clear the sidebar; when the
+           left panel is collapsed, slide it to the left edge. */
+        body.left-collapsed #controls { left: 10px; }
+
+        /* Shift toggle buttons out of the way when their panel is open so
+           they don't overlap content; dock them at the screen corner. */
+        body:not(.left-collapsed) #toggleLeft { left: 330px; }
+        body:not(.left-collapsed) #featuresToggle { left: 370px; }
+        body:not(.right-collapsed) #toggleRight { right: 260px; }
+
+        /* --- Right-side caption list panel --- */
+        #captionPanel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 240px;
+            background: rgba(22, 27, 34, 0.95);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 14px;
+            color: #c9d1d9;
+            z-index: 100;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            max-height: calc(100vh - 20px);
+            overflow-y: auto;
+        }
+
+        #captionPanel h2 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 6px;
+        }
+
+        #captionList {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .caption-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background: #21262d;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 8px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: left;
+            margin-bottom: 6px;
+            transition: background .15s, border-color .15s;
+        }
+
+        .caption-item:hover { background: #30363d; }
+
+        .caption-item.active {
+            background: #238636;
+            border-color: #2ea043;
+            color: #fff;
+        }
+
+        .caption-item .ci-range {
+            font-family: monospace;
+            font-size: 10px;
+            font-weight: 400;
+            opacity: 0.8;
+        }
+
+        /* --- Features panel --- */
+        #featuresPanel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 280px;
+            background: rgba(22, 27, 34, 0.95);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 10px;
+            color: #c9d1d9;
+            z-index: 90;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            max-height: calc(100vh - 20px);
+            overflow-y: auto;
+            display: none;
+        }
+        body:not(.left-collapsed) #featuresPanel { left: 330px; }
+        #featuresPanel.visible { display: block; }
+
+        #featuresPanel h2 {
+            font-size: 13px;
+            margin-bottom: 8px;
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .feat-cat {
+            margin-bottom: 4px;
+        }
+
+        .feat-cat-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 8px;
+            background: #161b22;
+            border: 1px solid #21262d;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            color: #c9d1d9;
+            user-select: none;
+            transition: background .1s;
+        }
+        .feat-cat-header:hover { background: #1c2129; }
+
+        .feat-cat-header .cat-toggle {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            border: 2px solid #58a6ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            transition: background .1s;
+            flex-shrink: 0;
+        }
+        .feat-cat-header .cat-toggle.on {
+            background: #58a6ff;
+            color: #0d1117;
+        }
+
+        .feat-cat-header .cat-count {
+            font-size: 10px;
+            color: #8b949e;
+            font-weight: 400;
+            margin-left: 4px;
+        }
+
+        .feat-cat-items {
+            display: none;
+            padding: 3px 0 3px 12px;
+        }
+        .feat-cat.open .feat-cat-items { display: block; }
+
+        .feat-cat-header .chevron {
+            font-size: 10px;
+            color: #8b949e;
+            transition: transform .15s;
+        }
+        .feat-cat.open .feat-cat-header .chevron { transform: rotate(90deg); }
+
+        .feat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            color: #c9d1d9;
+            transition: background .1s;
+        }
+        .feat-item:hover { background: #21262d; }
+        .feat-item .feat-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .feat-item .feat-count {
+            font-size: 9px;
+            color: #8b949e;
+            margin-left: auto;
+        }
+        .feat-search {
+            width: 100%;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 4px;
+            color: #c9d1d9;
+            padding: 4px 8px;
+            font-size: 11px;
+            margin-bottom: 8px;
+            outline: none;
+        }
+        .feat-search:focus { border-color: #58a6ff; }
+
+        #featuresToggle {
+            position: absolute;
+            top: 52px;
+            left: 10px;
+            z-index: 200;
+        }
     </style>
 </head>
 
@@ -298,10 +542,7 @@
             <input type="range" id="frameSlider" min="0" max="0" value="0">
             <span id="frameText">— / —</span>
         </div>
-        <div class="mode-wrap"><label>Mode: <select id="modeSelect">
-                    <option value="optimized">Viterbi Optimized</option>
-                    <option value="raw">Raw Greedy</option>
-                </select></label></div>
+        <div class="mode-wrap"><label>Mode: <span style="color:#3fb950;font-weight:600;">Fused Path</span> <span style="color:#8b949e;font-size:10px;">(AKAZE + Flow)</span></label></div>
         <div class="stats" id="statsPanel"></div>
         <div class="cand-title">Top Candidates</div>
         <ul class="cand-list" id="candList"></ul>
@@ -320,13 +561,36 @@
         <label><input type="checkbox" id="showRoute" checked> Route Path</label>
         <label><input type="checkbox" id="showOverlays" checked> Underground Overlays</label>
     </div>
+
+    <!-- Left sidebar toggle -->
+    <button id="toggleLeft" class="panel-toggle" title="Toggle explorer panel">&#9776;</button>
+
+    <!-- Features panel -->
+    <button id="featuresToggle" class="panel-toggle" title="Toggle map features">&#9733;</button>
+    <div id="featuresPanel">
+        <h2><span>&#9733; Map Features</span> <span id="featTotal" style="font-size:10px;color:#8b949e;font-weight:400;"></span></h2>
+        <input type="text" class="feat-search" id="featSearch" placeholder="Search features...">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;">
+            <span style="font-size:11px;color:#8b949e;">Icon size</span>
+            <input type="range" id="iconSizeSlider" min="6" max="48" value="24" style="flex:1;accent-color:#58a6ff;">
+            <span id="iconSizeLabel" style="font-size:10px;color:#8b949e;width:24px;text-align:right;">24</span>
+        </div>
+        <div id="featCategories"></div>
+    </div>
+
+    <!-- Right caption list -->
+    <button id="toggleRight" class="panel-toggle" title="Toggle caption list">&#9776;</button>
+    <div id="captionPanel">
+        <h2>&#128203; Captions</h2>
+        <ul id="captionList"></ul>
+    </div>
     <script>
         (function () {
             var TILE = 256;
             var ZOOM_CONFIG = {
                 13: { minX: -16, maxX: 15, minY: -16, maxY: 14 },
-                14: { minX: -32, maxX: 31, minY: -32, maxY: 28 },
-                15: { minX: -64, maxX: 63, minY: -64, maxY: 57 }
+                14: { minX: -32, maxX: 31, minY: -32, maxY: 29 },
+                15: { minX: -64, maxX: 63, minY: -64, maxY: 58 }
             };
             var currentZoom = 15, cfg = ZOOM_CONFIG[15];
             var X_MIN = cfg.minX, X_MAX = cfg.maxX, Y_MIN = cfg.minY, Y_MAX = cfg.maxY;
@@ -337,9 +601,197 @@
             var showGrid = false, showRoute = true, showOverlays = true;
             var tileCache = {}, tileLoading = {}, overlayCache = {}, overlayLoading = {}, overlayData = [];
 
-            // Route state
+            // Route state. The map always draws the FUSED path. rawEntries
+            // (route.json) is kept only to drive the sidebar (minimaps,
+            // candidates, captions) frame-by-frame.
             var routeEntries = [], currentRoute = "", currentIdx = 0, playing = false, playInterval = null;
-            var hasOptimized = false, rawEntries = [], optEntries = [];
+            var rawEntries = [], fusedEntries = null;
+
+            // Caption segmentation. captionSegments is built from rawEntries
+            // grouped by #number (merging OCR variants). The active segment
+            // restricts drawing + playback to [rangeStart, rangeEnd] in the
+            // fused array. "All Route" (segIdx 0) covers the whole path.
+            var captionSegments = [], activeSegIdx = 0;
+            var rangeStart = 0, rangeEnd = 0;
+
+            // ---- Part A: caption segmentation ----
+            // Group raw frames by a stable key: prefer "#N" extracted from the
+            // text so "(challenge #6)", "challenge #6)" and "challenge #6" all
+            // collapse to one "#6" item. Otherwise fall back to the
+            // paren-stripped/trimmed/lowercased text.
+            function captionKey(raw) {
+                if (!raw) return "";
+                var m = raw.match(/#(\d+)/i);
+                if (m) return "#" + m[1];
+                return raw.replace(/[()]/g, "").trim().replace(/\s+/g, " ").toLowerCase();
+            }
+
+            // Human label: strip stray parens/extra spaces, title-case words.
+            function captionLabel(raw) {
+                if (!raw) return "";
+                var s = raw.replace(/[()]/g, "").trim().replace(/\s+/g, " ");
+                // Keep "#N" exactly; title-case the leading words.
+                var hash = s.match(/#\d+/i);
+                var head = s.replace(/#\d+/i, "").trim();
+                if (head) {
+                    head = head.split(" ").map(function (w) {
+                        return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+                    }).join(" ");
+                }
+                return (head ? head + " " : "") + (hash ? hash[0] : "");
+            }
+
+            function buildCaptionSegments() {
+                captionSegments = [];
+                if (!rawEntries.length) return;
+                var order = [], map = {};
+                for (var i = 0; i < rawEntries.length; i++) {
+                    var r = rawEntries[i];
+                    if (r.index == null) continue;
+                    var k = captionKey(r.caption_raw);
+                    if (!(k in map)) {
+                        map[k] = { key: k, labelRaw: r.caption_raw, firstIdx: r.index, lastIdx: r.index, count: 0, frames: [] };
+                        order.push(k);
+                    }
+                    var seg = map[k];
+                    if (r.index < seg.firstIdx) { seg.firstIdx = r.index; seg.labelRaw = r.caption_raw; }
+                    if (r.index > seg.lastIdx) seg.lastIdx = r.index;
+                    seg.count++;
+                    seg.frames.push(r.index);
+                }
+
+                // Merge prefix-only segments (no #) into the next numbered
+                // segment when they are adjacent in frame index. This fixes
+                // multi-line titles like "remarkable" + "chest #1" being split.
+                var mergedOrder = [];
+                var mergedMap = {};
+                for (var oi = 0; oi < order.length; oi++) {
+                    var seg = map[order[oi]];
+                    var hasNum = /#\d+/.test(seg.labelRaw || "");
+                    if (!hasNum && mergedOrder.length > 0) {
+                        // Check adjacency: last frame of previous segment <= first frame of this segment
+                        var prev = mergedMap[mergedOrder[mergedOrder.length - 1]];
+                        if (prev && seg.firstIdx - prev.lastIdx <= 3) {
+                            // Merge into previous
+                            prev.labelRaw = (prev.labelRaw || "") + " " + (seg.labelRaw || "");
+                            prev.lastIdx = Math.max(prev.lastIdx, seg.lastIdx);
+                            prev.count += seg.count;
+                            prev.merged = true;
+                            continue;
+                        }
+                    }
+                    mergedOrder.push(order[oi]);
+                    mergedMap[order[oi]] = seg;
+                }
+
+                // "All Route" pseudo-segment first, then the real captions in
+                // first-appearance order, skipping the empty-caption bucket
+                // (its frames are intro/cutscene with no route position).
+                captionSegments.push({ key: "__all__", label: "All Route", firstIdx: 0, lastIdx: Infinity, count: 0, allRoute: true });
+                for (var oi = 0; oi < mergedOrder.length; oi++) {
+                    var seg2 = mergedMap[mergedOrder[oi]];
+                    if (seg2.key === "") continue;           // drop empty captions
+                    captionSegments.push({
+                        key: seg2.key, label: captionLabel(seg2.labelRaw) || seg2.key,
+                        firstIdx: seg2.firstIdx, lastIdx: seg2.lastIdx, count: seg2.count
+                    });
+                }
+                if (captionSegments[0]) {
+                    captionSegments[0].lastIdx = rawEntries[rawEntries.length - 1].index || Infinity;
+                    captionSegments[0].count = rawEntries.length;
+                }
+            }
+
+            // ---- Part B: map a segment's raw-index range onto the fused array ----
+            // Returns {start, end} fused-array positions, or null if no fused
+            // point falls inside the raw index range.
+            function segRangeOnFused(seg) {
+                if (!routeEntries.length) return null;
+                if (seg.allRoute) return { start: 0, end: routeEntries.length - 1 };
+                var start = -1, end = -1;
+                for (var i = 0; i < routeEntries.length; i++) {
+                    var idx = routeEntries[i].index != null ? routeEntries[i].index : i;
+                    if (idx >= seg.firstIdx && idx <= seg.lastIdx) {
+                        if (start < 0) start = i;
+                        end = i;
+                    }
+                }
+                if (start < 0) return null;
+                return { start: start, end: end };
+            }
+
+            function applySegment(segIdx) {
+                if (segIdx < 0 || segIdx >= captionSegments.length) return;
+                activeSegIdx = segIdx;
+                var seg = captionSegments[segIdx];
+                var rng = segRangeOnFused(seg);
+                if (!rng) return;
+                rangeStart = rng.start;
+                rangeEnd = rng.end;
+                currentIdx = rangeStart;
+                document.getElementById("frameSlider").min = rangeStart;
+                document.getElementById("frameSlider").max = rangeEnd;
+                document.getElementById("frameSlider").value = currentIdx;
+                renderCaptionList();
+                updateSidebar();
+                fitToRange(rangeStart, rangeEnd);
+            }
+
+            // ---- Part D: auto-fit pan/zoom to a fused index range ----
+            function fitToRange(startIdx, endIdx) {
+                if (!routeEntries.length) return;
+                var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity, n = 0;
+                for (var i = startIdx; i <= endIdx; i++) {
+                    var w = getMapPos(routeEntries[i]);
+                    if (!w) continue;
+                    if (w[0] < minX) minX = w[0];
+                    if (w[0] > maxX) maxX = w[0];
+                    if (w[1] < minY) minY = w[1];
+                    if (w[1] > maxY) maxY = w[1];
+                    n++;
+                }
+                if (n < 2) {          // single point: just center on it
+                    var p = getMapPos(routeEntries[startIdx]);
+                    if (p) { viewX = p[0]; viewY = p[1]; }
+                    scale = Math.max(scale, 1.0);
+                    scheduleRender();
+                    return;
+                }
+                var cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
+                // ~20% padding around the bbox.
+                var padX = Math.max(64, (maxX - minX) * 0.2);
+                var padY = Math.max(64, (maxY - minY) * 0.2);
+                var bw = (maxX - minX) + padX * 2, bh = (maxY - minY) + padY * 2;
+                var sx = canvas.width / bw, sy = canvas.height / bh;
+                viewX = cx; viewY = cy;
+                scale = Math.max(0.03, Math.min(4, Math.min(sx, sy)));
+                scheduleRender();
+            }
+
+            // ---- Part E: render the caption list into #captionList ----
+            function renderCaptionList() {
+                var ul = document.getElementById("captionList");
+                if (!ul) return;
+                ul.innerHTML = "";
+                for (var i = 0; i < captionSegments.length; i++) {
+                    var seg = captionSegments[i];
+                    var li = document.createElement("li");
+                    var btn = document.createElement("button");
+                    btn.className = "caption-item" + (i === activeSegIdx ? " active" : "");
+                    var rangeText = seg.allRoute
+                        ? (routeEntries.length + " pts")
+                        : (seg.firstIdx + "\u2013" + seg.lastIdx);
+                    btn.innerHTML =
+                        '<span class="ci-label"></span>' +
+                        '<span class="ci-range">' + rangeText + "</span>";
+                    btn.querySelector(".ci-label").textContent = seg.label || seg.key;
+                    (function (idx) {
+                        btn.addEventListener("click", function () { applySegment(idx); });
+                    })(i);
+                    li.appendChild(btn);
+                    ul.appendChild(li);
+                }
+            }
 
             var rafId = 0;
             function scheduleRender() { if (!rafId) { rafId = requestAnimationFrame(function () { rafId = 0; render(); }); } }
@@ -394,6 +846,10 @@
                 if (e.lat != null && e.lng != null) {
                     return latLngToWorld(e.lat, e.lng);
                 }
+                // Support world_x/world_y from path.json (fused paths)
+                if (e.world_x != null && e.world_y != null) {
+                    return [e.world_x, e.world_y];
+                }
                 return null;
             }
 
@@ -421,6 +877,9 @@
             // Confidence color as CSS string
             function confColor(c) { return c >= 0.3 ? "#3fb950" : c >= 0.15 ? "#d29922" : "#f85149"; }
             function confClass(c) { return c >= 0.3 ? "conf-high" : c >= 0.15 ? "conf-med" : "conf-low"; }
+
+            // Source color map for fused paths
+            var sourceColors = { "anchor": "#3fb950", "flow": "#ff7b72", "interp": "#d29922" };
 
             function render() {
                 ctx.fillStyle = "#0d1117";
@@ -469,38 +928,63 @@
                     }
                 }
 
+                // Draw features
+                drawFeatures();
+
                 // Draw route
                 if (showRoute && routeEntries.length > 0) drawRoute();
             }
 
             function drawRoute() {
+                var hasSource = routeEntries.length > 0 && routeEntries[0].source != null;
+
+                // Drawing is restricted to the active caption segment's fused
+                // index range [rangeStart, rangeEnd].
+                var s0 = rangeStart, s1 = rangeEnd;
+
                 // Full future route as faint dots
                 ctx.globalAlpha = 0.25;
-                for (var i = currentIdx + 1; i < routeEntries.length; i++) {
+                for (var i = Math.max(currentIdx + 1, s0); i <= s1; i++) {
                     var e = routeEntries[i];
                     var w = getMapPos(e); if (!w) continue;
                     var s = worldToScreen(w[0], w[1]);
                     ctx.beginPath(); ctx.arc(s[0], s[1], Math.max(2, 2 * scale), 0, Math.PI * 2);
-                    ctx.fillStyle = "#8b949e"; ctx.fill();
+                    ctx.fillStyle = hasSource ? (sourceColors[e.source] || "#8b949e") : "#8b949e";
+                    ctx.fill();
                 }
                 ctx.globalAlpha = 1.0;
 
-                // Walked route as colored line segments based on segment_id
-                ctx.lineWidth = Math.max(2, 3 * scale); ctx.lineCap = "round";
+                // Walked route as colored line segments
+                ctx.lineWidth = Math.max(1, 1.5 * scale); ctx.lineCap = "round";
                 var segColors = ["#3fb950", "#58a6ff", "#d29922", "#bc8cff", "#ff7b72", "#e3b341"];
 
-                for (var i = 0; i < currentIdx; i++) {
+                var walkEnd = Math.min(currentIdx, s1 + 1);
+                for (var i = s0; i < walkEnd; i++) {
                     var a = routeEntries[i], b = routeEntries[i + 1];
+                    if (!a || !b) continue;
                     var wa = getMapPos(a), wb = getMapPos(b);
                     if (!wa || !wb) continue;
                     var sa = worldToScreen(wa[0], wa[1]), sb = worldToScreen(wb[0], wb[1]);
 
-                    var cColor = segColors[(b.segment_id || 0) % segColors.length];
-                    ctx.strokeStyle = cColor;
+                    if (hasSource) {
+                        // Color by source type
+                        var prevSrc = a.source || "anchor";
+                        var curSrc = b.source || "anchor";
+                        if (prevSrc !== curSrc) {
+                            // Source change: draw transition
+                            ctx.strokeStyle = "#ffffff";
+                            ctx.setLineDash([3, 5]);
+                            ctx.beginPath(); ctx.moveTo(sa[0], sa[1]); ctx.lineTo(sb[0], sb[1]); ctx.stroke();
+                            ctx.setLineDash([]);
+                        }
+                        ctx.strokeStyle = sourceColors[curSrc] || "#8b949e";
+                    } else {
+                        var cColor = segColors[(b.segment_id || 0) % segColors.length];
+                        ctx.strokeStyle = cColor;
+                    }
 
                     if (b.event_type === "teleport") {
                         ctx.setLineDash([5, 10]);
-                        // Draw teleport start marker
                         ctx.fillStyle = "#f85149";
                         ctx.beginPath(); ctx.arc(sa[0], sa[1], 5 * scale, 0, Math.PI * 2); ctx.fill();
                         ctx.fillStyle = "white";
@@ -513,6 +997,36 @@
                     ctx.beginPath(); ctx.moveTo(sa[0], sa[1]); ctx.lineTo(sb[0], sb[1]); ctx.stroke();
                 }
                 ctx.setLineDash([]);
+
+                // Draw dots at each route point (colored by source)
+                var dotR = Math.max(2, 3 * scale);
+                for (var i = s0; i <= s1; i++) {
+                    var e = routeEntries[i];
+                    var w = getMapPos(e); if (!w) continue;
+                    var s = worldToScreen(w[0], w[1]);
+                    ctx.globalAlpha = i < currentIdx ? 1.0 : 0.35;
+                    ctx.beginPath(); ctx.arc(s[0], s[1], dotR, 0, Math.PI * 2);
+                    ctx.fillStyle = hasSource ? (sourceColors[e.source] || "#8b949e") : "#3fb950";
+                    ctx.fill();
+                }
+                ctx.globalAlpha = 1.0;
+
+                // START / END labels — anchors of the active segment
+                if (s1 > s0) {
+                    var eStart = routeEntries[s0], eEnd = routeEntries[s1];
+                    var wStart = getMapPos(eStart), wEnd = getMapPos(eEnd);
+                    ctx.font = "bold " + Math.max(11, 13 * scale) + "px sans-serif";
+                    if (wStart) {
+                        var sStart = worldToScreen(wStart[0], wStart[1]);
+                        ctx.fillStyle = "#3fb950";
+                        ctx.fillText("START", sStart[0] + 8, sStart[1] - 6);
+                    }
+                    if (wEnd) {
+                        var sEnd = worldToScreen(wEnd[0], wEnd[1]);
+                        ctx.fillStyle = "#f85149";
+                        ctx.fillText("END", sEnd[0] + 8, sEnd[1] - 6);
+                    }
+                }
 
                 // Current position marker
                 var cur = routeEntries[currentIdx];
@@ -528,6 +1042,27 @@
                     // Dot
                     ctx.beginPath(); ctx.arc(sc[0], sc[1], Math.max(3, 4 * scale), 0, Math.PI * 2);
                     ctx.fillStyle = "#58a6ff"; ctx.fill();
+                }
+
+                // Legend overlay (top-left of canvas)
+                if (hasSource) {
+                    var lx = 10, ly = 10, lh = 20, lw = 190;
+                    var legendItems = [
+                        ["\u25CF Anchor (AKAZE)", "#3fb950"],
+                        ["\u25CF Flow (dead-reckon)", "#ff7b72"],
+                        ["\u25CF Interpolation", "#d29922"]
+                    ];
+                    ctx.fillStyle = "rgba(13,17,23,0.85)";
+                    ctx.fillRect(lx, ly, lw, lh * legendItems.length + 26);
+                    ctx.strokeStyle = "#30363d"; ctx.lineWidth = 1;
+                    ctx.strokeRect(lx, ly, lw, lh * legendItems.length + 26);
+                    ctx.font = "12px sans-serif";
+                    for (var li = 0; li < legendItems.length; li++) {
+                        ctx.fillStyle = legendItems[li][1];
+                        ctx.fillText(legendItems[li][0], lx + 8, ly + 16 + li * lh);
+                    }
+                    ctx.fillStyle = "#8b949e";
+                    ctx.fillText(routeEntries.length + " points total", lx + 8, ly + 16 + legendItems.length * lh + 4);
                 }
 
                 // Current tile boundary
@@ -548,13 +1083,27 @@
                 }
             }
 
+            // Look up the raw route.json entry whose frame matches a fused
+            // point. The sidebar (minimaps, candidates, captions, tracking
+            // mode) is sourced from rawEntries; the map draws fusedEntries.
+            function rawEntryForFrame(frame) {
+                if (!rawEntries.length) return null;
+                // Fast path: fused idx and raw idx share the same array order
+                // when a raw entry exists for every fused frame.
+                for (var i = 0; i < rawEntries.length; i++) {
+                    if (rawEntries[i].frame === frame) return rawEntries[i];
+                }
+                return null;
+            }
+
             function updateSidebar() {
                 var e = routeEntries[currentIdx]; if (!e) return;
-                // Minimap
-                var miniName = e.minimap ? e.minimap.replace("minimaps/", "") : "";
+                var rd = rawEntryForFrame(e.frame) || {};   // raw detail
+                // Minimap (from raw route.json — fused path has no image refs)
+                var miniName = rd.minimap ? rd.minimap.replace("minimaps/", "") : "";
                 document.getElementById("minimapImg").src = miniName ? "/route/" + currentRoute + "/minimaps/" + miniName : "";
                 // Title crop + caption
-                var titleName = e.title_crop ? e.title_crop.replace("titles/", "") : "";
+                var titleName = rd.title_crop ? rd.title_crop.replace("titles/", "") : "";
                 var titleWrap = document.getElementById("titleWrap");
                 var captionBox = document.getElementById("captionBox");
                 if (titleName) {
@@ -563,9 +1112,9 @@
                 } else {
                     titleWrap.style.display = "none";
                 }
-                if (e.caption_raw) {
-                    document.getElementById("captionText").textContent = e.caption_raw;
-                    document.getElementById("captionConf").textContent = "conf: " + (e.caption_confidence || 0).toFixed(3);
+                if (rd.caption_raw) {
+                    document.getElementById("captionText").textContent = rd.caption_raw;
+                    document.getElementById("captionConf").textContent = "conf: " + (rd.caption_confidence || 0).toFixed(3);
                     captionBox.style.display = "block";
                 } else {
                     captionBox.style.display = "none";
@@ -574,24 +1123,25 @@
                 document.getElementById("frameSlider").max = routeEntries.length - 1;
                 document.getElementById("frameSlider").value = currentIdx;
                 document.getElementById("frameText").textContent = (currentIdx + 1) + " / " + routeEntries.length + "  (" + formatTime(e.timestamp) + ")";
-                // Stats
-                var mode = (e.tracking_mode || "lost").toUpperCase();
-                var conf = e.confidence || 0;
-                var score = e.match_score || 0;
+                // Stats — frame/time/source/tile from fused; mode/conf/etc. from raw
+                var mode = (rd.tracking_mode || "lost").toUpperCase();
+                var conf = rd.confidence || 0;
+                var score = rd.match_score || 0;
                 var cCls = confClass(conf);
                 var modeColor = mode === "TRACKING" ? "#3fb950" : mode === "LOST" ? "#f85149" : "#d29922";
                 var sp = document.getElementById("statsPanel");
                 sp.innerHTML = '<div><span class="lb">Frame</span><span class="vl">' + e.frame + '</span></div>' +
                     '<div><span class="lb">Time</span><span class="vl">' + formatTime(e.timestamp) + '</span></div>' +
-                    '<div><span class="lb">Segment</span><span class="vl">#' + (e.segment_id || 0) + ' (' + (e.event_type || 'normal') + ')</span></div>' +
+                    (e.source ? '<div><span class="lb">Source</span><span class="vl" style="color:' + (sourceColors[e.source] || '#8b949e') + '">' + e.source.toUpperCase() + '</span></div>' : '') +
+                    '<div><span class="lb">Segment</span><span class="vl">#' + (rd.segment_id || 0) + ' (' + (rd.event_type || 'normal') + ')</span></div>' +
                     '<div><span class="lb">Mode</span><span class="vl" style="color:' + modeColor + '">' + mode + '</span></div>' +
                     '<div><span class="lb">Confidence</span><span class="vl ' + cCls + '">' + conf.toFixed(3) + '</span></div>' +
                     '<div><span class="lb">Matches</span><span class="vl">' + score + '</span></div>' +
                     (e.tile_x != null ? '<div><span class="lb">Tile</span><span class="vl">' + e.tile_x + ', ' + e.tile_y + '</span></div>' : '') +
-                    (e.lat != null ? '<div><span class="lb">Position</span><span class="vl">' + e.lat.toFixed(4) + ', ' + e.lng.toFixed(4) + '</span></div>' : '');
-                // Candidates
+                    (rd.lat != null ? '<div><span class="lb">Position</span><span class="vl">' + rd.lat.toFixed(4) + ', ' + rd.lng.toFixed(4) + '</span></div>' : '');
+                // Candidates (from raw route.json)
                 var cl = document.getElementById("candList");
-                var cands = e.candidates || [];
+                var cands = rd.candidates || [];
                 cl.innerHTML = "";
                 for (var i = 0; i < Math.min(cands.length, 5); i++) {
                     var c = cands[i];
@@ -608,7 +1158,7 @@
             function formatTime(t) { var m = Math.floor(t / 60), s = Math.floor(t % 60); return (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s; }
 
             function goToFrame(i) {
-                currentIdx = Math.max(0, Math.min(routeEntries.length - 1, i));
+                currentIdx = Math.max(rangeStart, Math.min(rangeEnd, i));
                 updateSidebar(); scheduleRender();
             }
 
@@ -622,7 +1172,7 @@
                 playing = !playing;
                 if (playing) {
                     playInterval = setInterval(function () {
-                        if (currentIdx >= routeEntries.length - 1) { playing = false; clearInterval(playInterval); updateSidebar(); return; }
+                        if (currentIdx >= rangeEnd) { playing = false; clearInterval(playInterval); updateSidebar(); return; }
                         goToFrame(currentIdx + 1);
                     }, 300);
                 } else { clearInterval(playInterval); }
@@ -631,23 +1181,34 @@
 
             function loadRoute(name) {
                 currentRoute = name; playing = false; if (playInterval) clearInterval(playInterval);
-                var modeEl = document.getElementById("modeSelect");
-                // Load both raw and optimized
+                // route.json feeds the sidebar (minimaps, candidates, captions).
                 fetch("/route/" + name + "/route.json").then(function (r) { return r.json(); }).then(function (d) { rawEntries = d; trySetEntries(); });
-                fetch("/route/" + name + "/optimized_route.json").then(function (r) { if (r.ok) return r.json(); return null; }).then(function (d) {
-                    optEntries = d; hasOptimized = !!d;
-                    if (!hasOptimized) { modeEl.value = "raw"; }
-                    trySetEntries();
-                }).catch(function () { optEntries = null; hasOptimized = false; modeEl.value = "raw"; trySetEntries(); });
+                // path.json is the fused path drawn on the map.
+                fetch("/route/" + name + "/path.json").then(function (r) { if (r.ok) return r.json(); return null; }).then(function (d) {
+                    fusedEntries = d; trySetEntries();
+                }).catch(function () { fusedEntries = null; trySetEntries(); });
             }
 
             function trySetEntries() {
-                var mode = document.getElementById("modeSelect").value;
-                if (mode === "optimized" && optEntries) { routeEntries = optEntries; }
+                // Need both raw (for captions) and the map path before we can
+                // segment + draw.
+                if (!rawEntries.length) return;
+                // Map path = fused path only (fallback to raw if fused missing).
+                if (fusedEntries && fusedEntries.length) { routeEntries = fusedEntries; }
                 else if (rawEntries.length) { routeEntries = rawEntries; }
                 else return;
-                currentIdx = 0;
-                document.getElementById("frameSlider").max = routeEntries.length - 1;
+
+                // Build caption segments from the raw route.
+                buildCaptionSegments();
+                activeSegIdx = 0;            // default = "All Route"
+                rangeStart = 0;
+                rangeEnd = routeEntries.length - 1;
+
+                currentIdx = rangeStart;
+                var fs = document.getElementById("frameSlider");
+                fs.min = rangeStart; fs.max = rangeEnd; fs.value = currentIdx;
+
+                renderCaptionList();
                 updateSidebar(); focusCurrentPosition();
             }
 
@@ -709,8 +1270,15 @@
             document.getElementById("btnPrev").addEventListener("click", function () { playing = false; if (playInterval) clearInterval(playInterval); goToFrame(currentIdx - 1); });
             document.getElementById("btnNext").addEventListener("click", function () { playing = false; if (playInterval) clearInterval(playInterval); goToFrame(currentIdx + 1); });
             document.getElementById("btnPlay").addEventListener("click", function () { togglePlay(); });
-            document.getElementById("modeSelect").addEventListener("change", function () { trySetEntries(); });
             document.getElementById("routeSelect").addEventListener("change", function (e) { if (e.target.value) loadRoute(e.target.value); });
+
+            // Panel toggle buttons (hamburger collapse)
+            document.getElementById("toggleLeft").addEventListener("click", function () {
+                document.body.classList.toggle("left-collapsed");
+            });
+            document.getElementById("toggleRight").addEventListener("click", function () {
+                document.body.classList.toggle("right-collapsed");
+            });
 
             function downloadFromUrl(url, filename) {
                 var a = document.createElement("a");
@@ -734,13 +1302,228 @@
                 downloadFromUrl("/route/" + currentRoute + "/exports/route.csv", currentRoute + "_route.csv");
             });
 
+            // --- Feature markers ---
+            var FEATURES_MARKER_SIZE = 6;
+            var iconSizePx = 24;
+            var featureData = [];
+            var iconImages = {};  // {type_code: Image}
+            var iconLoading = {};  // {type_code: true}
+            var featureCategories = [
+                { id: "oculi", label: "Oculi", types: ["o5","o6","o194","o403","o508","o626","o694"], color: "#a78bfa", enabled: true },
+                { id: "teleport", label: "Teleport Waypoints", types: ["o2","o3"], color: "#60a5fa", enabled: true },
+                { id: "domain", label: "Domains & Shrines", types: ["o154","o8","o9","o212","o411","o509","o577","o703"], color: "#c084fc", enabled: true },
+                { id: "chest", label: "Chests", types: ["o17","o44","o45","o46","o69","o75","o129","o269","o329","o366","o596","o723"], color: "#fbbf24", enabled: true },
+                { id: "seelie", label: "Seelies", types: ["o18","o147","o148","o205"], color: "#34d399", enabled: false },
+                { id: "puzzle", label: "Puzzles & Mechanisms", types: ["o64","o65","o66","o67","o68","o70","o71","o72","o73","o77","o83","o155","o156","o208","o216","o230","o231","o253","o258","o267","o322","o323","o324","o334","o347","o358","o369","o404","o406","o407","o409","o414","o446","o447","o448","o460","o461","o465","o466","o483","o484","o485","o486","o487","o488","o489","o490","o499","o542","o543","o550","o551","o552","o556","o579","o580","o581","o582","o583","o584","o588"], color: "#f97316", enabled: false },
+                { id: "boss", label: "Bosses & Enemies", types: ["o132","o133","o134","o135","o136","o137","o138","o157","o181","o183","o203","o204","o262","o263","o264","o265","o318","o390","o391","o432","o433","o452","o457","o497","o498","o539","o540","o553","o604","o609","o610","o687"], color: "#ef4444", enabled: false },
+                { id: "plant", label: "Plants & Local Specialties", types: ["o29","o30","o31","o32","o33","o34","o35","o36","o37","o38","o39","o40","o41","o42","o43","o61","o62","o78","o160","o161","o162","o163","o164","o165","o166","o167","o168","o195","o196","o197","o198","o199","o200","o201","o227","o228","o266","o355","o384","o385","o386","o387","o400","o401","o402","o413","o430","o431","o437","o462","o468","o469","o471","o473","o475","o477","o500","o501","o502","o503","o519","o522","o544","o545","o548","o549","o611","o613","o614","o615","o616","o617","o619","o620","o621","o695","o696","o697","o700","o775","o776","o777","o779","o780","o811"], color: "#22c55e", enabled: false },
+                { id: "mineral", label: "Minerals & Ores", types: ["o15","o16","o63","o80","o139","o142","o172","o202","o211","o343","o357","o507","o566","o668","o674"], color: "#94a3b8", enabled: false },
+                { id: "animal", label: "Animals", types: ["o91","o92","o93","o94","o115","o116","o254","o274","o275","o276","o277","o278","o279","o281","o282","o283","o284","o285","o288","o289","o290","o291","o292","o293","o294","o296","o297","o298","o299","o300","o301","o302","o303","o304","o305","o306","o307","o308","o310","o311","o312","o313","o315","o393","o394","o436","o451","o504","o505","o506","o510","o511","o513","o514","o515","o516","o527","o528","o529","o534","o535","o536","o537","o538","o557","o622","o623","o624","o625","o627","o632","o633","o634","o635","o636","o637","o638","o643","o648","o649","o650","o651","o652","o653","o654","o657","o704","o705","o706","o707","o708","o709","o710","o749","o750","o751","o752","o753","o754","o755","o756","o757","o758","o759","o813","o814","o815"], color: "#f472b6", enabled: false },
+                { id: "fishing", label: "Fishing Points", types: ["o233","o234","o235","o236","o237","o238","o239","o240","o241","o242","o243","o244","o245","o246","o247","o248","o249","o250","o251","o252","o261"], color: "#38bdf8", enabled: false },
+                { id: "guide", label: "Guides & Interactive", types: ["o85","o111","o112","o114","o127","o130","o140","o153","o171","o223","o224","o317","o453","o554","o555","o572","o573","o574","o575","o576","o600","o601","o602","o603","o639","o640","o641","o642","o660","o661","o662","o663","o664","o666","o669","o670","o671","o672","o673","o675","o676","o677","o678","o680","o681","o683","o684","o685","o686","o688","o689","o690","o691","o692","o693","o760","o761","o762","o763","o764","o765","o766","o767","o768","o769","o770","o771","o772","o773","o774","o778","o781","o782","o783","o784","o785","o786","o787","o788","o789","o790","o791","o792","o793","o794","o795","o796","o797","o798","o799","o800","o801","o802","o803","o804","o805","o806","o807","o808","o809","o810","o812","o816","o817"], color: "#8b949e", enabled: false },
+            ];
+            var featureTypeToCat = {};
+            var featuresVisible = true;
+
+            // Build type-to-category lookup
+            featureCategories.forEach(function (cat) {
+                cat.types.forEach(function (t) { featureTypeToCat[t] = cat.id; });
+            });
+
+            function loadFeatures() {
+                fetch("/features.json").then(function (r) { return r.json(); }).then(function (d) {
+                    // Compact format: [type, lng, lat, map_id]
+                    var raw = d.features || [];
+                    var typeNames = d.type_names || {};
+                    // Filter to Teyvat (map_id 2) and expand to objects
+                    featureData = [];
+                    for (var i = 0; i < raw.length; i++) {
+                        var r = raw[i];
+                        if (r[3] !== 2) continue;  // map_id
+                        featureData.push({ type: r[0], lng: r[1], lat: r[2], name: typeNames[r[0]] || r[0] });
+                    }
+                    // Count per category
+                    featureCategories.forEach(function (cat) { cat.count = 0; });
+                    featureData.forEach(function (f) {
+                        var cid = featureTypeToCat[f.type];
+                        if (cid) {
+                            var cat = featureCategories.find(function (c) { return c.id === cid; });
+                            if (cat) cat.count++;
+                        }
+                    });
+                    document.getElementById("featTotal").textContent = featureData.length + " markers";
+                    renderFeatureCategories();
+                    // Preload icons for enabled categories
+                    featureCategories.forEach(function (cat) {
+                        if (!cat.enabled) return;
+                        featureData.forEach(function (f) {
+                            if (featureTypeToCat[f.type] === cat.id) loadIcon(f.type);
+                        });
+                    });
+                }).catch(function (e) { console.error("Failed to load features:", e); });
+            }
+
+            function renderFeatureCategories() {
+                var container = document.getElementById("featCategories");
+                var search = document.getElementById("featSearch").value.toLowerCase();
+                container.innerHTML = "";
+                featureCategories.forEach(function (cat) {
+                    if (search && cat.label.toLowerCase().indexOf(search) < 0) return;
+                    var div = document.createElement("div");
+                    div.className = "feat-cat";
+                    var hdr = document.createElement("div");
+                    hdr.className = "feat-cat-header";
+                    var toggle = document.createElement("div");
+                    toggle.className = "cat-toggle" + (cat.enabled ? " on" : "");
+                    toggle.textContent = cat.enabled ? "\u2713" : "";
+                    toggle.addEventListener("click", function (e) {
+                        e.stopPropagation();
+                        cat.enabled = !cat.enabled;
+                        toggle.className = "cat-toggle" + (cat.enabled ? " on" : "");
+                        toggle.textContent = cat.enabled ? "\u2713" : "";
+                        if (cat.enabled) {
+                            featureData.forEach(function (f) {
+                                if (featureTypeToCat[f.type] === cat.id) loadIcon(f.type);
+                            });
+                        }
+                        scheduleRender();
+                    });
+                    var labelSpan = document.createElement("span");
+                    labelSpan.textContent = cat.label;
+                    var countSpan = document.createElement("span");
+                    countSpan.className = "cat-count";
+                    countSpan.textContent = cat.count || 0;
+                    var chevron = document.createElement("span");
+                    chevron.className = "chevron";
+                    chevron.textContent = "\u25B6";
+                    hdr.appendChild(toggle);
+                    hdr.appendChild(labelSpan);
+                    hdr.appendChild(countSpan);
+                    hdr.appendChild(chevron);
+                    hdr.addEventListener("click", function () {
+                        div.classList.toggle("open");
+                    });
+                    div.appendChild(hdr);
+
+                    // Show subtypes as individual items
+                    var itemsDiv = document.createElement("div");
+                    itemsDiv.className = "feat-cat-items";
+                    // Group types by name, count occurrences
+                    var typeCounts = {};
+                    featureData.forEach(function (f) {
+                        if (featureTypeToCat[f.type] === cat.id) {
+                            typeCounts[f.type] = (typeCounts[f.type] || 0) + 1;
+                        }
+                    });
+                    cat.types.forEach(function (t) {
+                        var cnt = typeCounts[t] || 0;
+                        if (cnt === 0) return;
+                        var item = document.createElement("div");
+                        item.className = "feat-item";
+                        var dot = document.createElement("div");
+                        dot.className = "feat-dot";
+                        dot.style.background = cat.color;
+                        var nameSpan = document.createElement("span");
+                        nameSpan.textContent = t;
+                        // Try to get human name from first matching feature
+                        var sample = featureData.find(function (f) { return f.type === t; });
+                        if (sample && sample.name && sample.name !== t) nameSpan.textContent = sample.name;
+                        var cntSpan = document.createElement("span");
+                        cntSpan.className = "feat-count";
+                        cntSpan.textContent = cnt;
+                        item.appendChild(dot);
+                        item.appendChild(nameSpan);
+                        item.appendChild(cntSpan);
+                        item.addEventListener("click", function () {
+                            cat.enabled = !cat.enabled;
+                            toggle.className = "cat-toggle" + (cat.enabled ? " on" : "");
+                            toggle.textContent = cat.enabled ? "\u2713" : "";
+                            scheduleRender();
+                        });
+                        itemsDiv.appendChild(item);
+                    });
+                    div.appendChild(itemsDiv);
+                    container.appendChild(div);
+                });
+            }
+
+            document.getElementById("featSearch").addEventListener("input", function () {
+                renderFeatureCategories();
+            });
+
+            document.getElementById("iconSizeSlider").addEventListener("input", function (e) {
+                iconSizePx = parseInt(e.target.value);
+                document.getElementById("iconSizeLabel").textContent = iconSizePx;
+                scheduleRender();
+            });
+
+            function loadIcon(typeCode) {
+                if (iconImages[typeCode] || iconLoading[typeCode]) return;
+                iconLoading[typeCode] = true;
+                var img = new Image();
+                img.onload = function () {
+                    iconImages[typeCode] = img;
+                    iconLoading[typeCode] = false;
+                    scheduleRender();
+                };
+                img.onerror = function () {
+                    iconLoading[typeCode] = false;
+                };
+                img.src = "/icons/" + typeCode + ".png";
+            }
+
+            function drawFeatures() {
+                if (!featuresVisible || !featureData.length) return;
+                if (scale < 0.08) return;
+
+                var halfW = canvas.width / (2 * scale), halfH = canvas.height / (2 * scale);
+                var visMinX = viewX - halfW, visMaxX = viewX + halfW;
+                var visMinY = viewY - halfH, visMaxY = viewY + halfH;
+                var iconSize = Math.max(6, Math.round(iconSizePx * scale * 0.5));
+                var dotR = Math.max(2, FEATURES_MARKER_SIZE * scale * 0.4);
+
+                featureCategories.forEach(function (cat) {
+                    if (!cat.enabled) return;
+                    featureData.forEach(function (f) {
+                        if (featureTypeToCat[f.type] !== cat.id) return;
+                        var w = latLngToWorld(f.lat, f.lng);
+                        if (!w) return;
+                        if (w[0] < visMinX || w[0] > visMaxX || w[1] < visMinY || w[1] > visMaxY) return;
+                        var s = worldToScreen(w[0], w[1]);
+                        var img = iconImages[f.type];
+                        if (img) {
+                            ctx.drawImage(img, s[0] - iconSize / 2, s[1] - iconSize / 2, iconSize, iconSize);
+                        } else {
+                            loadIcon(f.type);
+                            ctx.fillStyle = cat.color;
+                            ctx.globalAlpha = 0.85;
+                            ctx.beginPath();
+                            ctx.arc(s[0], s[1], dotR, 0, Math.PI * 2);
+                            ctx.fill();
+                            ctx.globalAlpha = 1.0;
+                        }
+                    });
+                });
+            }
+
+            // Features toggle
+            document.getElementById("featuresToggle").addEventListener("click", function () {
+                var panel = document.getElementById("featuresPanel");
+                panel.classList.toggle("visible");
+                this.classList.toggle("active");
+            });
+
+            // Init features
+            loadFeatures();
+
             // Init
             fetch("/tile_database.json").then(function (r) { return r.json(); }).then(function (db) { overlayData = db.overlays || []; render(); });
             fetch("/routes").then(function (r) { return r.json(); }).then(function (routes) {
                 var sel = document.getElementById("routeSelect"); sel.innerHTML = "";
                 routes.forEach(function (r) {
                     var opt = document.createElement("option"); opt.value = r.name;
-                    opt.textContent = r.name + (r.has_optimized ? " ✓" : ""); sel.appendChild(opt);
+                    opt.textContent = r.name + (r.has_fused ? " \u2713" : "") + (r.has_optimized ? " ~" : "");
+                    sel.appendChild(opt);
                 });
                 if (routes.length) loadRoute(routes[0].name);
             });

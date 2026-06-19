@@ -31,9 +31,11 @@ _database_data = None
 _route_cache = {}      # {route_name: {"route": bytes, "optimized": bytes | None}}
 _minimap_cache = {}    # {"route_name/filename": bytes}
 _title_cache = {}      # {"route_name/filename": bytes}
+_features_data = None
+_icon_cache = {}  # {type_code: PNG bytes}
 
 def preload():
-    global _viewer_html, _markers_data, _database_data
+    global _viewer_html, _markers_data, _database_data, _features_data
     print("Pre-loading assets into memory...")
 
     # Viewer HTML is loaded dynamically on request
@@ -80,6 +82,34 @@ def preload():
                     tcount += 1
     print(f"  Cached {mcount} minimaps ({sum(len(v) for v in _minimap_cache.values()) / 1024 / 1024:.1f} MB)")
     print(f"  Cached {tcount} title crops ({sum(len(v) for v in _title_cache.values()) / 1024 / 1024:.1f} MB)")
+
+    features_path = BASE_DIR.parent / "reverse appsample" / "features.json"
+    if features_path.exists():
+        with open(features_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        raw_features = raw.get("features", [])
+        # Compact: only keep what the viewer needs (type, lng, lat, map_id)
+        compact = []
+        type_names = {}
+        for f in raw_features:
+            compact.append([f["type"], f["lng"], f["lat"], f["map_id"]])
+            if f["type"] not in type_names:
+                type_names[f["type"]] = f["name"]
+        _features_data = {"features": compact, "type_names": type_names}
+        print(f"  Loaded {len(compact)} features from {features_path.name} ({len(compact) * 4} bytes compact)")
+    else:
+        print(f"  No features.json found at {features_path}")
+
+    icons_dir = BASE_DIR.parent / "reverse appsample" / "icons"
+    if icons_dir.exists():
+        for icon_file in icons_dir.glob("*.png"):
+            type_code = icon_file.stem
+            with open(icon_file, "rb") as f:
+                _icon_cache[type_code] = f.read()
+        print(f"  Cached {len(_icon_cache)} marker icons ({sum(len(v) for v in _icon_cache.values()) / 1024:.0f} KB)")
+    else:
+        print(f"  No icons directory at {icons_dir}")
+
     print("  Ready!")
 
 class TileHandler(http.server.BaseHTTPRequestHandler):
@@ -137,6 +167,35 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
             self.end_headers()
             return
 
+        if self.path == "/features.json":
+            if _features_data is not None:
+                data = json.dumps(_features_data).encode("utf-8")
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", len(data))
+                self.end_headers()
+                self.wfile.write(data)
+                return
+            self.send_response(404)
+            self.end_headers()
+            return
+
+        if self.path.startswith("/icons/"):
+            icon_name = self.path.split("/")[-1]
+            type_code = icon_name.replace(".png", "")
+            data = _icon_cache.get(type_code)
+            if data:
+                self.send_response(200)
+                self.send_header("Content-Type", "image/png")
+                self.send_header("Cache-Control", "public, max-age=604800, immutable")
+                self.send_header("Content-Length", len(data))
+                self.end_headers()
+                self.wfile.write(data)
+                return
+            self.send_response(404)
+            self.end_headers()
+            return
+
         # --- Route endpoints ---
         if self.path == "/tile_database.json":
             # Phase 1: serve tile database for surface map only (viewer.html expects this)
@@ -163,6 +222,7 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
                         routes_list.append({
                             "name": route_dir.name,
                             "has_optimized": (route_dir / "optimized_route.json").exists(),
+                            "has_fused": (route_dir / "path.json").exists(),
                         })
             data = json.dumps(routes_list).encode("utf-8")
             self.send_response(200)
@@ -174,8 +234,8 @@ class TileHandler(http.server.BaseHTTPRequestHandler):
 
         if self.path.startswith("/route/"):
             parts = self.path.split("/")
-            # /route/<name>/route.json or /route/<name>/optimized_route.json
-            if len(parts) >= 4 and parts[3] in ("route.json", "optimized_route.json"):
+            # /route/<name>/route.json, optimized_route.json, or path.json
+            if len(parts) >= 4 and parts[3] in ("route.json", "optimized_route.json", "path.json"):
                 route_name = parts[2]
                 file_path = ROUTE_OUTPUT_DIR / route_name / parts[3]
                 if file_path.exists():

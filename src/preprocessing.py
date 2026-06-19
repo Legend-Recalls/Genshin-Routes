@@ -5,35 +5,64 @@ from config import TITLE_CROP
 from .constants import CIRCULAR_MASK_RADIUS_SCALE, DEFAULT_SCALES
 
 
-def create_circular_mask(h: int, w: int, radius_scale: float = CIRCULAR_MASK_RADIUS_SCALE) -> np.ndarray:
-    """Create a 2D uint8 mask for cv2.detectAndCompute."""
-    center = (w // 2, h // 2)
-    radius = int(min(center) * radius_scale)
+def create_circular_mask(
+    h: int,
+    w: int,
+    radius_scale: float = CIRCULAR_MASK_RADIUS_SCALE,
+    circle: dict | None = None,
+) -> np.ndarray:
+    """Create a 2D uint8 mask for cv2.detectAndCompute.
+
+    If *circle* dict is provided (keys: center_x, center_y, radius),
+    use the actual minimap circle from the calibration profile instead
+    of the generic centered mask.
+    """
+    if circle and circle.get("radius", 0) > 0:
+        center = (int(circle["center_x"]), int(circle["center_y"]))
+        radius = int(circle["radius"])
+    else:
+        center = (w // 2, h // 2)
+        radius = int(min(center) * radius_scale)
     mask = np.zeros((h, w), dtype=np.uint8)
     cv2.circle(mask, center, radius, 255, -1)
     return mask
 
 
-def multi_scale(image: np.ndarray, scales=DEFAULT_SCALES) -> list[tuple[float, np.ndarray, np.ndarray]]:
+def multi_scale(
+    image: np.ndarray,
+    scales=DEFAULT_SCALES,
+    circle: dict | None = None,
+) -> list[tuple[float, np.ndarray, np.ndarray]]:
     """Return multiple scaled variants of the minimap and their masks."""
     variants = []
     h, w = image.shape[:2]
     for scale in scales:
         if scale == 1.0:
-            variants.append((scale, image, create_circular_mask(h, w)))
+            variants.append((scale, image, create_circular_mask(h, w, circle=circle)))
             continue
-            
+
         new_w, new_h = int(w * scale), int(h * scale)
         if new_w > 0 and new_h > 0:
             resized = cv2.resize(image, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
-            variants.append((scale, resized, create_circular_mask(new_h, new_w)))
-            
+            scaled_circle = None
+            if circle and circle.get("radius", 0) > 0:
+                scaled_circle = {
+                    "center_x": circle["center_x"] * scale,
+                    "center_y": circle["center_y"] * scale,
+                    "radius": circle["radius"] * scale,
+                }
+            variants.append((scale, resized, create_circular_mask(new_h, new_w, circle=scaled_circle)))
+
     return variants
 
 
-def prepare_minimap(image: np.ndarray, scales=DEFAULT_SCALES) -> list[tuple[float, np.ndarray, np.ndarray]]:
+def prepare_minimap(
+    image: np.ndarray,
+    scales=DEFAULT_SCALES,
+    circle: dict | None = None,
+) -> list[tuple[float, np.ndarray, np.ndarray]]:
     """Pipeline: generate multi-scale variants with masks."""
-    return multi_scale(image, scales)
+    return multi_scale(image, scales, circle=circle)
 
 
 def crop_title_region(frame: np.ndarray, profile: dict | None = None) -> np.ndarray:
