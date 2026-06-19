@@ -28,6 +28,7 @@ def download_video(url: str) -> Path:
         "--merge-output-format", "mp4",
         "-o", output_template,
         "--no-playlist",
+        "--extractor-args", "youtube:player_client=ios,web",
         url,
     ]
 
