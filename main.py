@@ -24,10 +24,11 @@ def main():
     print("\n  1) Extract Minimaps")
     print("  2) Localize Route")
     print("  3) Optimize Route")
-    print("  4) View Route")
-    print("  5) Exit")
+    print("  4) Export Route")
+    print("  5) View Route")
+    print("  6) Exit")
 
-    choice = input("\nChoice (1-5): ").strip()
+    choice = input("\nChoice (1-6): ").strip()
 
     if choice == "1":
         handle_extract()
@@ -36,8 +37,10 @@ def main():
     elif choice == "3":
         handle_optimize()
     elif choice == "4":
-        handle_view()
+        handle_export()
     elif choice == "5":
+        handle_view()
+    elif choice == "6":
         print("Goodbye!")
     else:
         print("Invalid choice")
@@ -77,6 +80,9 @@ def handle_localize():
         optimizer = RouteOptimizer()
         optimizer.optimize_route(route_dir)
 
+        # Path fusion + export
+        _post_optimize(route_dir)
+
 
 def handle_optimize():
     print("\nAvailable routes for optimization:")
@@ -100,6 +106,59 @@ def handle_optimize():
     from src.optimizer import RouteOptimizer
     optimizer = RouteOptimizer()
     optimizer.optimize_route(route_dir)
+
+    _post_optimize(route_dir)
+
+
+def _post_optimize(route_dir):
+    """Run path fusion and export after optimization."""
+    print("\nBuilding fused path...")
+    try:
+        from src.path_fusion import build_path_file
+        build_path_file(route_dir)
+        print("  path.json saved")
+    except Exception as e:
+        print(f"  Path fusion skipped: {e}")
+
+    print("\nExporting...")
+    from src.exporter import RouteExporter
+    exporter = RouteExporter(route_dir)
+    exports_dir = route_dir / "exports"
+    exports_dir.mkdir(exist_ok=True)
+    exporter.to_json(exports_dir / "route.json")
+    print("  route.json")
+    try:
+        exporter.to_geojson(exports_dir / "route.geojson")
+        print("  route.geojson")
+    except Exception as e:
+        print(f"  GeoJSON skipped: {e}")
+    try:
+        exporter.to_csv(exports_dir / "route.csv")
+        print("  route.csv")
+    except Exception as e:
+        print(f"  CSV skipped: {e}")
+
+
+def handle_export():
+    print("\nAvailable routes for export:")
+    routes = [d for d in OUTPUT_DIR.iterdir() if d.is_dir() and (d / "optimized_route.json").exists() or (d / "route.json").exists()]
+    if not routes:
+        print("  No routes found. Localize and optimize first.")
+        return
+
+    for i, r in enumerate(routes, 1):
+        has_opt = " [Optimized]" if (r / "optimized_route.json").exists() else ""
+        print(f"  {i}) {r.name}{has_opt}")
+
+    choice = input(f"\nChoice (1-{len(routes)}): ").strip()
+    try:
+        idx = int(choice) - 1
+        route_dir = routes[idx]
+    except (ValueError, IndexError):
+        print("Invalid choice")
+        return
+
+    _post_optimize(route_dir)
 
 
 def handle_view():
@@ -182,6 +241,7 @@ def handle_extract():
             from src.optimizer import RouteOptimizer
             optimizer = RouteOptimizer()
             optimizer.optimize_route(output_dir)
+            _post_optimize(output_dir)
 
 
 if __name__ == "__main__":
